@@ -1,0 +1,1392 @@
+
+/* Class = "UILabel"; text = "One thing that I spot is, the filter function, the brand has logo. If we have logo here, does it mean we have to upload it again in the system ? If yes, I suggest we do not put logo to save the operation manhour. "; ObjectID = "05E-05-Xi8"; */
+"05E-05-Xi8.text" = "One thing that I spot is, the filter function, the brand has logo. If we have logo here, does it mean we have to upload it again in the system ? If yes, I suggest we do not put logo to save the operation manhour. ";
+
+/* Class = "UILabel"; text = "Contacts"; ObjectID = "0G4-Mm-bg6"; */
+"0G4-Mm-bg6.text" = "Contacts";
+
+/* Class = "UIViewController"; title = "REDEEM-CONFIRM"; ObjectID = "0Ov-vO-EQK"; */
+"0Ov-vO-EQK.title" = "REDEEM-CONFIRM";
+
+/* Class = "UITextField"; placeholder = "XXXX-XXXX-XXXX-XXXX"; ObjectID = "0RK-zK-ki4"; */
+"0RK-zK-ki4.placeholder" = "XXXX-XXXX-XXXX-XXXX";
+
+/* Class = "UILabel"; text = "International SOS\nJl. By Pass Ngurah Rai 505X, Kuta\nCall: (+62 361) 710 505"; ObjectID = "0Uf-tU-FZH"; */
+"0Uf-tU-FZH.text" = "International SOS\nJl. By Pass Ngurah Rai 505X, Kuta\nCall: (+62 361) 710 505";
+
+/* Class = "UILabel"; text = "Merchant Name"; ObjectID = "0Zt-wN-YXB"; */
+"0Zt-wN-YXB.text" = "Merchant Name";
+
+/* Class = "UITableViewController"; title = "SETTINGS"; ObjectID = "0fx-8N-giE"; */
+"0fx-8N-giE.title" = "SETTINGS";
+
+/* Class = "UILabel"; text = "Product Name Super Super Super Super Super Long Name Description into 3 Lines. Extra More Lines."; ObjectID = "17g-J7-B0a"; */
+"17g-J7-B0a.text" = "Product Name Super Super Super Super Super Long Name Description into 3 Lines. Extra More Lines.";
+
+/* Class = "UILabel"; text = "IDR888,888"; ObjectID = "1l4-7e-cTR"; */
+"1l4-7e-cTR.text" = "IDR888,888";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "1m0-EH-sKp"; */
+"1m0-EH-sKp.normalTitle" = "Sign In";
+
+/* Class = "UILabel"; text = "Coupon Details:"; ObjectID = "2PH-Y1-QgM"; */
+"2PH-Y1-QgM.text" = "Coupon Details:";
+
+/* Class = "UILabel"; text = "Sent as Gift to <Email>"; ObjectID = "2XX-1t-yeh"; */
+"2XX-1t-yeh.text" = "Sent as Gift to <Email>";
+
+/* Class = "UIViewController"; title = "NEW-PAYMENT"; ObjectID = "3ZC-7C-pkU"; */
+"3ZC-7C-pkU.title" = "NEW-PAYMENT";
+
+/* Class = "UILabel"; text = "8979-9876-0987-1234"; ObjectID = "3pF-0l-A6T"; */
+"3pF-0l-A6T.text" = "8979-9876-0987-1234";
+
+/* Class = "UILabel"; text = "Share"; ObjectID = "3r6-Kh-i36"; */
+"3r6-Kh-i36.text" = "Share";
+
+/* Class = "UILabel"; text = "Operated Assisted Call\nCall: (+62 361) 100"; ObjectID = "4AN-Fr-X0c"; */
+"4AN-Fr-X0c.text" = "Operated Assisted Call\nCall: (+62 361) 100";
+
+/* Class = "UILabel"; text = "Directory Information\nCall: (+62 361) 147"; ObjectID = "4I4-kp-UbY"; */
+"4I4-kp-UbY.text" = "Directory Information\nCall: (+62 361) 147";
+
+/* Class = "UILabel"; text = "Share"; ObjectID = "4Zl-jc-GLv"; */
+"4Zl-jc-GLv.text" = "Share";
+
+/* Class = "UILabel"; text = "One thing that I spot is, the filter function, the brand has logo. If we have logo here, does it mean we have to upload it again in the system ? If yes, I suggest we do not put logo to save the operation manhour. "; ObjectID = "4ts-92-evb"; */
+"4ts-92-evb.text" = "One thing that I spot is, the filter function, the brand has logo. If we have logo here, does it mean we have to upload it again in the system ? If yes, I suggest we do not put logo to save the operation manhour. ";
+
+/* Class = "UILabel"; text = "Site Address Long Address Sample Here to be display into 2 Lines. Long Address Sample Here to be display into 2 Lines."; ObjectID = "4uN-Kz-jYY"; */
+"4uN-Kz-jYY.text" = "Site Address Long Address Sample Here to be display into 2 Lines. Long Address Sample Here to be display into 2 Lines.";
+
+/* Class = "UIButton"; normalTitle = "Set as Current Location"; ObjectID = "5Km-ZP-L2r"; */
+"5Km-ZP-L2r.normalTitle" = "Set as Current Location";
+
+/* Class = "UIViewController"; title = "SIGN-IN"; ObjectID = "5ah-1Y-aVD"; */
+"5ah-1Y-aVD.title" = "SIGN-IN";
+
+/* Class = "UILabel"; text = "Free Text 1"; ObjectID = "5wn-WC-kqL"; */
+"5wn-WC-kqL.text" = "Free Text 1";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "6At-he-mke"; */
+"6At-he-mke.normalTitle" = "Submit";
+
+/* Class = "UITableViewController"; title = "ORDER-DETAILS"; ObjectID = "6ZZ-zM-Yjb"; */
+"6ZZ-zM-Yjb.title" = "ORDER-DETAILS";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "6gu-xU-J3a"; */
+"6gu-xU-J3a.placeholder" = "Email / Mobile";
+
+/* Class = "UINavigationItem"; title = "Redemption Address"; ObjectID = "6sg-c8-AVt"; */
+"6sg-c8-AVt.title" = "Redemption Address";
+
+/* Class = "UILabel"; text = "Txn No"; ObjectID = "6yj-y2-u3T"; */
+"6yj-y2-u3T.text" = "Txn No";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "7WI-ue-YHU"; */
+"7WI-ue-YHU.title" = "Settings";
+
+/* Class = "UINavigationItem"; title = "Options"; ObjectID = "7nD-UB-DFv"; */
+"7nD-UB-DFv.title" = "Options";
+
+/* Class = "UILabel"; text = "Bali Royal Hospital\nJln. Letda Tantular No.6, Renon Denpasar\nCall: (+62 361) 47 499 / 222 588"; ObjectID = "7uP-Fd-BX7"; */
+"7uP-Fd-BX7.text" = "Bali Royal Hospital\nJln. Letda Tantular No.6, Renon Denpasar\nCall: (+62 361) 47 499 / 222 588";
+
+/* Class = "UINavigationController"; title = "DIRECTORY-NAV"; ObjectID = "87r-g1-7bS"; */
+"87r-g1-7bS.title" = "DIRECTORY-NAV";
+
+/* Class = "UILabel"; text = "Coupon as Gift"; ObjectID = "8CE-LT-RrJ"; */
+"8CE-LT-RrJ.text" = "Coupon as Gift";
+
+/* Class = "UILabel"; text = "$8,888.00"; ObjectID = "8Dr-Qr-1U3"; */
+"8Dr-Qr-1U3.text" = "$8,888.00";
+
+/* Class = "UILabel"; text = "Product Long Name Description into 2 Lines Long Name Description into 2 Lines or more. And More Lines"; ObjectID = "8EZ-X6-0IV"; */
+"8EZ-X6-0IV.text" = "Product Long Name Description into 2 Lines Long Name Description into 2 Lines or more. And More Lines";
+
+/* Class = "UINavigationItem"; title = "Terms of Use"; ObjectID = "8Jm-z7-U0u"; */
+"8Jm-z7-U0u.title" = "Terms of Use";
+
+/* Class = "UIButton"; normalTitle = "Order Details"; ObjectID = "8Mr-pp-dqA"; */
+"8Mr-pp-dqA.normalTitle" = "Order Details";
+
+/* Class = "UIButton"; normalTitle = "Get Started"; ObjectID = "8kt-8C-Bi5"; */
+"8kt-8C-Bi5.normalTitle" = "Get Started";
+
+/* Class = "UIButton"; normalTitle = "Reset Password"; ObjectID = "8t3-GD-Qkm"; */
+"8t3-GD-Qkm.normalTitle" = "Reset Password";
+
+/* Class = "UITabBarItem"; title = "TOPUP"; ObjectID = "8y8-Vv-YHG"; */
+"8y8-Vv-YHG.title" = "TOPUP";
+
+/* Class = "UIViewController"; title = "PAYMENT-NOT-SUCCESS"; ObjectID = "92H-rR-lIc"; */
+"92H-rR-lIc.title" = "PAYMENT-NOT-SUCCESS";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "98H-9w-KLl"; */
+"98H-9w-KLl.normalTitle" = "Close";
+
+/* Class = "UILabel"; text = "Terms & Conditions"; ObjectID = "99y-Ty-FtG"; */
+"99y-Ty-FtG.text" = "Terms & Conditions";
+
+/* Class = "UINavigationItem"; title = "Favourites"; ObjectID = "9H6-ae-fNO"; */
+"9H6-ae-fNO.title" = "Favourites";
+
+/* Class = "UINavigationItem"; title = "Instagram"; ObjectID = "9LL-hu-5eu"; */
+"9LL-hu-5eu.title" = "Instagram";
+
+/* Class = "UILabel"; text = "Expiry"; ObjectID = "9P7-xM-Tsy"; */
+"9P7-xM-Tsy.text" = "Expiry";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "9Vq-J9-ZZx"; */
+"9Vq-J9-ZZx.placeholder" = "Confirm Password";
+
+/* Class = "UINavigationItem"; title = "Options"; ObjectID = "9hA-w4-jk2"; */
+"9hA-w4-jk2.title" = "Options";
+
+/* Class = "UILabel"; text = "$800.00"; ObjectID = "9nE-0d-SlQ"; */
+"9nE-0d-SlQ.text" = "$800.00";
+
+/* Class = "UILabel"; text = "Redeem"; ObjectID = "9vR-kR-cON"; */
+"9vR-kR-cON.text" = "Redeem";
+
+/* Class = "UITextField"; placeholder = "Pin"; ObjectID = "A2e-c3-VfR"; */
+"A2e-c3-VfR.placeholder" = "Pin";
+
+/* Class = "UINavigationItem"; title = "Payment"; ObjectID = "AKj-sU-LlE"; */
+"AKj-sU-LlE.title" = "Payment";
+
+/* Class = "UILabel"; text = "Item Name"; ObjectID = "AVJ-iC-36a"; */
+"AVJ-iC-36a.text" = "Item Name";
+
+/* Class = "UINavigationItem"; title = "Facebook"; ObjectID = "AYc-XI-1bt"; */
+"AYc-XI-1bt.title" = "Facebook";
+
+/* Class = "UIViewController"; title = "Thank You"; ObjectID = "AZz-Ea-8MO"; */
+"AZz-Ea-8MO.title" = "Thank You";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "Avv-rA-Ssm"; */
+"Avv-rA-Ssm.normalTitle" = "CANCEL";
+
+/* Class = "UIButton"; normalTitle = "Transfer Now"; ObjectID = "B2s-oT-2Ps"; */
+"B2s-oT-2Ps.normalTitle" = "Transfer Now";
+
+/* Class = "UILabel"; text = "Free Text 3"; ObjectID = "B4Q-Jl-joP"; */
+"B4Q-Jl-joP.text" = "Free Text 3";
+
+/* Class = "UILabel"; text = "Expiry"; ObjectID = "BPr-0y-plU"; */
+"BPr-0y-plU.text" = "Expiry";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "Bgj-NO-BfI"; */
+"Bgj-NO-BfI.normalTitle" = "Forgot Password?";
+
+/* Class = "UIButton"; normalTitle = "New Register"; ObjectID = "rda-rh-6bs"; */
+"rda-rh-6bs.normalTitle" = "New Register";
+
+/* Class = "UITextField"; placeholder = "Drag / Scan / Code"; ObjectID = "A2e-c3-VfR"; */
+"Vqi-bq-gdH.placeholder" = "Shake / Scan / Code";
+
+/* Class = "UITextField"; placeholder = "Drag / Scan / Code"; ObjectID = "A2e-c3-VfR"; */
+"JC9-MV-988.placeholder" = "Shake / Scan / Code";
+
+/* Class = "UITabBarItem"; title = "WALLET"; ObjectID = "RXu-WN-h5E"; */
+"FW9-aw-P1Z.title" = "Wallet";
+
+/* Class = "UITabBarItem"; title = "drag"; ObjectID = "Y8R-cq-oGj"; */
+"Y8R-cq-oGj.title" = "Shake";
+
+/* Class = "UILabel"; text = "Police\nCall: (+62 361) 110"; ObjectID = "CHQ-lY-5op"; */
+"CHQ-lY-5op.text" = "Police\nCall: (+62 361) 110";
+
+/* Class = "UILabel"; text = "Orignial Price"; ObjectID = "CIM-Fo-D1z"; */
+"CIM-Fo-D1z.text" = "Orignial Price";
+
+/* Class = "UILabel"; text = "Free Text 1"; ObjectID = "CIw-UX-7h8"; */
+"CIw-UX-7h8.text" = "Free Text 1";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "COE-5C-i1B"; */
+"COE-5C-i1B.normalTitle" = "Close";
+
+/* Class = "UITableViewController"; title = "LANGUAGE"; ObjectID = "CW6-oI-ZK5"; */
+"CW6-oI-ZK5.title" = "LANGUAGE";
+
+/* Class = "UILabel"; text = "Reviews"; ObjectID = "Cbm-wQ-faN"; */
+"Cbm-wQ-faN.text" = "Reviews";
+
+/* Class = "UILabel"; text = "Coupon Options"; ObjectID = "CiO-0W-tLi"; */
+"CiO-0W-tLi.text" = "Coupon Options";
+
+/* Class = "UINavigationItem"; title = "Options"; ObjectID = "CiZ-Vs-Oe5"; */
+"CiZ-Vs-Oe5.title" = "Options";
+
+/* Class = "UILabel"; text = "Locations"; ObjectID = "Cw6-sO-cKh"; */
+"Cw6-sO-cKh.text" = "Locations";
+
+/* Class = "UIViewController"; title = "About Us"; ObjectID = "DHR-2P-eMM"; */
+"DHR-2P-eMM.title" = "About Us";
+
+/* Class = "UITableViewController"; title = "SELECT-OPTIONS"; ObjectID = "Dfs-cN-wfx"; */
+"Dfs-cN-wfx.title" = "SELECT-OPTIONS";
+
+/* Class = "UILabel"; text = "Merchant Descriptions"; ObjectID = "Dhd-4t-1dO"; */
+"Dhd-4t-1dO.text" = "Merchant Descriptions";
+
+/* Class = "UISegmentedControl"; Dxn-Df-sr8.segmentTitles[0] = "My Coupon"; ObjectID = "Dxn-Df-sr8"; */
+"Dxn-Df-sr8.segmentTitles[0]" = "My Coupon";
+
+/* Class = "UISegmentedControl"; Dxn-Df-sr8.segmentTitles[1] = "Redeemed"; ObjectID = "Dxn-Df-sr8"; */
+"Dxn-Df-sr8.segmentTitles[1]" = "Redeemed";
+
+/* Class = "UISegmentedControl"; Dxn-Df-sr8.segmentTitles[2] = "Expired"; ObjectID = "Dxn-Df-sr8"; */
+"Dxn-Df-sr8.segmentTitles[2]" = "Expired";
+
+/* Class = "UILabel"; text = "(XXX)"; ObjectID = "E0f-EM-jaV"; */
+"E0f-EM-jaV.text" = "(XXX)";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "EZw-GW-keI"; */
+"EZw-GW-keI.placeholder" = "New Password";
+
+/* Class = "UILabel"; text = "Coupon ID"; ObjectID = "Efu-KX-U2G"; */
+"Efu-KX-U2G.text" = "Coupon ID";
+
+/* Class = "UILabel"; text = "Event Long Name Description into 2 Lines Long Name Description into 2 Lines or more. Testing Line 3. Description into 2 Lines Long Name Description into 2 Lines or more. Testing Line 3."; ObjectID = "Ekd-Gq-H4P"; */
+"Ekd-Gq-H4P.text" = "Event Long Name Description into 2 Lines Long Name Description into 2 Lines or more. Testing Line 3. Description into 2 Lines Long Name Description into 2 Lines or more. Testing Line 3.";
+
+/* Class = "UITableViewController"; title = "SELECT-ORDER-TYPE"; ObjectID = "EmT-4B-eR4"; */
+"EmT-4B-eR4.title" = "SELECT-ORDER-TYPE";
+
+/* Class = "UILabel"; text = "Terms of Use"; ObjectID = "EpD-KW-U8p"; */
+"EpD-KW-U8p.text" = "Terms of Use";
+
+/* Class = "UILabel"; text = "Sanglah Public Hospital\nDenpasar\nCall: (+62 361) 227 911"; ObjectID = "FMI-zr-Tvj"; */
+"FMI-zr-Tvj.text" = "Sanglah Public Hospital\nDenpasar\nCall: (+62 361) 227 911";
+
+/* Class = "UIViewController"; title = "CONFIRM-PAYREQUEST-WALLET"; ObjectID = "FY1-4Q-JMm"; */
+"FY1-4Q-JMm.title" = "CONFIRM-PAYREQUEST-WALLET";
+
+/* Class = "UIViewController"; title = "Privacy"; ObjectID = "FYI-NQ-RgC"; */
+"FYI-NQ-RgC.title" = "Privacy";
+
+/* Class = "UILabel"; text = "Coupon Details:"; ObjectID = "FaA-ef-uUg"; */
+"FaA-ef-uUg.text" = "Coupon Details:";
+
+/* Class = "UIViewController"; title = "EXPIRY-COUPON-DETAILS"; ObjectID = "Fd6-xs-PFv"; */
+"Fd6-xs-PFv.title" = "EXPIRY-COUPON-DETAILS";
+
+/* Class = "UINavigationController"; title = "SHOPS-NAV"; ObjectID = "Fev-Th-swt"; */
+"Fev-Th-swt.title" = "SHOPS-NAV";
+
+/* Class = "UILabel"; text = "Enter Pin"; ObjectID = "G2R-6G-C6Z"; */
+"G2R-6G-C6Z.text" = "Enter Pin";
+
+/* Class = "UITextField"; placeholder = "CCV"; ObjectID = "G9P-Zz-CPj"; */
+"G9P-Zz-CPj.placeholder" = "CCV";
+
+/* Class = "UITableViewSection"; headerTitle = "LEGAL"; ObjectID = "GCQ-qu-c17"; */
+"GCQ-qu-c17.headerTitle" = "LEGAL";
+
+/* Class = "UILabel"; text = "Free Text 1"; ObjectID = "GIA-9g-E4I"; */
+"GIA-9g-E4I.text" = "Free Text 1";
+
+/* Class = "UITableViewSection"; headerTitle = "Emergencies"; ObjectID = "GPq-B7-109"; */
+"GPq-B7-109.headerTitle" = "Emergencies";
+
+/* Class = "UINavigationItem"; title = "Shops"; ObjectID = "GbW-mI-vYu"; */
+"GbW-mI-vYu.title" = "Shops";
+
+/* Class = "UILabel"; text = "Out of Stock !"; ObjectID = "Ge6-Bw-4Lc"; */
+"Ge6-Bw-4Lc.text" = "Out of Stock !";
+
+/* Class = "UIButton"; normalTitle = "Call Car Assistance"; ObjectID = "GgD-5a-jIt"; */
+"GgD-5a-jIt.normalTitle" = "Call Customer Service";
+
+/* Class = "UILabel"; text = "Payment unsuccessful, please try again."; ObjectID = "GlI-Pk-DXC"; */
+"GlI-Pk-DXC.text" = "Payment unsuccessful, please try again.";
+
+/* Class = "UINavigationItem"; title = "Details"; ObjectID = "GrW-dy-wjK"; */
+"GrW-dy-wjK.title" = "Details";
+
+/* Class = "UITabBarItem"; title = "settings"; ObjectID = "Grn-xN-rk2"; */
+"Grn-xN-rk2.title" = "Settings";
+
+/* Class = "UILabel"; text = "Airport Information\nCall: (+62 361) 751 000 ext 5123"; ObjectID = "Gvm-WM-9UG"; */
+"Gvm-WM-9UG.text" = "Airport Information\nCall: (+62 361) 751 000 ext 5123";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "HCQ-rO-QJD"; */
+"HCQ-rO-QJD.placeholder" = "Name";
+
+/* Class = "UITableViewController"; title = "PREVIEW"; ObjectID = "HQs-Ox-O2j"; */
+"HQs-Ox-O2j.title" = "PREVIEW";
+
+/* Class = "UIViewController"; title = "REDEEM-COUPON-DETAILS"; ObjectID = "Hpj-Cw-8z4"; */
+"Hpj-Cw-8z4.title" = "REDEEM-COUPON-DETAILS";
+
+/* Class = "UINavigationItem"; title = "Forgot Password"; ObjectID = "I1Q-Ae-ihl"; */
+"I1Q-Ae-ihl.title" = "Forgot Password";
+
+/* Class = "UINavigationItem"; title = "New Register"; ObjectID = "rfk-pu-DEK"; */
+"rfk-pu-DEK.title" = "New Register";
+
+/* Class = "UITableViewSection"; headerTitle = "Follow US"; ObjectID = "I5R-AZ-Imj"; */
+"I5R-AZ-Imj.headerTitle" = "Follow US";
+
+/* Class = "UILabel"; text = "Original Price $8,000 Now $800"; ObjectID = "IJf-s7-2eq"; */
+"IJf-s7-2eq.text" = "Original Price $8,000 Now $800";
+
+/* Class = "UINavigationItem"; title = "Coupon Listings"; ObjectID = "ISm-hx-vh2"; */
+"ISm-hx-vh2.title" = "Coupon Listings";
+
+/* Class = "UINavigationItem"; title = "Transaction Records"; ObjectID = "Ibf-Ak-QzS"; */
+"Ibf-Ak-QzS.title" = "Transaction Records";
+
+/* Class = "UITableViewController"; title = "ACTIVITIES"; ObjectID = "Iha-co-dZH"; */
+"Iha-co-dZH.title" = "ACTIVITIES";
+
+/* Class = "UILabel"; text = "IDR8,000,000"; ObjectID = "Ipv-Nu-VYs"; */
+"Ipv-Nu-VYs.text" = "IDR8,000,000";
+
+/* Class = "UITableViewController"; title = "CHANGE-PWD"; ObjectID = "JFo-od-5dx"; */
+"JFo-od-5dx.title" = "CHANGE-PWD";
+
+/* Class = "UILabel"; text = "Merchant List"; ObjectID = "JHM-n3-KPi"; */
+"JHM-n3-KPi.text" = "Merchant List";
+
+/* Class = "UILabel"; text = "/"; ObjectID = "JVe-PI-90d"; */
+"JVe-PI-90d.text" = "/";
+
+/* Class = "UILabel"; text = "Locations"; ObjectID = "JZA-GB-5px"; */
+"JZA-GB-5px.text" = "Locations";
+
+/* Class = "UILabel"; text = "Thank you for joining Walnet.\n\nWelcome message by Walnet."; ObjectID = "Jc1-6w-gec"; */
+"Jc1-6w-gec.text" = "WELCOME\n\nTHE ENTERPRISE DIGITAL WALLET\n\nNTTCOM ASIA LIMITED";
+
+/* Class = "UINavigationItem"; title = "Filter"; ObjectID = "Jed-iQ-5hL"; */
+"Jed-iQ-5hL.title" = "Filter";
+
+/* Class = "UIViewController"; title = "NEW-PRODUCT-DETAILS"; ObjectID = "Jq3-eZ-n6y"; */
+"Jq3-eZ-n6y.title" = "NEW-PRODUCT-DETAILS";
+
+/* Class = "UITextField"; placeholder = "Password (8-20 chars)"; ObjectID = "Jvm-0g-5hy"; */
+"Jvm-0g-5hy.placeholder" = "Password (8-20 chars)";
+
+/* Class = "UILabel"; text = "Terms & Conditions"; ObjectID = "K3F-DO-IrU"; */
+"K3F-DO-IrU.text" = "Terms & Conditions";
+
+/* Class = "UITextField"; placeholder = "Mobile No."; ObjectID = "KH8-XW-VjR"; */
+"KH8-XW-VjR.placeholder" = "Mobile No.";
+
+/* Class = "UILabel"; text = "$800.00"; ObjectID = "KKP-Ea-rnL"; */
+"KKP-Ea-rnL.text" = "$800.00";
+
+/* Class = "UILabel"; text = "$800.00"; ObjectID = "KMF-wv-nWV"; */
+"KMF-wv-nWV.text" = "$800.00";
+
+/* Class = "UITableViewController"; title = "FILTERS"; ObjectID = "KQ0-2f-ZOo"; */
+"KQ0-2f-ZOo.title" = "FILTERS";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "KhW-7Y-S5V"; */
+"KhW-7Y-S5V.normalTitle" = "Save";
+
+/* Class = "UINavigationItem"; title = "Order Details"; ObjectID = "KiR-NL-SK9"; */
+"KiR-NL-SK9.title" = "Order Details";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "Kjo-3r-POG"; */
+"Kjo-3r-POG.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Merchant Name"; ObjectID = "KlF-W0-zPs"; */
+"KlF-W0-zPs.text" = "Merchant Name";
+
+/* Class = "UILabel"; text = "Free Text 1"; ObjectID = "L4S-ln-M2Y"; */
+"L4S-ln-M2Y.text" = "Free Text 1";
+
+/* Class = "UILabel"; text = "$8,888.00"; ObjectID = "LBR-8i-9y7"; */
+"LBR-8i-9y7.text" = "$8,888.00";
+
+/* Class = "UILabel"; text = "Redemption failed!"; ObjectID = "LOK-Vc-cDQ"; */
+"LOK-Vc-cDQ.text" = "Redemption failed!";
+
+/* Class = "UITableViewController"; title = "Products Listing"; ObjectID = "LgP-iN-mQ9"; */
+"LgP-iN-mQ9.title" = "Products Listing";
+
+/* Class = "UILabel"; text = "Send as a Gift to someone now. Cheers."; ObjectID = "LwP-5i-1qa"; */
+"LwP-5i-1qa.text" = "Send as a Gift to someone now. Cheers.";
+
+/* Class = "UINavigationItem"; title = "Categories"; ObjectID = "MCN-tt-JWw"; */
+"MCN-tt-JWw.title" = "Categories";
+
+/* Class = "UITableViewController"; title = "THEMES"; ObjectID = "MDH-9h-wPt"; */
+"MDH-9h-wPt.title" = "THEMES";
+
+/* Class = "UILabel"; text = "Product Name Very Long and Extra Long Name here to display. Product Name Very Long and Extra Long. Product."; ObjectID = "MHO-XX-neZ"; */
+"MHO-XX-neZ.text" = "Product Name Very Long and Extra Long Name here to display. Product Name Very Long and Extra Long. Product.";
+
+/* Class = "UILabel"; text = "Item Name"; ObjectID = "MJD-Yf-RC9"; */
+"MJD-Yf-RC9.text" = "Item Name";
+
+/* Class = "UINavigationItem"; title = "Walnet"; ObjectID = "MSa-zO-1rn"; */
+"MSa-zO-1rn.title" = "Mojodomo";
+
+/* Class = "UIBarButtonItem"; title = "Send as Gift"; ObjectID = "MUA-vU-hDT"; */
+"MUA-vU-hDT.title" = "Send as Gift";
+
+/* Class = "UILabel"; text = "Merchant Name"; ObjectID = "MVk-iz-6ed"; */
+"MVk-iz-6ed.text" = "Merchant Name";
+
+/* Class = "UILabel"; text = "8979-9876-0987-1234"; ObjectID = "Md1-S8-FYj"; */
+"Md1-S8-FYj.text" = "8979-9876-0987-1234";
+
+/* Class = "UILabel"; text = "Share"; ObjectID = "NLj-C3-j6F"; */
+"NLj-C3-j6F.text" = "Share";
+
+/* Class = "UILabel"; text = "REFERENCE"; ObjectID = "NT7-ZF-1Op"; */
+"NT7-ZF-1Op.text" = "REFERENCE";
+
+/* Class = "UILabel"; text = "Outlet Address\nCountry\nPostal Code"; ObjectID = "NUE-5k-Qvm"; */
+"NUE-5k-Qvm.text" = "Outlet Address\nCountry\nPostal Code";
+
+/* Class = "UILabel"; text = "Grove Sandwiches - Sandwiches eCoupon Chinese Name Here"; ObjectID = "Nji-h3-Vge"; */
+"Nji-h3-Vge.text" = "Grove Sandwiches - Sandwiches eCoupon Chinese Name Here";
+
+/* Class = "UIButton"; normalTitle = "Reset Filter"; ObjectID = "NmL-fH-lHq"; */
+"NmL-fH-lHq.normalTitle" = "Reset Filter";
+
+/* Class = "UILabel"; text = "Prima Medika Hospital\nJl. Pulau Serangan 9X, Denpasar\nCall: (+62 361) 236 225"; ObjectID = "Nob-Jq-Y2M"; */
+"Nob-Jq-Y2M.text" = "Prima Medika Hospital\nJl. Pulau Serangan 9X, Denpasar\nCall: (+62 361) 236 225";
+
+/* Class = "UITabBarItem"; title = "redeem"; ObjectID = "OCi-0l-lU9"; */
+"OCi-0l-lU9.title" = "Coupons";
+
+/* Class = "UINavigationController"; title = "SETTINGS-NAV"; ObjectID = "OFw-Xq-Z0D"; */
+"OFw-Xq-Z0D.title" = "SETTINGS-NAV";
+
+/* Class = "UILabel"; text = "Coupon Options"; ObjectID = "OLG-jc-gwj"; */
+"OLG-jc-gwj.text" = "Coupon Options";
+
+/* Class = "UINavigationItem"; title = "Change Password"; ObjectID = "OOc-Cf-YKd"; */
+"OOc-Cf-YKd.title" = "Change Password";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "OZm-xS-ZsE"; */
+"OZm-xS-ZsE.text" = "Type";
+
+/* Class = "UILabel"; text = "Expiry Date"; ObjectID = "ObV-8E-WpW"; */
+"ObV-8E-WpW.text" = "Expiry Date";
+
+/* Class = "UIViewController"; title = "Scan My Coupon"; ObjectID = "Obi-hC-tDa"; */
+"Obi-hC-tDa.title" = "Scan My Coupon";
+
+/* Class = "UINavigationItem"; title = "Site Name"; ObjectID = "OrM-IZ-nbf"; */
+"OrM-IZ-nbf.title" = "Site Name";
+
+/* Class = "UITableViewController"; title = "THEME-PRODUCTS"; ObjectID = "OxW-dm-YAb"; */
+"OxW-dm-YAb.title" = "THEME-PRODUCTS";
+
+/* Class = "UITextView"; text = "Outlet Contacts"; ObjectID = "Pul-PR-p5k"; */
+"Pul-PR-p5k.text" = "Outlet Contacts";
+
+/* Class = "UITextView"; text = "Last Updated: 31 March 2015\n\nThis Terms & Conditions describes how Walent (‘we’) handles your personal information.\n\nThis includes the information that Walent collects from you when you sign up for, use, access or otherwise interact with any Walent applications, products, services, or on websites or other media such as Apps (collectively, “Services”), how we use and share that information, including information we may obtain from other sources, and the choices we offer.\n\nThis Terms & Conditions Sets out the following:\n\n•Collection of Information\n\n•Third Party Advertising and Analytics\n\n•Use of Information\n\n•Sharing of Information\n\n•Security\n\n•Your Choices\n\nThis policy applies to all information we collect through our Services, even if you have not signed up for a Walent account or downloaded one of our applications. This policy does not, however, describe the practices of third parties that may collect information from you when you interact with them, including Merchants that use Walent to accept payment for goods or services (“Merchants”). We encourage you to ask them about their privacy practices before providing any information to them.\n\nWe may change this policy from time to time. If we make changes, we will notify you by posting the updated policy and revising the “Last Updated” date above. We encourage you to review the policy whenever you use our Services to stay informed about our information practices and about the choices available to you.\n\nCollection of Information\n\nInformation You Provide\n\nWe collect information you provide, such as when you sign up for a Walent Merchant, when you provide information as part of our identity verification process, in the course of a transaction, or when you request a digital receipt. We may collect, but are not limited to collecting, the following: basic user information, such as your name, email address, mailing address, phone number, photograph, and birth date; financial information, including bank account and payment card numbers; and other historical, contact, and demographic information.\n\nWe also collect information when you upload or send information to or through the Services about your products and services (including inventory, pricing and other data), participate in contests or promotions offered by Walent or our partners, respond to our surveys, or otherwise communicate with us.\n\nInformation We Collect from Your Use of the Services\n\nWe collect information about you when you use our Services, including as follows:\n\nTransaction Information. When you use our Services to make or accept payments or money transfers, we collect information about when and where the transactions occurred, a description of the transactions, the payment or transfer amounts, billing and shipping information, and information about the devices and payment methods used to complete the transactions.\nLocation Information. When one of our applications is open on your mobile device, we periodically receive information about the location of the device. We may also collect location information about your device if you are near a Merchant with whom you have auto check-in enabled. For more information and to learn how to disable location information, please see “Your Choices” below.\nDevice Information. We collect device-specific information when you access our Services, including your hardware model, operating system and version, unique device identifiers, mobile network information, and information about the device’s interaction with our Services. We may also identify other software running on the device (but will not collect any content from such software) for anti-fraud and malware-prevention purposes.\nUsage Information. We collect information about how you use our Services, including your access times, browser types and language, and Internet Protocol (“IP”) addresses.\n\nInformation Collected by Cookies and Web Beacons. We use various technologies to collect information, and this may include sending cookies to your computer or mobile device. Cookies are small data files that are stored on your hard drive or in device memory by a website. Among other things, cookies support the integrity of our registration process, retain your preferences and account settings, and help evaluate and compile aggregated statistics about user activity. We may also collect information using web beacons. Web beacons are electronic images that may be used in our Services or emails. We may use web beacons to deliver cookies, count visits, understand usage and campaign effectiveness, and determine whether an email has been opened and acted upon.\nInformation We Collect From Other Sources\n\nWe may also collect information about you from third parties, including but not limited to third-party verification services, credit bureaus, mailing list providers, and publicly available sources. In some circumstances, depending on the nature of services available in a particular country, this information may include your Social Security or taxpayer identification number.\n\nThird-Party Advertising and Analytics\n\nWe may allow third parties to serve advertisements in connection with our Services and to provide analytics services. These third parties may use cookies, web beacons, and other technologies to collect information, such as your IP addresses, identifiers associated with your mobile device or applications on the device, the browsers you use to visit our Services, pages viewed, time spent on pages, links clicked, and conversion information. This information may be used by Walent and other companies to analyse and track data, determine the popularity of certain content, deliver advertising and content targeted to your interests, and better understand your usage. This policy does not apply to, and we are not responsible for, third-party cookies, web beacons, or other tracking technologies, and we encourage you to check the privacy policies of these third parties to learn more about their privacy practices. For more information about targeted advertising specifically, or to opt out of having your browser information used for these purposes, please visit www.aboutads.info/choices.\n\nUse of Information\n\nWe use information about you to provide, maintain, and improve our Services and to deliver the information and support you request, including receipts, technical notices, security alerts, and support and administrative messages.\n\nWe also use information about you to improve and personalize the Services. To take just one example, when you sign up for a Walent account, we may associate certain information with your new account, such as information about other accounts you have or had with Walent and prior transactions you made through the Walent Services.\n\nWe may use information we collect to send you news and information about our Services and to communicate with you about products, services, contests, promotions, incentives, and rewards offered by us and select partners.\n\nWe may also use information about you to track and analyse trends and usage in connection with our Services; to process and deliver contest and promotion entries and rewards; to protect our rights or property; to verify your identity; to investigate and prevent fraud or other illegal activities; and for any other purpose disclosed to you in connection with our Services.\n\nWe may, or we may use third-party service providers to, process and store personal information in the Singapore and other countries around the world and you agree to this transfer, storing and processing.\n\nDigital Receipts\n\nIf you choose to receive receipts via email or text message, we store the email address or phone number you provide. We use your email address or phone number to send you a receipt for your purchase and to automatically send you digital receipts for future purchases you make from other Merchants. Digital receipts may contain additional messages, offers, or links that may be of interest to you. For example, you may be able to submit feedback, share your experience on social media, view your purchase history, join programs, visit websites, or take advantage of promotions. When you submit or share information through a receipt (such as submitting feedback), we may share that information with Merchants and you may receive responses. As mentioned above, this policy does not describe the practices of Merchants that may receive or collect information from you. We encourage you to ask them about their privacy practices before providing any information to them. If at any time you wish to opt out of receiving automatic digital receipts or change your preferences, you may do so by following the instructions in the “Your Choices” section of this policy.\n\nSharing of Information\n\nWe may share personal information about you as follows:\n\nWith third parties to provide, maintain, and improve our Services, including service providers who access information about you to perform services on our behalf (e.g., fraud prevention and verification services), and including financial institutions, processors, payment card associations, and other entities that are part of the payment or transfer process;\nWith others who have signed up for Walent accounts in order to provide our Services. For example, we may share information when you make or accept a payment or transfer using our Services. We may also share information about you when you are located near a Walent Merchant with whom you have auto check-in enabled;\nWith third parties that run advertising campaigns, contests, special offers, or other events or activities in connection with our Services;\nIn connection with, or during the negotiation of, any merger, sale of company stock or assets, financing, acquisition, divestiture, or dissolution of all or a portion of our business;\nIf we believe that disclosure is reasonably necessary to comply with any applicable law, regulation, legal process, or governmental request; to enforce applicable agreements or policies; to protect the security or integrity of our Services; and to protect us, our Merchants, end users, or the public from harm or illegal activities; and\nWith your consent.\nWe may also share aggregated, non-personally identifiable information with third parties.\n\nSecurity\n\nWe take reasonable measures, including administrative, technical, and physical safeguards, to help protect personal information from loss, theft, misuse, and unauthorized access, disclosure, alteration, and destruction. We hold personal information at our own premises and with the assistance of our service providers.\n\nYour Choices\n\nLocation Information\n\nWhen you first launch our mobile applications, you will be asked to consent to the application’s collection of location information. We currently require this location information in order to provide our Services, so if you do not consent to this collection, you cannot use our Services. If you initially consent to our collection of location information, you can subsequently stop our collection of location information at any time by changing the preferences on your mobile device. If you do so, the Walent application will no longer function. You may also stop our collection of location information by following the standard uninstall process to remove Walent applications from your device.\n\nCookies\n\nWhen you use the Services, we try to make your experience simple and meaningful. When you access or use the Services, our web server sends a cookie to your computer or mobile device (as the case may be). Cookies are small pieces of information that are issued to your computer or mobile device (as the case may be) when you visit a website or access or use a mobile application, and which store and sometimes track information about your use of the Services. Certain cookies we use last only for the duration of your web or application session and expire when you close your browser or exit the application. Other cookies are used to remember you when you return to use the Services and, as such, will last longer.\n\nWe use cookies to:\n\nremember that you have visited us or used the Services before. This means we can identify the number of unique visitors we receive, which allows us to make sure we have enough capacity to accommodate all of our users;\ncustomise elements of the promotional layout and/or content of our website or application; and\ncollect anonymous statistical information about how you use the Services (including the length of your web or application session) and the location from which you access the Services, so that we can improve the Services and learn which elements and functions of the Services are most popular with our users.\nSome of the cookies used in the Services are set by us, and others are set by third parties who deliver services on our behalf.\n\nMost web and mobile device browsers are set to automatically accept cookies by default. However, you can change your browser settings to prevent automatic acceptance of cookies, or to notify you each time a cookie is set. You also can learn more about cookies by visiting www.allaboutcookies.org, which includes additional useful information on cookies and how to block cookies on different types of browsers and mobile devices. Please note, however, that by blocking or deleting cookies used in the Services, you may not be able to take full advantage of the Services.\n\nPreferences\n\nPersonal Information. You may change or correct information about yourself by logging into your Walent account at any time or by emailing us at hello@Walent.com. You may also email us if you wish to deactivate your account. We may retain archived copies of information about you and your transactions for a period of time that is consistent with applicable law.\nDigital Receipts. If at any time you wish to opt out of receiving automatic digital receipts or change your preferences, you may do so by following the instructions in your digital receipt.\nPromotional Communications. You may opt out of receiving promotional emails or text messages from Walent by following the instructions in those emails or text messages. If you opt out, we may still send you non-promotional communications, such as digital receipts and messages about your account or our ongoing business relations."; ObjectID = "QJx-Ts-lVA"; */
+"QJx-Ts-lVA.text" = "Last Updated: 31 March 2015\n\nThis Terms & Conditions describes how Walent (‘we’) handles your personal information.\n\nThis includes the information that Walent collects from you when you sign up for, use, access or otherwise interact with any Walent applications, products, services, or on websites or other media such as Apps (collectively, “Services”), how we use and share that information, including information we may obtain from other sources, and the choices we offer.\n\nThis Terms & Conditions Sets out the following:\n\n•Collection of Information\n\n•Third Party Advertising and Analytics\n\n•Use of Information\n\n•Sharing of Information\n\n•Security\n\n•Your Choices\n\nThis policy applies to all information we collect through our Services, even if you have not signed up for a Walent account or downloaded one of our applications. This policy does not, however, describe the practices of third parties that may collect information from you when you interact with them, including Merchants that use Walent to accept payment for goods or services (“Merchants”). We encourage you to ask them about their privacy practices before providing any information to them.\n\nWe may change this policy from time to time. If we make changes, we will notify you by posting the updated policy and revising the “Last Updated” date above. We encourage you to review the policy whenever you use our Services to stay informed about our information practices and about the choices available to you.\n\nCollection of Information\n\nInformation You Provide\n\nWe collect information you provide, such as when you sign up for a Walent Merchant, when you provide information as part of our identity verification process, in the course of a transaction, or when you request a digital receipt. We may collect, but are not limited to collecting, the following: basic user information, such as your name, email address, mailing address, phone number, photograph, and birth date; financial information, including bank account and payment card numbers; and other historical, contact, and demographic information.\n\nWe also collect information when you upload or send information to or through the Services about your products and services (including inventory, pricing and other data), participate in contests or promotions offered by Walent or our partners, respond to our surveys, or otherwise communicate with us.\n\nInformation We Collect from Your Use of the Services\n\nWe collect information about you when you use our Services, including as follows:\n\nTransaction Information. When you use our Services to make or accept payments or money transfers, we collect information about when and where the transactions occurred, a description of the transactions, the payment or transfer amounts, billing and shipping information, and information about the devices and payment methods used to complete the transactions.\nLocation Information. When one of our applications is open on your mobile device, we periodically receive information about the location of the device. We may also collect location information about your device if you are near a Merchant with whom you have auto check-in enabled. For more information and to learn how to disable location information, please see “Your Choices” below.\nDevice Information. We collect device-specific information when you access our Services, including your hardware model, operating system and version, unique device identifiers, mobile network information, and information about the device’s interaction with our Services. We may also identify other software running on the device (but will not collect any content from such software) for anti-fraud and malware-prevention purposes.\nUsage Information. We collect information about how you use our Services, including your access times, browser types and language, and Internet Protocol (“IP”) addresses.\n\nInformation Collected by Cookies and Web Beacons. We use various technologies to collect information, and this may include sending cookies to your computer or mobile device. Cookies are small data files that are stored on your hard drive or in device memory by a website. Among other things, cookies support the integrity of our registration process, retain your preferences and account settings, and help evaluate and compile aggregated statistics about user activity. We may also collect information using web beacons. Web beacons are electronic images that may be used in our Services or emails. We may use web beacons to deliver cookies, count visits, understand usage and campaign effectiveness, and determine whether an email has been opened and acted upon.\nInformation We Collect From Other Sources\n\nWe may also collect information about you from third parties, including but not limited to third-party verification services, credit bureaus, mailing list providers, and publicly available sources. In some circumstances, depending on the nature of services available in a particular country, this information may include your Social Security or taxpayer identification number.\n\nThird-Party Advertising and Analytics\n\nWe may allow third parties to serve advertisements in connection with our Services and to provide analytics services. These third parties may use cookies, web beacons, and other technologies to collect information, such as your IP addresses, identifiers associated with your mobile device or applications on the device, the browsers you use to visit our Services, pages viewed, time spent on pages, links clicked, and conversion information. This information may be used by Walent and other companies to analyse and track data, determine the popularity of certain content, deliver advertising and content targeted to your interests, and better understand your usage. This policy does not apply to, and we are not responsible for, third-party cookies, web beacons, or other tracking technologies, and we encourage you to check the privacy policies of these third parties to learn more about their privacy practices. For more information about targeted advertising specifically, or to opt out of having your browser information used for these purposes, please visit www.aboutads.info/choices.\n\nUse of Information\n\nWe use information about you to provide, maintain, and improve our Services and to deliver the information and support you request, including receipts, technical notices, security alerts, and support and administrative messages.\n\nWe also use information about you to improve and personalize the Services. To take just one example, when you sign up for a Walent account, we may associate certain information with your new account, such as information about other accounts you have or had with Walent and prior transactions you made through the Walent Services.\n\nWe may use information we collect to send you news and information about our Services and to communicate with you about products, services, contests, promotions, incentives, and rewards offered by us and select partners.\n\nWe may also use information about you to track and analyse trends and usage in connection with our Services; to process and deliver contest and promotion entries and rewards; to protect our rights or property; to verify your identity; to investigate and prevent fraud or other illegal activities; and for any other purpose disclosed to you in connection with our Services.\n\nWe may, or we may use third-party service providers to, process and store personal information in the Singapore and other countries around the world and you agree to this transfer, storing and processing.\n\nDigital Receipts\n\nIf you choose to receive receipts via email or text message, we store the email address or phone number you provide. We use your email address or phone number to send you a receipt for your purchase and to automatically send you digital receipts for future purchases you make from other Merchants. Digital receipts may contain additional messages, offers, or links that may be of interest to you. For example, you may be able to submit feedback, share your experience on social media, view your purchase history, join programs, visit websites, or take advantage of promotions. When you submit or share information through a receipt (such as submitting feedback), we may share that information with Merchants and you may receive responses. As mentioned above, this policy does not describe the practices of Merchants that may receive or collect information from you. We encourage you to ask them about their privacy practices before providing any information to them. If at any time you wish to opt out of receiving automatic digital receipts or change your preferences, you may do so by following the instructions in the “Your Choices” section of this policy.\n\nSharing of Information\n\nWe may share personal information about you as follows:\n\nWith third parties to provide, maintain, and improve our Services, including service providers who access information about you to perform services on our behalf (e.g., fraud prevention and verification services), and including financial institutions, processors, payment card associations, and other entities that are part of the payment or transfer process;\nWith others who have signed up for Walent accounts in order to provide our Services. For example, we may share information when you make or accept a payment or transfer using our Services. We may also share information about you when you are located near a Walent Merchant with whom you have auto check-in enabled;\nWith third parties that run advertising campaigns, contests, special offers, or other events or activities in connection with our Services;\nIn connection with, or during the negotiation of, any merger, sale of company stock or assets, financing, acquisition, divestiture, or dissolution of all or a portion of our business;\nIf we believe that disclosure is reasonably necessary to comply with any applicable law, regulation, legal process, or governmental request; to enforce applicable agreements or policies; to protect the security or integrity of our Services; and to protect us, our Merchants, end users, or the public from harm or illegal activities; and\nWith your consent.\nWe may also share aggregated, non-personally identifiable information with third parties.\n\nSecurity\n\nWe take reasonable measures, including administrative, technical, and physical safeguards, to help protect personal information from loss, theft, misuse, and unauthorized access, disclosure, alteration, and destruction. We hold personal information at our own premises and with the assistance of our service providers.\n\nYour Choices\n\nLocation Information\n\nWhen you first launch our mobile applications, you will be asked to consent to the application’s collection of location information. We currently require this location information in order to provide our Services, so if you do not consent to this collection, you cannot use our Services. If you initially consent to our collection of location information, you can subsequently stop our collection of location information at any time by changing the preferences on your mobile device. If you do so, the Walent application will no longer function. You may also stop our collection of location information by following the standard uninstall process to remove Walent applications from your device.\n\nCookies\n\nWhen you use the Services, we try to make your experience simple and meaningful. When you access or use the Services, our web server sends a cookie to your computer or mobile device (as the case may be). Cookies are small pieces of information that are issued to your computer or mobile device (as the case may be) when you visit a website or access or use a mobile application, and which store and sometimes track information about your use of the Services. Certain cookies we use last only for the duration of your web or application session and expire when you close your browser or exit the application. Other cookies are used to remember you when you return to use the Services and, as such, will last longer.\n\nWe use cookies to:\n\nremember that you have visited us or used the Services before. This means we can identify the number of unique visitors we receive, which allows us to make sure we have enough capacity to accommodate all of our users;\ncustomise elements of the promotional layout and/or content of our website or application; and\ncollect anonymous statistical information about how you use the Services (including the length of your web or application session) and the location from which you access the Services, so that we can improve the Services and learn which elements and functions of the Services are most popular with our users.\nSome of the cookies used in the Services are set by us, and others are set by third parties who deliver services on our behalf.\n\nMost web and mobile device browsers are set to automatically accept cookies by default. However, you can change your browser settings to prevent automatic acceptance of cookies, or to notify you each time a cookie is set. You also can learn more about cookies by visiting www.allaboutcookies.org, which includes additional useful information on cookies and how to block cookies on different types of browsers and mobile devices. Please note, however, that by blocking or deleting cookies used in the Services, you may not be able to take full advantage of the Services.\n\nPreferences\n\nPersonal Information. You may change or correct information about yourself by logging into your Walent account at any time or by emailing us at hello@Walent.com. You may also email us if you wish to deactivate your account. We may retain archived copies of information about you and your transactions for a period of time that is consistent with applicable law.\nDigital Receipts. If at any time you wish to opt out of receiving automatic digital receipts or change your preferences, you may do so by following the instructions in your digital receipt.\nPromotional Communications. You may opt out of receiving promotional emails or text messages from Walent by following the instructions in those emails or text messages. If you opt out, we may still send you non-promotional communications, such as digital receipts and messages about your account or our ongoing business relations.";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "QU5-d2-y2x"; */
+"QU5-d2-y2x.normalTitle" = "Close";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "QWN-yh-Kui"; */
+"QWN-yh-Kui.text" = "Status";
+
+/* Class = "UILabel"; text = "Coupon Details:"; ObjectID = "QZK-AQ-mZB"; */
+"QZK-AQ-mZB.text" = "Coupon Details:";
+
+/* Class = "UILabel"; text = "Ambulance\nCall: (+62 361) 118"; ObjectID = "Qyf-pv-19o"; */
+"Qyf-pv-19o.text" = "Ambulance\nCall: (+62 361) 118";
+
+/* Class = "UILabel"; text = "Coupon Details:"; ObjectID = "R43-8J-bcA"; */
+"R43-8J-bcA.text" = "Coupon Details:";
+
+/* Class = "UITabBarItem"; title = "coupons"; ObjectID = "R9A-PM-huu"; */
+"R9A-PM-huu.title" = "Deals";
+
+/* Class = "UILabel"; text = "Remarks"; ObjectID = "RDf-GH-thM"; */
+"RDf-GH-thM.text" = "Remarks";
+
+/* Class = "UITextView"; text = "Address"; ObjectID = "RMI-vn-0Zs"; */
+"RMI-vn-0Zs.text" = "Address";
+
+/* Class = "UITabBarItem"; title = "shops"; ObjectID = "RXu-WN-h5E"; */
+"RXu-WN-h5E.title" = "shops";
+
+/* Class = "UILabel"; text = "Coupon Details:"; ObjectID = "S25-mQ-Uft"; */
+"S25-mQ-Uft.text" = "Coupon Details:";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "SB0-LF-4aW"; */
+"SB0-LF-4aW.text" = "Type";
+
+/* Class = "UILabel"; text = "Orignial Price"; ObjectID = "SBf-p9-5v4"; */
+"SBf-p9-5v4.text" = "Orignial Price";
+
+/* Class = "UIViewController"; title = "Merchant Pin"; ObjectID = "SJj-Ck-Ymg"; */
+"SJj-Ck-Ymg.title" = "Merchant Pin";
+
+/* Class = "UILabel"; text = "Outlet Name"; ObjectID = "SWM-rf-gZg"; */
+"SWM-rf-gZg.text" = "Outlet Name";
+
+/* Class = "UINavigationItem"; title = "Locations"; ObjectID = "Sce-be-Rzc"; */
+"Sce-be-Rzc.title" = "Locations";
+
+/* Class = "UILabel"; text = "$8,888.00"; ObjectID = "Sq6-Rx-rDH"; */
+"Sq6-Rx-rDH.text" = "$8,888.00";
+
+/* Class = "UILabel"; text = "Fire Department\nCall: (+62 361) 113"; ObjectID = "SyA-fu-KfY"; */
+"SyA-fu-KfY.text" = "Fire Department\nCall: (+62 361) 113";
+
+/* Class = "UIButton"; normalTitle = "Check Out"; ObjectID = "SzE-EA-rQv"; */
+"SzE-EA-rQv.normalTitle" = "Check Out";
+
+/* Class = "UILabel"; text = "Free Text 2"; ObjectID = "T7t-i8-bS5"; */
+"T7t-i8-bS5.text" = "Free Text 2";
+
+/* Class = "UILabel"; text = "Grove Sandwiches - Sandwiches eCoupon Chinese Name Here"; ObjectID = "T9k-RG-xEc"; */
+"T9k-RG-xEc.text" = "Grove Sandwiches - Sandwiches1rn eCoupon Chinese Name Here";
+
+/* Class = "UILabel"; text = "Original $8,000 Now $800"; ObjectID = "Tb9-C8-WNb"; */
+"Tb9-C8-WNb.text" = "Original $8,000 Now $800";
+
+/* Class = "UILabel"; text = "Walnet v1.0"; ObjectID = "TiH-dd-1fW"; */
+"TiH-dd-1fW.text" = "Mojodomo v1.3";
+
+/* Class = "UILabel"; text = "$100,000.00"; ObjectID = "TpC-bO-XXe"; */
+"TpC-bO-XXe.text" = "$100,000.00";
+
+/* Class = "UILabel"; text = "Grove Sandwiches - Sandwiches eCoupon Chinese Name Here"; ObjectID = "U3F-K3-1UX"; */
+"U3F-K3-1UX.text" = "Grove Sandwiches - Sandwiches eCoupon Chinese Name Here";
+
+/* Class = "UINavigationItem"; title = "Twitter"; ObjectID = "UDI-uL-JLb"; */
+"UDI-uL-JLb.title" = "Twitter";
+
+/* Class = "UILabel"; text = "Coupon Name - An inside look at 5 game-changing global mega-trends that will (re)shape consumer expectations – and your 2020 strategy. And how Asian brands can use them to get ahead."; ObjectID = "UET-cR-y0A"; */
+"UET-cR-y0A.text" = "Coupon Name - An inside look at 5 game-changing global mega-trends that will (re)shape consumer expectations – and your 2020 strategy. And how Asian brands can use them to get ahead.";
+
+/* Class = "UILabel"; text = "Grove Sandwiches - Sandwiches eCoupon Chinese Name Here"; ObjectID = "UEv-2z-ozj"; */
+"UEv-2z-ozj.text" = "Grove Sandwiches - Sandwiches eCoupon Chinese Name Here";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "Uai-V7-fNV"; */
+"Uai-V7-fNV.normalTitle" = "Close";
+
+/* Class = "UINavigationController"; title = "COUPONS-NAV"; ObjectID = "UdI-Bt-pkA"; */
+"UdI-Bt-pkA.title" = "COUPONS-NAV";
+
+/* Class = "UILabel"; text = "Coupon Redeemed In-Store"; ObjectID = "UpH-eK-RKf"; */
+"UpH-eK-RKf.text" = "Coupon Redeemed In-Store";
+
+/* Class = "UITableViewController"; title = "FAV-LISTING"; ObjectID = "V1o-zV-dWg"; */
+"V1o-zV-dWg.title" = "FAV-LISTING";
+
+/* Class = "UINavigationItem"; title = "Merchant Name"; ObjectID = "V38-XQ-k70"; */
+"V38-XQ-k70.title" = "Merchant Name";
+
+/* Class = "UILabel"; text = "Transaction ID"; ObjectID = "VGJ-VB-JMG"; */
+"VGJ-VB-JMG.text" = "Transaction ID";
+
+/* Class = "UILabel"; text = "Reviews"; ObjectID = "VGS-zZ-JGR"; */
+"VGS-zZ-JGR.text" = "Reviews";
+
+/* Class = "UINavigationItem"; title = "Total"; ObjectID = "VXw-0m-hI0"; */
+"VXw-0m-hI0.title" = "Total";
+
+/* Class = "UIButton"; normalTitle = "Send Now"; ObjectID = "Vbm-Jf-My9"; */
+"Vbm-Jf-My9.normalTitle" = "Send Now";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "VgM-NZ-pUg"; */
+"VgM-NZ-pUg.normalTitle" = "Close";
+
+/* Class = "UILabel"; text = "Expiry Date:"; ObjectID = "W7v-fx-7xi"; */
+"W7v-fx-7xi.text" = "Expiry Date:";
+
+/* Class = "UIButton"; normalTitle = "Update Qty"; ObjectID = "WOT-6G-6x6"; */
+"WOT-6G-6x6.normalTitle" = "Update Qty";
+
+/* Class = "UITableViewController"; title = "ACTIVITIES-DETAILS"; ObjectID = "WTY-a8-c3l"; */
+"WTY-a8-c3l.title" = "ACTIVITIES-DETAILS";
+
+/* Class = "UIBarButtonItem"; title = "Continue"; ObjectID = "WXZ-AQ-2sD"; */
+"WXZ-AQ-2sD.title" = "Continue";
+
+/* Class = "UILabel"; text = "Free Text 3"; ObjectID = "X2e-PJ-5QB"; */
+"X2e-PJ-5QB.text" = "Free Text 3";
+
+/* Class = "UITabBarItem"; badgeValue = "0"; ObjectID = "X7z-HF-bKg"; */
+"X7z-HF-bKg.badgeValue" = "0";
+
+/* Class = "UILabel"; text = "Text"; ObjectID = "X8Y-PO-b20"; */
+"X8Y-PO-b20.text" = "Text";
+
+/* Class = "UIBarButtonItem"; title = "Pay Now"; ObjectID = "XEH-ft-vbY"; */
+"XEH-ft-vbY.title" = "Pay Now";
+
+/* Class = "UILabel"; text = "Transfer Coupons"; ObjectID = "XI5-fM-vNe"; */
+"XI5-fM-vNe.text" = "Transfer Coupons";
+
+/* Class = "UILabel"; text = "8979-9876-0987-1234"; ObjectID = "XLl-SW-bPx"; */
+"XLl-SW-bPx.text" = "8979-9876-0987-1234";
+
+/* Class = "UILabel"; text = "Site Address Long Address Sample Here to be display into 2 Lines. Here to be display into 2 Lines. Or More lines Now for 3 Lines. Testing I23"; ObjectID = "Xau-9I-35J"; */
+"Xau-9I-35J.text" = "Site Address Long Address Sample Here to be display into 2 Lines. Here to be display into 2 Lines. Or More lines Now for 3 Lines. Testing I23";
+
+/* Class = "UINavigationItem"; title = "Shops"; ObjectID = "XhE-Jm-Vkc"; */
+"XhE-Jm-Vkc.title" = "Shops";
+
+/* Class = "UILabel"; text = "Locations List"; ObjectID = "Xi3-us-QE8"; */
+"Xi3-us-QE8.text" = "Locations List";
+
+/* Class = "UILabel"; text = "Terms & Conditions"; ObjectID = "Y4y-pF-ldd"; */
+"Y4y-pF-ldd.text" = "Terms & Conditions";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "Y7M-lc-tas"; */
+"Y7M-lc-tas.text" = "Total";
+
+/* Class = "UILabel"; text = "$100,000.00"; ObjectID = "YU4-Ci-MV4"; */
+"YU4-Ci-MV4.text" = "$100,000.00";
+
+/* Class = "UIViewController"; title = "REDEEM-NOT-SUCCESS"; ObjectID = "YZe-ak-RIh"; */
+"YZe-ak-RIh.title" = "REDEEM-NOT-SUCCESS";
+
+/* Class = "UITableViewController"; title = "ORDER-DETAILS"; ObjectID = "Yak-v0-2kG"; */
+"Yak-v0-2kG.title" = "ORDER-DETAILS";
+
+/* Class = "UINavigationItem"; title = "Payment"; ObjectID = "YmF-wW-ZN2"; */
+"YmF-wW-ZN2.title" = "Payment";
+
+/* Class = "UILabel"; text = "Kasih Ibu Hospital\nJl. Teuku Umar 120, Denpasar\nCall: (+62 361) 223 036"; ObjectID = "Ype-Wt-9Ho"; */
+"Ype-Wt-9Ho.text" = "Kasih Ibu Hospital\nJl. Teuku Umar 120, Denpasar\nCall: (+62 361) 223 036";
+
+/* Class = "UINavigationItem"; title = "Privacy Policy"; ObjectID = "YrR-EB-f8c"; */
+"YrR-EB-f8c.title" = "Privacy Policy";
+
+/* Class = "UITableViewController"; title = "MERCHANT-LIST"; ObjectID = "YxF-8b-nvu"; */
+"YxF-8b-nvu.title" = "MERCHANT-LIST";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ZSG-L8-Fn5"; */
+"ZSG-L8-Fn5.placeholder" = "Password";
+
+/* Class = "UITableViewController"; title = "CART"; ObjectID = "ZaT-4M-SKM"; */
+"ZaT-4M-SKM.title" = "CART";
+
+/* Class = "UILabel"; text = "CUSTOMER NAME"; ObjectID = "Zg9-xo-Ai6"; */
+"Zg9-xo-Ai6.text" = "CUSTOMER NAME";
+
+/* Class = "UITextField"; placeholder = "简体中文"; ObjectID = "Zgi-JO-6Xv"; */
+"Zgi-JO-6Xv.placeholder" = "简体中文";
+
+/* Class = "UIViewController"; title = "REDEEM-CONFIRM"; ObjectID = "Zvz-YI-QN1"; */
+"Zvz-YI-QN1.title" = "REDEEM-CONFIRM";
+
+/* Class = "UILabel"; text = "Outlet Name"; ObjectID = "ZzZ-Yf-X52"; */
+"ZzZ-Yf-X52.text" = "Outlet Name";
+
+/* Class = "UILabel"; text = "One thing that I spot is, the filter function, the brand has logo. If we have logo here, does it mean we have to upload it again in the system ? If yes, I suggest we do not put logo to save the operation manhour. "; ObjectID = "a2s-AM-ue7"; */
+"a2s-AM-ue7.text" = "One thing that I spot is, the filter function, the brand has logo. If we have logo here, does it mean we have to upload it again in the system ? If yes, I suggest we do not put logo to save the operation manhour. ";
+
+/* Class = "UIViewController"; title = "REVIEWS"; ObjectID = "a34-EH-rbt"; */
+"a34-EH-rbt.title" = "REVIEWS";
+
+/* Class = "UIViewController"; title = "HowToRedeem"; ObjectID = "aC6-nf-j3C"; */
+"aC6-nf-j3C.title" = "HowToRedeem";
+
+/* Class = "UIViewController"; title = "NEW-PRODUCT-EDIT"; ObjectID = "aG7-oh-a7m"; */
+"aG7-oh-a7m.title" = "NEW-PRODUCT-EDIT";
+
+/* Class = "UIButton"; normalTitle = "By registering, I agree to the terms & conditions."; ObjectID = "aJY-XB-I56"; */
+"aJY-XB-I56.normalTitle" = "By registering, I agree to the terms & conditions.";
+
+/* Class = "UIBarButtonItem"; title = "Sign Out"; ObjectID = "aRA-dY-9W8"; */
+"aRA-dY-9W8.title" = "Sign Out";
+
+/* Class = "UILabel"; text = "Tourist Name"; ObjectID = "azz-FM-y8D"; */
+"azz-FM-y8D.text" = "Tourist Name";
+
+/* Class = "UIButton"; normalTitle = "CONFIRM REQUEST"; ObjectID = "b6O-7y-xoK"; */
+"b6O-7y-xoK.normalTitle" = "CONFIRM REQUEST";
+
+/* Class = "UITextField"; placeholder = "繁體中文"; ObjectID = "b9r-nN-lT1"; */
+"b9r-nN-lT1.placeholder" = "繁體中文";
+
+/* Class = "UINavigationItem"; title = "Shops"; ObjectID = "bBp-a2-ZL4"; */
+"bBp-a2-ZL4.title" = "Shops";
+
+/* Class = "UILabel"; text = "Product Long Name Description into 1 Lines Product Long Name Description into 2 Lines"; ObjectID = "bLf-07-yW6"; */
+"bLf-07-yW6.text" = "Product Long Name Description into 1 Lines Product Long Name Description into 2 Lines";
+
+/* Class = "UINavigationController"; title = "PRODUCTS-NAV"; ObjectID = "bSN-Wg-xVl"; */
+"bSN-Wg-xVl.title" = "PRODUCTS-NAV";
+
+/* Class = "UILabel"; text = "Coupon Options"; ObjectID = "bbr-hn-Ag4"; */
+"bbr-hn-Ag4.text" = "Coupon Options";
+
+/* Class = "UILabel"; text = "Product Name Long Description to Line 2 and Line is Long."; ObjectID = "bgg-07-q43"; */
+"bgg-07-q43.text" = "Product Name Long Description to Line 2 and Line is Long.";
+
+/* Class = "UILabel"; text = "Locations"; ObjectID = "c1b-Hb-Tva"; */
+"c1b-Hb-Tva.text" = "Locations";
+
+/* Class = "UILabel"; text = "10:00 - 11:00 (TBC)"; ObjectID = "c6X-p2-FVy"; */
+"c6X-p2-FVy.text" = "10:00 - 11:00 (TBC)";
+
+/* Class = "UINavigationController"; title = "CART-NAV"; ObjectID = "cDR-G1-QHc"; */
+"cDR-G1-QHc.title" = "CART-NAV";
+
+/* Class = "UITableViewController"; title = "MERCHANT-DETAIL"; ObjectID = "cQt-LR-UJs"; */
+"cQt-LR-UJs.title" = "MERCHANT-DETAIL";
+
+/* Class = "UILabel"; text = "eCoupon:"; ObjectID = "cgV-ms-kDQ"; */
+"cgV-ms-kDQ.text" = "eCoupon:";
+
+/* Class = "UILabel"; text = "Original Price $8,000 Now $800"; ObjectID = "cp1-Ty-180"; */
+"cp1-Ty-180.text" = "Original Price $8,000 Now $800";
+
+/* Class = "UINavigationItem"; title = "Reviews"; ObjectID = "cqs-9s-Qvc"; */
+"cqs-9s-Qvc.title" = "Reviews";
+
+/* Class = "UINavigationItem"; title = "Hong Kong Map"; ObjectID = "csd-7H-sAg"; */
+"csd-7H-sAg.title" = "Hong Kong Map";
+
+/* Class = "UIViewController"; title = "NOTICE-BOARD"; ObjectID = "cwc-mR-Ypz"; */
+"cwc-mR-Ypz.title" = "NOTICE-BOARD";
+
+/* Class = "UIButton"; normalTitle = "Pay"; ObjectID = "dJc-mI-dNs"; */
+"dJc-mI-dNs.normalTitle" = "Pay";
+
+/* Class = "UILabel"; text = "BIMC Hospital\nJln. By Pass Ngurah Rai 100x, Kuta\nCall: (+62 361) 761 263"; ObjectID = "ddo-ys-VVJ"; */
+"ddo-ys-VVJ.text" = "BIMC Hospital\nJln. By Pass Ngurah Rai 100x, Kuta\nCall: (+62 361) 761 263";
+
+/* Class = "UILabel"; text = "Grove Sandwiches - Sandwiches eCoupon Chinese Name Here"; ObjectID = "dfX-6y-RgO"; */
+"dfX-6y-RgO.text" = "Grove Sandwiches - Sandwiches eCoupon Chinese Name Here";
+
+/* Class = "UILabel"; text = "Walnet, it's a Mobile Apps targeted at the car industry that purpose is to provide car owners with great deals and car related service in one place."; ObjectID = "dfu-X2-TBL"; */
+"dfu-X2-TBL.text" = "Promerce, it's a Mobile Apps targeted at the industry that purpose is to provide business owners with great marketing and sales tools in one place.";
+
+/* Class = "UILabel"; text = "Your purchased voucher(s) will be uploaded to you shortly. Please check “My eCoupon”."; ObjectID = "di3-od-BUs"; */
+"di3-od-BUs.text" = "Your purchased voucher(s) will be uploaded to you shortly. Please check “My eCoupon”.";
+
+/* Class = "UILabel"; text = "Place"; ObjectID = "dne-7G-Pw9"; */
+"dne-7G-Pw9.text" = "Place";
+
+/* Class = "UINavigationItem"; title = "Items"; ObjectID = "dpa-kD-Z6a"; */
+"dpa-kD-Z6a.title" = "Items";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "dwI-jR-KMn"; */
+"dwI-jR-KMn.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Modifier"; ObjectID = "dwY-8M-zcV"; */
+"dwY-8M-zcV.text" = "Modifier";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "e56-wT-Gdu"; */
+"e56-wT-Gdu.normalTitle" = "Close";
+
+/* Class = "UILabel"; text = "Category List"; ObjectID = "eJQ-L7-yhb"; */
+"eJQ-L7-yhb.text" = "Category List";
+
+/* Class = "UILabel"; text = "888"; ObjectID = "eMD-iQ-7md"; */
+"eMD-iQ-7md.text" = "888";
+
+/* Class = "UITableViewSection"; headerTitle = "General"; ObjectID = "eSc-Uj-C6D"; */
+"eSc-Uj-C6D.headerTitle" = "General";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "eTZ-eL-Xwj"; */
+"eTZ-eL-Xwj.text" = "Language";
+
+/* Class = "UINavigationItem"; title = "Sign In"; ObjectID = "ee0-wF-zMh"; */
+"ee0-wF-zMh.title" = "Sign In";
+
+/* Class = "UILabel"; text = "X Qty"; ObjectID = "eeh-7m-oJ5"; */
+"eeh-7m-oJ5.text" = "X Qty";
+
+/* Class = "UILabel"; text = "X Qty"; ObjectID = "emg-j9-Vle"; */
+"emg-j9-Vle.text" = "X Qty";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "emw-bX-QDy"; */
+"emw-bX-QDy.normalTitle" = "Confirm";
+
+/* Class = "UILabel"; text = "Qty X 1"; ObjectID = "en5-y0-ONt"; */
+"en5-y0-ONt.text" = "X Qty";
+
+/* Class = "UILabel"; text = "Free Text 2"; ObjectID = "epm-AK-8XI"; */
+"epm-AK-8XI.text" = "Free Text 2";
+
+/* Class = "UITextField"; placeholder = "Contact"; ObjectID = "err-g0-fbc"; */
+"err-g0-fbc.placeholder" = "Contact";
+
+/* Class = "UITableViewSection"; headerTitle = "Bali Tourism Board"; ObjectID = "evQ-Rp-LVQ"; */
+"evQ-Rp-LVQ.headerTitle" = "Bali Tourism Board";
+
+/* Class = "UILabel"; text = "Expiry Date"; ObjectID = "f0D-wm-bGE"; */
+"f0D-wm-bGE.text" = "Expiry Date";
+
+/* Class = "UIViewController"; title = "NEW-COUPON-DETAILS"; ObjectID = "f1w-lq-IO1"; */
+"f1w-lq-IO1.title" = "NEW-COUPON-DETAILS";
+
+/* Class = "UILabel"; text = "Jl.S.Parman, Renon, Denpasar\nCall: (+62 361) 222 387"; ObjectID = "f4E-Jm-yLR"; */
+"f4E-Jm-yLR.text" = "Jl.S.Parman, Renon, Denpasar\nCall: (+62 361) 222 387";
+
+/* Class = "UINavigationItem"; title = "Total"; ObjectID = "f4G-vM-svf"; */
+"f4G-vM-svf.title" = "Total";
+
+/* Class = "UITextField"; placeholder = "Confirm New Password"; ObjectID = "f4V-TL-zDp"; */
+"f4V-TL-zDp.placeholder" = "Confirm New Password";
+
+/* Class = "UITableViewController"; title = "MERCHANT-THEME"; ObjectID = "fDP-V9-cJo"; */
+"fDP-V9-cJo.title" = "MERCHANT-THEME";
+
+/* Class = "UIButton"; normalTitle = "Register with Email"; ObjectID = "fMo-hX-t3L"; */
+"fMo-hX-t3L.normalTitle" = "Register Now";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "fQA-Ky-r3X"; */
+"fQA-Ky-r3X.text" = "Status";
+
+/* Class = "UINavigationItem"; title = "Merchants"; ObjectID = "fUP-ZC-KHc"; */
+"fUP-ZC-KHc.title" = "Merchants";
+
+/* Class = "UILabel"; text = "Call"; ObjectID = "fVj-fq-OZb"; */
+"fVj-fq-OZb.text" = "Call";
+
+/* Class = "UILabel"; text = "Hotline"; ObjectID = "fmf-hq-bBl"; */
+"fmf-hq-bBl.text" = "Hotline";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "g0C-B3-Nex"; */
+"g0C-B3-Nex.placeholder" = "Email";
+
+/* Class = "UITableViewController"; title = "SELECT-ITEM"; ObjectID = "g45-BC-wHK"; */
+"g45-BC-wHK.title" = "SELECT-ITEM";
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "gIE-4H-Brg"; */
+"gIE-4H-Brg.text" = "About Us";
+
+/* Class = "UILabel"; text = "Categories"; ObjectID = "gJG-zV-5Vm"; */
+"gJG-zV-5Vm.text" = "Categories";
+
+/* Class = "UIViewController"; title = "Payment"; ObjectID = "gMF-MH-P2Q"; */
+"gMF-MH-P2Q.title" = "Payment";
+
+/* Class = "UITabBarItem"; title = "special"; ObjectID = "gMc-ds-2yr"; */
+"gMc-ds-2yr.title" = "special";
+
+/* Class = "UIViewController"; title = "PAYMENT-SUCCESS"; ObjectID = "gMr-BN-fyt"; */
+"gMr-BN-fyt.title" = "PAYMENT-SUCCESS";
+
+/* Class = "UITableViewController"; title = "SITES"; ObjectID = "gNH-J1-AeW"; */
+"gNH-J1-AeW.title" = "SITES";
+
+/* Class = "UITextField"; placeholder = "Message"; ObjectID = "gV2-aZ-Pe5"; */
+"gV2-aZ-Pe5.placeholder" = "Message";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "gV7-le-WFG"; */
+"gV7-le-WFG.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Product Long Name Description into 3 Lines Long Name Description into 3 Lines or more."; ObjectID = "ga5-hd-LjG"; */
+"ga5-hd-LjG.text" = "Product Long Name Description into 3 Lines Long Name Description into 3 Lines or more.";
+
+/* Class = "UILabel"; text = "Original Price $8,000 Now $800"; ObjectID = "gdU-ke-gfT"; */
+"gdU-ke-gfT.text" = "Original Price $8,000 Now $800";
+
+/* Class = "UISearchBar"; placeholder = "Search"; ObjectID = "gfA-id-yOP"; */
+"gfA-id-yOP.placeholder" = "Search";
+
+/* Class = "UISearchBar"; placeholder = "Search"; ObjectID = "gsP-hv-4NB"; */
+"gsP-hv-4NB.placeholder" = "Search";
+
+/* Class = "UINavigationItem"; title = "Events"; ObjectID = "gsg-f7-0aj"; */
+"gsg-f7-0aj.title" = "Events";
+
+/* Class = "UILabel"; text = "Card No.:"; ObjectID = "h7R-7f-NbQ"; */
+"h7R-7f-NbQ.text" = "Card No.:";
+
+/* Class = "UILabel"; text = "Modifier"; ObjectID = "hCl-GU-jvs"; */
+"hCl-GU-jvs.text" = "Modifier";
+
+/* Class = "UITableViewSection"; headerTitle = "ABOUT"; ObjectID = "hLH-4d-CNq"; */
+"hLH-4d-CNq.headerTitle" = "ABOUT";
+
+/* Class = "UIViewController"; title = "MAPZ"; ObjectID = "hLK-WN-Zy6"; */
+"hLK-WN-Zy6.title" = "MAPZ";
+
+/* Class = "UIViewController"; title = "Payment"; ObjectID = "hVJ-4Z-zKx"; */
+"hVJ-4Z-zKx.title" = "Payment";
+
+/* Class = "UILabel"; text = "Bluebird\nCall: (+62 361) 701 111"; ObjectID = "hfI-H4-Lkn"; */
+"hfI-H4-Lkn.text" = "Bluebird\nCall: (+62 361) 701 111";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "hqr-oc-MFy"; */
+"hqr-oc-MFy.normalTitle" = "Close";
+
+/* Class = "UILabel"; text = "Share"; ObjectID = "hxv-iw-RpH"; */
+"hxv-iw-RpH.text" = "Share";
+
+/* Class = "UILabel"; text = "Reviews"; ObjectID = "i3J-sE-0Zt"; */
+"i3J-sE-0Zt.text" = "Reviews";
+
+/* Class = "UINavigationItem"; title = "Payment"; ObjectID = "iLS-iP-WG8"; */
+"iLS-iP-WG8.title" = "Payment";
+
+/* Class = "UILabel"; text = "Share"; ObjectID = "ie2-lh-Us2"; */
+"ie2-lh-Us2.text" = "Share";
+
+/* Class = "UITableViewController"; title = "COUPONS-LISTING"; ObjectID = "iet-bU-pY7"; */
+"iet-bU-pY7.title" = "COUPONS-LISTING";
+
+/* Class = "UILabel"; text = "Merchant Name"; ObjectID = "ig6-4G-5Ly"; */
+"ig6-4G-5Ly.text" = "Merchant Name";
+
+/* Class = "UILabel"; text = "Site Name"; ObjectID = "ij7-hd-amQ"; */
+"ij7-hd-amQ.text" = "Site Name";
+
+/* Class = "UILabel"; text = "Merchant Name"; ObjectID = "it9-9K-1wA"; */
+"it9-9K-1wA.text" = "Merchant Name";
+
+/* Class = "UILabel"; text = "Product Name Super Super Super Super Super Long Name Description into 3 Lines. Extra More Lines."; ObjectID = "iwc-FE-G7V"; */
+"iwc-FE-G7V.text" = "Product Name Super Super Super Super Super Long Name Description into 3 Lines. Extra More Lines.";
+
+/* Class = "UILabel"; text = "Share this App"; ObjectID = "j8Q-Hp-Zup"; */
+"j8Q-Hp-Zup.text" = "Share this App";
+
+/* Class = "UITextField"; placeholder = "Current Password"; ObjectID = "j9R-vf-Wa4"; */
+"j9R-vf-Wa4.placeholder" = "Current Password";
+
+/* Class = "UILabel"; text = "TOP UP AMT"; ObjectID = "jKo-fb-7ZU"; */
+"jKo-fb-7ZU.text" = "TOP UP AMT";
+
+/* Class = "UILabel"; text = "Locations"; ObjectID = "jPO-eA-24e"; */
+"jPO-eA-24e.text" = "Locations";
+
+/* Class = "UIViewController"; title = "WELCOME"; ObjectID = "jmE-RR-8wf"; */
+"jmE-RR-8wf.title" = "WELCOME";
+
+/* Class = "UIViewController"; title = "GIFT"; ObjectID = "jms-Bh-CrN"; */
+"jms-Bh-CrN.title" = "GIFT";
+
+/* Class = "UILabel"; text = "Item Name"; ObjectID = "jom-6y-G2j"; */
+"jom-6y-G2j.text" = "Item Name";
+
+/* Class = "UILabel"; text = "Search & Rescue\nCall: (+62 361) 111/115/151"; ObjectID = "k4V-Yk-TnD"; */
+"k4V-Yk-TnD.text" = "Search & Rescue\nCall: (+62 361) 111/115/151";
+
+/* Class = "UILabel"; text = "Call"; ObjectID = "kZ3-Qo-fww"; */
+"kZ3-Qo-fww.text" = "Call";
+
+/* Class = "UITableViewController"; title = "MERCHANT-LIST"; ObjectID = "kai-LE-kel"; */
+"kai-LE-kel.title" = "MERCHANT-LIST";
+
+/* Class = "UILabel"; text = "DD-MM-YY HH:MM"; ObjectID = "kdM-G9-54q"; */
+"kdM-G9-54q.text" = "DD-MM-YY HH:MM";
+
+/* Class = "UILabel"; text = "CCV"; ObjectID = "knb-wF-iTW"; */
+"knb-wF-iTW.text" = "CCV";
+
+/* Class = "UILabel"; text = "Coupon Options"; ObjectID = "kqk-JL-vP9"; */
+"kqk-JL-vP9.text" = "Coupon Options";
+
+/* Class = "UITableViewSection"; headerTitle = "Hospitals"; ObjectID = "lF2-TV-IBs"; */
+"lF2-TV-IBs.headerTitle" = "Hospitals";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lJY-Lr-Vf8"; */
+"lJY-Lr-Vf8.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "lQn-Ov-sL5"; */
+"lQn-Ov-sL5.normalTitle" = "Close";
+
+/* Class = "UILabel"; text = "Free Text 3"; ObjectID = "llw-bW-oSV"; */
+"llw-bW-oSV.text" = "Free Text 3";
+
+/* Class = "UIViewController"; title = "Facebook"; ObjectID = "lsR-kX-t27"; */
+"lsR-kX-t27.title" = "Facebook";
+
+/* Class = "UIViewController"; title = "Terms of Use"; ObjectID = "ltu-xL-QOk"; */
+"ltu-xL-QOk.title" = "Terms of Use";
+
+/* Class = "UILabel"; text = "Coupon as Gift"; ObjectID = "m3h-Qo-72w"; */
+"m3h-Qo-72w.text" = "Coupon as Gift";
+
+/* Class = "UILabel"; text = "Surya Usadha Public Hospital\nJl. Pulau Serangan 1-3, Denpasar\nCall: (+62 361) 235 041"; ObjectID = "mCl-ri-fgp"; */
+"mCl-ri-fgp.text" = "Surya Usadha Public Hospital\nJl. Pulau Serangan 1-3, Denpasar\nCall: (+62 361) 235 041";
+
+/* Class = "UILabel"; text = "Redemption Success"; ObjectID = "mKK-OY-4Za"; */
+"mKK-OY-4Za.text" = "Redemption Success";
+
+/* Class = "UILabel"; text = "Outlet Name"; ObjectID = "mLI-Iu-coS"; */
+"mLI-Iu-coS.text" = "Outlet Name";
+
+/* Class = "UILabel"; text = "Original $8,000 Now $800"; ObjectID = "mP3-7b-1dH"; */
+"mP3-7b-1dH.text" = "Original $8,000 Now $800";
+
+/* Class = "UINavigationItem"; title = "Preview"; ObjectID = "mT2-hl-xBp"; */
+"mT2-hl-xBp.title" = "Preview";
+
+/* Class = "UIViewController"; title = "MAPWALNET"; ObjectID = "mdP-Id-EgK"; */
+"mdP-Id-EgK.title" = "MAPWALNET";
+
+/* Class = "UILabel"; text = "Feedback"; ObjectID = "mmF-at-G9l"; */
+"mmF-at-G9l.text" = "Feedback";
+
+/* Class = "UILabel"; text = "One thing that I spot is, the filter function, the brand has logo. If we have logo here, does it mean we have to upload it again in the system ? If yes, I suggest we do not put logo to save the operation manhour. "; ObjectID = "mpd-Ug-sBc"; */
+"mpd-Ug-sBc.text" = "One thing that I spot is, the filter function, the brand has logo. If we have logo here, does it mean we have to upload it again in the system ? If yes, I suggest we do not put logo to save the operation manhour. ";
+
+/* Class = "UILabel"; text = "Merchant Name"; ObjectID = "mr6-Kh-1OM"; */
+"mr6-Kh-1OM.text" = "Merchant Name";
+
+/* Class = "UINavigationItem"; title = "Specials"; ObjectID = "n16-e1-xVc"; */
+"n16-e1-xVc.title" = "Specials";
+
+/* Class = "UILabel"; text = "Reviews"; ObjectID = "nKO-zM-eqN"; */
+"nKO-zM-eqN.text" = "Reviews";
+
+/* Class = "UILabel"; text = "DD-MM-YY HH:MM"; ObjectID = "nbM-9n-f5M"; */
+"nbM-9n-f5M.text" = "DD-MM-YY HH:MM";
+
+/* Class = "UILabel"; text = "Terms & Conditions"; ObjectID = "ncE-5y-LfQ"; */
+"ncE-5y-LfQ.text" = "Terms & Conditions";
+
+/* Class = "UILabel"; text = "Item Name"; ObjectID = "nkY-3S-dc8"; */
+"nkY-3S-dc8.text" = "Item Name";
+
+/* Class = "UILabel"; text = "Change Password"; ObjectID = "nrc-nC-Thv"; */
+"nrc-nC-Thv.text" = "Change Password";
+
+/* Class = "UILabel"; text = "1.85km"; ObjectID = "nvn-GM-tN5"; */
+"nvn-GM-tN5.text" = "1.85km";
+
+/* Class = "UITextField"; placeholder = "MM"; ObjectID = "o4b-Zn-pdn"; */
+"o4b-Zn-pdn.placeholder" = "MM";
+
+/* Class = "UINavigationItem"; title = "Total $264.00"; ObjectID = "o4y-hl-seh"; */
+"o4y-hl-seh.title" = "Total $264.00";
+
+/* Class = "UILabel"; text = "Coupon Options"; ObjectID = "o5A-6t-D0m"; */
+"o5A-6t-D0m.text" = "Coupon Options";
+
+/* Class = "UILabel"; text = "Call"; ObjectID = "oH9-cl-KHq"; */
+"oH9-cl-KHq.text" = "Call";
+
+/* Class = "UILabel"; text = "Product Long Name Description into 2 Lines Long Name Description into 2 Lines or more. Testing Line 3."; ObjectID = "oHr-o4-T5u"; */
+"oHr-o4-T5u.text" = "Product Long Name Description into 2 Lines Long Name Description into 2 Lines or more. Testing Line 3.";
+
+/* Class = "UITextField"; placeholder = "Gift Message"; ObjectID = "oKW-RI-DnP"; */
+"oKW-RI-DnP.placeholder" = "Gift Message";
+
+/* Class = "UILabel"; text = "(XXX)"; ObjectID = "oO5-b5-Hlh"; */
+"oO5-b5-Hlh.text" = "(XXX)";
+
+/* Class = "UISearchBar"; placeholder = "Discover"; ObjectID = "obE-Ez-9mH"; */
+"obE-Ez-9mH.placeholder" = "Discover";
+
+/* Class = "UISearchBar"; obE-Ez-9mH.scopeButtonTitles[0] = "Title"; ObjectID = "obE-Ez-9mH"; */
+"obE-Ez-9mH.scopeButtonTitles[0]" = "Title";
+
+/* Class = "UISearchBar"; obE-Ez-9mH.scopeButtonTitles[1] = "Title"; ObjectID = "obE-Ez-9mH"; */
+"obE-Ez-9mH.scopeButtonTitles[1]" = "Title";
+
+/* Class = "UIViewController"; title = "TRANSFER"; ObjectID = "oiT-QZ-yjd"; */
+"oiT-QZ-yjd.title" = "TRANSFER";
+
+/* Class = "UILabel"; text = "Locations"; ObjectID = "pKN-Sx-bYS"; */
+"pKN-Sx-bYS.text" = "Locations";
+
+/* Class = "UITextField"; placeholder = "ENGLISH"; ObjectID = "pPd-Tm-zIA"; */
+"pPd-Tm-zIA.placeholder" = "ENGLISH";
+
+/* Class = "UITableViewController"; title = "EVENTS-LIST"; ObjectID = "pg7-33-yly"; */
+"pg7-33-yly.title" = "EVENTS-LIST";
+
+/* Class = "UILabel"; text = "Free Text 3"; ObjectID = "qEc-Jo-72k"; */
+"qEc-Jo-72k.text" = "Free Text 3";
+
+/* Class = "UIViewController"; title = "AGREEMENT"; ObjectID = "qNg-pm-T57"; */
+"qNg-pm-T57.title" = "AGREEMENT";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "qfb-FG-zx2"; */
+"qfb-FG-zx2.normalTitle" = "Register";
+
+/* Class = "UILabel"; text = "Merchant Name"; ObjectID = "r67-El-iPM"; */
+"r67-El-iPM.text" = "Merchant Name";
+
+/* Class = "UINavigationItem"; title = "Useful Contacts"; ObjectID = "r9v-Xu-dfS"; */
+"r9v-Xu-dfS.title" = "Useful Contacts";
+
+/* Class = "UILabel"; text = "Txn ID"; ObjectID = "rNL-qN-hLr"; */
+"rNL-qN-hLr.text" = "Txn ID";
+
+/* Class = "UINavigationItem"; title = "Welcome"; ObjectID = "rfk-pu-DEK"; */
+"rfk-pu-DEK.title" = "Welcome";
+
+/* Class = "UILabel"; text = "Modifier Name"; ObjectID = "rnP-hU-W9X"; */
+"rnP-hU-W9X.text" = "Modifier Name";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "s0i-XQ-ME9"; */
+"s0i-XQ-ME9.normalTitle" = "Close";
+
+/* Class = "UIViewController"; title = "HOME"; ObjectID = "s5k-bE-4nO"; */
+"s5k-bE-4nO.title" = "HOME";
+
+/* Class = "UIViewController"; title = "NEW-CART"; ObjectID = "sEx-mp-smJ"; */
+"sEx-mp-smJ.title" = "NEW-CART";
+
+/* Class = "UIViewController"; title = "REGISTER"; ObjectID = "sIe-gJ-fha"; */
+"sIe-gJ-fha.title" = "REGISTER";
+
+/* Class = "UIViewController"; title = "Instagram"; ObjectID = "sPE-nv-3yj"; */
+"sPE-nv-3yj.title" = "Instagram";
+
+/* Class = "UILabel"; text = "Terms & Conditions"; ObjectID = "sQB-sb-e8x"; */
+"sQB-sb-e8x.text" = "Terms & Conditions";
+
+/* Class = "UINavigationItem"; title = "Walnet"; ObjectID = "sTw-69-KD5"; */
+"sTw-69-KD5.title" = "Deals";
+
+/* Class = "UILabel"; text = "Please check your email for the new reset password."; ObjectID = "sX8-yp-YMi"; */
+"sX8-yp-YMi.text" = "Please check your email for the new reset password.";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "sZ0-HS-hYY"; */
+"sZ0-HS-hYY.text" = "Privacy Policy";
+
+/* Class = "UIViewController"; title = "REDEEM-NOT-SUCCESS"; ObjectID = "seD-a9-eBU"; */
+"seD-a9-eBU.title" = "REDEEM-NOT-SUCCESS";
+
+/* Class = "UILabel"; text = "Signing In ..."; ObjectID = "skq-dI-0SZ"; */
+"skq-dI-0SZ.text" = "Signing In ...";
+
+/* Class = "UIViewController"; title = "Twitter"; ObjectID = "soA-ev-YH9"; */
+"soA-ev-YH9.title" = "Twitter";
+
+/* Class = "UITableViewSection"; headerTitle = "Taxi"; ObjectID = "spV-ur-u4c"; */
+"spV-ur-u4c.headerTitle" = "Taxi";
+
+/* Class = "UITextField"; placeholder = "1"; ObjectID = "sup-3O-k0O"; */
+"sup-3O-k0O.placeholder" = "1";
+
+/* Class = "UILabel"; text = "(XXX)"; ObjectID = "t0F-K3-sGd"; */
+"t0F-K3-sGd.text" = "(XXX)";
+
+/* Class = "UILabel"; text = "Call"; ObjectID = "tFR-re-ei6"; */
+"tFR-re-ei6.text" = "Call";
+
+/* Class = "UILabel"; text = "Locations"; ObjectID = "tHm-t9-zVl"; */
+"tHm-t9-zVl.text" = "Locations";
+
+/* Class = "UILabel"; text = "eCoupon:"; ObjectID = "u3T-Mf-qI4"; */
+"u3T-Mf-qI4.text" = "eCoupon:";
+
+/* Class = "UIButton"; normalTitle = "Use This eCoupon"; ObjectID = "uIn-5r-Hce"; */
+"uIn-5r-Hce.normalTitle" = "Use This eCoupon";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "ubN-Zr-gPf"; */
+"ubN-Zr-gPf.normalTitle" = "Close";
+
+/* Class = "UILabel"; text = "Free Text 2"; ObjectID = "ufE-sG-AxZ"; */
+"ufE-sG-AxZ.text" = "Free Text 2";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "uli-p7-hhJ"; */
+"uli-p7-hhJ.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "IDR888,888"; ObjectID = "upd-j5-ZXV"; */
+"upd-j5-ZXV.text" = "IDR888,888";
+
+/* Class = "UILabel"; text = "One thing that I spot is, the filter function, the brand has logo. If we have logo here, does it mean we have to upload it again in the system ? If yes, I suggest we do not put logo to save the operation manhour. "; ObjectID = "uz8-70-fB1"; */
+"uz8-70-fB1.text" = "One thing that I spot is, the filter function, the brand has logo. If we have logo here, does it mean we have to upload it again in the system ? If yes, I suggest we do not put logo to save the operation manhour. ";
+
+/* Class = "UINavigationItem"; title = "Language"; ObjectID = "vAI-3t-Hml"; */
+"vAI-3t-Hml.title" = "Language";
+
+/* Class = "UINavigationItem"; title = "How to Redeem"; ObjectID = "vJU-GI-hzU"; */
+"vJU-GI-hzU.title" = "How to Redeem";
+
+/* Class = "UILabel"; text = "x Qty"; ObjectID = "wKy-ZQ-PCj"; */
+"wKy-ZQ-PCj.text" = "x Qty";
+
+/* Class = "UIViewController"; title = "REDEEM-FAILURE"; ObjectID = "wZC-5L-TDb"; */
+"wZC-5L-TDb.title" = "REDEEM-FAILURE";
+
+/* Class = "UILabel"; text = "BIMC Hospital\nKawasan BTDC, Blok D, Nusa Dua\nCall: (+62 361) 3000 911"; ObjectID = "wa6-0g-JO7"; */
+"wa6-0g-JO7.text" = "BIMC Hospital\nKawasan BTDC, Blok D, Nusa Dua\nCall: (+62 361) 3000 911";
+
+/* Class = "UILabel"; text = "Event Title"; ObjectID = "waS-O4-oWZ"; */
+"waS-O4-oWZ.text" = "Event Title";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "wbZ-Ta-snd"; */
+"wbZ-Ta-snd.placeholder" = "Email";
+
+/* Class = "UITableViewController"; title = "COUPONS-LISTING"; ObjectID = "xCG-Kw-uP2"; */
+"xCG-Kw-uP2.title" = "COUPONS-LISTING";
+
+/* Class = "UIViewController"; title = "Payment"; ObjectID = "xOx-0w-lav"; */
+"xOx-0w-lav.title" = "Payment";
+
+/* Class = "UILabel"; text = "Merchants"; ObjectID = "xQc-Gx-HJH"; */
+"xQc-Gx-HJH.text" = "Merchants";
+
+/* Class = "UILabel"; text = "Redemption Failed !    Coupon already redeemed !"; ObjectID = "xaq-M7-k2S"; */
+"xaq-M7-k2S.text" = "Redemption Failed !    Coupon already redeemed !";
+
+/* Class = "UILabel"; text = "Reviews"; ObjectID = "xvJ-lt-JKA"; */
+"xvJ-lt-JKA.text" = "Reviews";
+
+/* Class = "UILabel"; text = "eCoupon:"; ObjectID = "y8i-3J-VeP"; */
+"y8i-3J-VeP.text" = "eCoupon:";
+
+/* Class = "UITextField"; placeholder = "YY"; ObjectID = "yC8-5D-nPC"; */
+"yC8-5D-nPC.placeholder" = "YY";
+
+/* Class = "UILabel"; text = "Free Text 2"; ObjectID = "yCA-zi-m9k"; */
+"yCA-zi-m9k.text" = "Free Text 2";
+
+/* Class = "UILabel"; text = "Expiry Date"; ObjectID = "yND-Tl-j2p"; */
+"yND-Tl-j2p.text" = "Expiry Date";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "yZ6-Bp-2ro"; */
+"yZ6-Bp-2ro.normalTitle" = "Close";
+
+/* Class = "UILabel"; text = "Product Long Name Description into 2 Lines Long Name Description into 2 Lines or more."; ObjectID = "ykh-md-BDf"; */
+"ykh-md-BDf.text" = "Product Long Name Description into 2 Lines Long Name Description into 2 Lines or more.";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "ymD-ao-fB0"; */
+"ymD-ao-fB0.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Item Name"; ObjectID = "z2Q-wo-ONg"; */
+"z2Q-wo-ONg.text" = "Item Name";
+
+/* Class = "UIViewController"; title = "FORGOT-PASSWORD"; ObjectID = "zHZ-b0-rt3"; */
+"zHZ-b0-rt3.title" = "FORGOT-PASSWORD";
+
+/* Class = "UILabel"; text = "Call"; ObjectID = "zJq-K9-GFl"; */
+"zJq-K9-GFl.text" = "Call";
+
+/* Class = "UILabel"; text = "Coupons"; ObjectID = "zUe-YX-DI6"; */
+"zUe-YX-DI6.text" = "Coupons";
+
+/* Class = "UILabel"; text = "Terms & Conditions"; ObjectID = "zUp-VJ-zkO"; */
+"zUp-VJ-zkO.text" = "Terms & Conditions";
+
+/* Class = "UIViewController"; title = "Site Map"; ObjectID = "zbX-CW-w2Q"; */
+"zbX-CW-w2Q.title" = "Site Map";
+
+/* Class = "UILabel"; text = "Item Name"; ObjectID = "ztw-ri-ih9"; */
+"ztw-ri-ih9.text" = "Item Name";
+
+/* Class = "UISearchBar"; placeholder = "Search"; ObjectID = "obE-Ez-9mH"; */
+"gfA-id-yOP.placeholder" = "Search";
+
+/* Class = "UISearchBar"; placeholder = "Search"; ObjectID = "obE-Ez-9mH"; */
+"gsP-hv-4NB.placeholder" = "Search";
+
+/* Class = "UILabel"; text = "Special"; ObjectID = "zZg-dW-Vnb"; */
+"zZg-dW-Vnb.text" = "Special";
+
+/* Class = "UILabel"; text = "Coupons"; ObjectID = "tT2-OI-Uwd"; */
+"tT2-OI-Uwd.text" = "Coupons";
+
+/* Class = "UILabel"; text = "Qty"; ObjectID = "en5-y0-ONt"; */
+"en5-y0-ONt.text" = "Qty";
+
+/* Class = "UIButton"; normalTitle = "Get Coupon"; ObjectID = "jkp-rp-83u"; */
+"jkp-rp-83u.normalTitle" = "Get Coupon";
+
+/* Class = "UIButton"; normalTitle = "Get Coupon"; ObjectID = "hQX-T1-ykV"; */
+"hQX-T1-ykV.normalTitle" = "Get Coupon";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "jkp-rp-83u"; */
+"3xB-pT-th1.normalTitle" = "Close";
+
+/* Class = "UIButton"; normalTitle = "Share"; ObjectID = "eTD-Kh-V9x"; */
+"eTD-Kh-V9x.normalTitle" = "Share";
+
+/* Class = "UIButton"; normalTitle = "Follow"; ObjectID = "dVo-vl-PrS"; */
+"dVo-vl-PrS.normalTitle" = "Follow";
+
+/* Class = "UIButton"; normalTitle = "Offers"; ObjectID = "M74-Ha-bw5"; */
+"M74-Ha-bw5.normalTitle" = "Offers";
+
+/* Class = "UIButton"; normalTitle = "Join Lucky Draw"; ObjectID = "xOU-df-hzt"; */
+"xOU-df-hzt.normalTitle" = "Join Lucky Draw";
+
+/* Class = "UINavigationItem"; title = "Payment"; ObjectID = "jnl-Nv-POZ"; */
+"jnl-Nv-POZ.title" = "Payment";
+
+/* Class = "UIButton"; normalTitle = "TOP UP"; ObjectID = "rTh-7e-eoZ"; */
+"rTh-7e-eoZ.normalTitle" = "TOP UP";
+
+/* Class = "UIButton"; normalTitle = "PAYMENT"; ObjectID = "ilD-oP-AOP"; */
+"ilD-oP-AOP.normalTitle" = "PAYMENT";
+
+/* Class = "UIButton"; normalTitle = "CLOSE"; ObjectID = "TDB-gP-4lR"; */
+"TDB-gP-4lR.normalTitle" = "CLOSE";
+
+/* Class = "UINavigationItem"; title = "TOP UP"; ObjectID = "drn-fw-RQB"; */
+"drn-fw-RQB.title" = "TOP UP";
+
+/* Class = "UITextField"; placeholder = "ENTER AMOUNT"; ObjectID = "7Q0-OL-ZXa"; */
+"7Q0-OL-ZXa.placeholder" = "ENTER AMOUNT";
+
+/* Class = "UITextField"; placeholder = "REMARKS"; ObjectID = "sKF-uk-IKA"; */
+"sKF-uk-IKA.placeholder" = "REMARKS";
+
+/* Class = "UINavigationItem"; title = "TRANSACTIONS"; ObjectID = "mfi-KS-ip2"; */
+"mfi-KS-ip2.title" = "TRANSACTIONS";
+
+/* Class = "UINavigationItem"; title = "PENDING PAYMENTSP"; ObjectID = "Q7M-mT-45R"; */
+"Q7M-mT-45R.title" = "PENDING PAYMENTS";
+
+/* Class = "UIButton"; normalTitle = "Decline"; ObjectID = "LWZ-Zq-ijh"; */
+"LWZ-Zq-ijh.normalTitle" = "Decline";
+
+/* Class = "UIButton"; normalTitle = "Approve"; ObjectID = "Jct-e1-3fN"; */
+"Jct-e1-3fN.normalTitle" = "Approve";
+
+/* Class = "UINavigationItem"; title = "SELECT MERCHANT"; ObjectID = "6jW-SX-V8l"; */
+"6jW-SX-V8l.title" = "Select MERCHANT";
+
+/* Class = "UIBarButtonItem"; title = "Select"; ObjectID = "A9L-oj-Pmd"; */
+"A9L-oj-Pmd.title" = "Select";
+
+/* Class = "UINavigationItem"; title = "SELECT OUTLET"; ObjectID = "Dd0-n5-wjc"; */
+"Dd0-n5-wjc.title" = "Select OUTLET";
+
+/* Class = "UIBarButtonItem"; title = "Select"; ObjectID = "gkc-6a-6Lp"; */
+"gkc-6a-6Lp.title" = "Select";
+
+/* Class = "UIBarButtonItem"; title = "Redeem"; ObjectID = "gpB-cy-MD4"; */
+"gpB-cy-MD4.title" = "Redeem";
+
+/* Class = "UINavigationItem"; title = "LUCKY DRAW"; ObjectID = "M7e-zq-yB1"; */
+"M7e-zq-yB1.title" = "LUCKY DRAW";
+
+/* Class = "UINavigationItem"; title = "NOTIFICATIONS"; ObjectID = "tbe-uH-Nyv"; */
+"tbe-uH-Nyv.title" = "NOTIFICATIONS";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "ubN-Zr-gPf"; */
+"ubN-Zr-gPf.normalTitle" = "Close";
+
+/* Class = "UIButton"; normalTitle = "Whats New"; ObjectID = "3SM-nQ-mQd"; */
+"3SM-nQ-mQd.normalTitle" = "User Guide";
+
+/* Class = "UILabel"; text = "Beta"; ObjectID = "PXx-JX-RG3"; */
+"PXx-JX-RG3.text" = "Beta Version";
+
+/* Class = "UILabel"; text = "Beta"; ObjectID = "cPI-Cy-saw"; */
+"cPI-Cy-saw.text" = "Beta Version";
+
+///* Class = "UIButton"; normalTitle = "Whats New"; ObjectID = "b4t-13-4ns"; */
+//"b4t-13-4ns.normalTitle" = "Hot Deals";
+
+/* Class = "UILabel"; text = "Edit Profile"; ObjectID = "YAj-77-dh5"; */
+"YAj-77-dh5.text" = "Edit Profile";
+
+/* Class = "UITextField"; placeholder = "Change Name"; ObjectID = "OQj-hV-qPT"; */
+"OQj-hV-qPT.placeholder" = "Change Name";
+
+/* Class = "UITextField"; placeholder = "Change Mobile Number"; ObjectID = "lQF-C0-ipu"; */
+"lQF-C0-ipu.placeholder" = "Change Mobile Number";
+
+/* Class = "UITextField"; placeholder = "Change Email Address"; ObjectID = "t5F-yi-zZC"; */
+"t5F-yi-zZC.placeholder" = "Change Email Address";
+
+/* Class = "UINavigationItem"; title = "Edit Profile"; ObjectID = "b6Y-rB-XJl"; */
+"b6Y-rB-XJl.title" = "Edit Profile";
+
+/* Class = "UIButton"; normalTitle = "Guest Login"; ObjectID = "ZZQ-4H-Gog"; */
+"ZZQ-4H-Gog.normalTitle" = "Guest Login";
+
+
+

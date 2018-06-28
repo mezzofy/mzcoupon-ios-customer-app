@@ -1,0 +1,1066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056170B7B17A6CC0F5A0E562 /* libPods-PlatformAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25206C8F2894430C25ACB263 /* libPods-PlatformAPI.a */; };
+		A816A3F7203473A1004B82ED /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A3F5203473A1004B82ED /* Utils.h */; };
+		A816A3F8203473A1004B82ED /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A3F6203473A1004B82ED /* Utils.m */; };
+		A816A3FE203473F5004B82ED /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A3FC203473F5004B82ED /* Common.m */; };
+		A816A3FF203473F5004B82ED /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A3FD203473F5004B82ED /* Common.h */; };
+		A816A48F2034742A004B82ED /* TblOrderModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4012034741A004B82ED /* TblOrderModel.h */; };
+		A816A4902034742A004B82ED /* TblOrderData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4022034741A004B82ED /* TblOrderData.h */; };
+		A816A4912034742A004B82ED /* TblProductOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4032034741A004B82ED /* TblProductOrder.h */; };
+		A816A4922034742A004B82ED /* TblCustomerData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4042034741A004B82ED /* TblCustomerData.h */; };
+		A816A4932034742A004B82ED /* TblCountryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4052034741A004B82ED /* TblCountryModel.m */; };
+		A816A4942034742A004B82ED /* TblWalletTxnModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4062034741A004B82ED /* TblWalletTxnModel.h */; };
+		A816A4952034742A004B82ED /* TblProductLists.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4072034741A004B82ED /* TblProductLists.h */; };
+		A816A4962034742A004B82ED /* TblCountryList.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4082034741A004B82ED /* TblCountryList.h */; };
+		A816A4972034742A004B82ED /* TblPaymentDtl.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4092034741A004B82ED /* TblPaymentDtl.h */; };
+		A816A4982034742A004B82ED /* TblWalletModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A40A2034741A004B82ED /* TblWalletModel.h */; };
+		A816A4992034742A004B82ED /* TblOrderItemData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A40B2034741A004B82ED /* TblOrderItemData.h */; };
+		A816A49A2034742A004B82ED /* TblCampaignGroupDtls.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A40C2034741A004B82ED /* TblCampaignGroupDtls.m */; };
+		A816A49B2034742A004B82ED /* TblCustomerGroupData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A40D2034741A004B82ED /* TblCustomerGroupData.h */; };
+		A816A49C2034742A004B82ED /* TblPaymentDtl.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A40E2034741A004B82ED /* TblPaymentDtl.m */; };
+		A816A49D2034742A004B82ED /* TblCountryList.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A40F2034741A004B82ED /* TblCountryList.m */; };
+		A816A49E2034742A004B82ED /* TblCountryData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4102034741A004B82ED /* TblCountryData.h */; };
+		A816A49F2034742A004B82ED /* TblPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4112034741A004B82ED /* TblPayment.m */; };
+		A816A4A02034742A004B82ED /* TblProductOrderDtl.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4122034741B004B82ED /* TblProductOrderDtl.m */; };
+		A816A4A12034742A004B82ED /* TblWalletData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4132034741B004B82ED /* TblWalletData.h */; };
+		A816A4A22034742A004B82ED /* TblOrderListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4142034741B004B82ED /* TblOrderListModel.m */; };
+		A816A4A32034742A004B82ED /* TblWalletTxnListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4152034741B004B82ED /* TblWalletTxnListModel.h */; };
+		A816A4A42034742A004B82ED /* TblWalletData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4162034741B004B82ED /* TblWalletData.m */; };
+		A816A4A52034742A004B82ED /* TblWalletTxnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4172034741B004B82ED /* TblWalletTxnModel.m */; };
+		A816A4A62034742A004B82ED /* TblMassCouponDetailModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4182034741B004B82ED /* TblMassCouponDetailModel.h */; };
+		A816A4A72034742A004B82ED /* TblProductOrderMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4192034741B004B82ED /* TblProductOrderMaster.m */; };
+		A816A4A82034742A004B82ED /* TblCampaignGroupDtls.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A41A2034741B004B82ED /* TblCampaignGroupDtls.h */; };
+		A816A4A92034742A004B82ED /* TblProductOrderMaster.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A41B2034741B004B82ED /* TblProductOrderMaster.h */; };
+		A816A4AA2034742A004B82ED /* TblMassCouponModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A41C2034741B004B82ED /* TblMassCouponModel.h */; };
+		A816A4AB2034742A004B82ED /* TblCustomerDeviceData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A41D2034741C004B82ED /* TblCustomerDeviceData.m */; };
+		A816A4AC2034742A004B82ED /* TblCampaignImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A41E2034741C004B82ED /* TblCampaignImage.m */; };
+		A816A4AD2034742A004B82ED /* TblOrderItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A41F2034741C004B82ED /* TblOrderItemModel.h */; };
+		A816A4AE2034742A004B82ED /* TblOrderModifierData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4202034741C004B82ED /* TblOrderModifierData.h */; };
+		A816A4AF2034742A004B82ED /* TblProductList.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4212034741C004B82ED /* TblProductList.m */; };
+		A816A4B02034742A004B82ED /* TblCampaignGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4222034741C004B82ED /* TblCampaignGroup.m */; };
+		A816A4B12034742A004B82ED /* TblCampaignImageList.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4232034741C004B82ED /* TblCampaignImageList.m */; };
+		A816A4B22034742A004B82ED /* TblCouponData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4242034741C004B82ED /* TblCouponData.h */; };
+		A816A4B32034742A004B82ED /* TblOrderTrackData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4252034741C004B82ED /* TblOrderTrackData.h */; };
+		A816A4B42034742A004B82ED /* TblCampaignSiteList.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4262034741D004B82ED /* TblCampaignSiteList.m */; };
+		A816A4B52034742A004B82ED /* TblProductOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4272034741D004B82ED /* TblProductOrder.m */; };
+		A816A4B62034742A004B82ED /* TblCustomerGroupList.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4282034741D004B82ED /* TblCustomerGroupList.m */; };
+		A816A4B72034742A004B82ED /* TblMasscouponData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4292034741D004B82ED /* TblMasscouponData.h */; };
+		A816A4B82034742A004B82ED /* TblNotificationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A42A2034741D004B82ED /* TblNotificationModel.h */; };
+		A816A4B92034742A004B82ED /* TblCustomerCouponData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A42B2034741D004B82ED /* TblCustomerCouponData.m */; };
+		A816A4BA2034742A004B82ED /* TblProductOrderListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A42C2034741D004B82ED /* TblProductOrderListModel.h */; };
+		A816A4BB2034742A004B82ED /* TblCampaignGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A42D2034741D004B82ED /* TblCampaignGroups.m */; };
+		A816A4BC2034742A004B82ED /* TblCampaignImageList.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A42E2034741E004B82ED /* TblCampaignImageList.h */; };
+		A816A4BD2034742A004B82ED /* TblCampaignGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A42F2034741E004B82ED /* TblCampaignGroups.h */; };
+		A816A4BE2034742A004B82ED /* TblCampaignSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4302034741E004B82ED /* TblCampaignSearchModel.m */; };
+		A816A4BF2034742A004B82ED /* TblCampaignCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4312034741E004B82ED /* TblCampaignCode.m */; };
+		A816A4C02034742A004B82ED /* TblCustomerCouponList.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4322034741E004B82ED /* TblCustomerCouponList.m */; };
+		A816A4C12034742A004B82ED /* TblGiftcouponData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4332034741E004B82ED /* TblGiftcouponData.h */; };
+		A816A4C22034742A004B82ED /* DataReaponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4342034741E004B82ED /* DataReaponseModel.m */; };
+		A816A4C32034742A004B82ED /* TblMasscouponDetailData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4352034741E004B82ED /* TblMasscouponDetailData.m */; };
+		A816A4C42034742A004B82ED /* TblCustomerDeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4362034741F004B82ED /* TblCustomerDeviceModel.m */; };
+		A816A4C52034742A004B82ED /* TblProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A4372034741F004B82ED /* TblProduct.m */; };
+		A816A4C62034742A004B82ED /* TblCustomerDeviceModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4382034741F004B82ED /* TblCustomerDeviceModel.h */; };
+		A816A4C72034742A004B82ED /* TblCustomerCouponData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A4392034741F004B82ED /* TblCustomerCouponData.h */; };
+		A816A4C82034742A004B82ED /* TblOverCouponData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A43A2034741F004B82ED /* TblOverCouponData.h */; };
+		A816A4C92034742A004B82ED /* TblMassCouponDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A43B2034741F004B82ED /* TblMassCouponDetailModel.m */; };
+		A816A4CA2034742A004B82ED /* TblOrderTrackModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A43C2034741F004B82ED /* TblOrderTrackModel.h */; };
+		A816A4CB2034742A004B82ED /* TblProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A43D2034741F004B82ED /* TblProduct.h */; };
+		A816A4CC2034742A004B82ED /* TblWalletTxnData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A43E2034741F004B82ED /* TblWalletTxnData.h */; };
+		A816A4CD2034742A004B82ED /* TblMassCouponModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A43F20347420004B82ED /* TblMassCouponModel.m */; };
+		A816A4CE2034742A004B82ED /* TblCustomerGroupModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A44020347420004B82ED /* TblCustomerGroupModel.h */; };
+		A816A4CF2034742A004B82ED /* TblProductOrderDtl.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A44120347420004B82ED /* TblProductOrderDtl.h */; };
+		A816A4D02034742A004B82ED /* TblOrderTrackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A44220347420004B82ED /* TblOrderTrackModel.m */; };
+		A816A4D12034742A004B82ED /* TblProductOrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A44320347420004B82ED /* TblProductOrderModel.m */; };
+		A816A4D22034742A004B82ED /* DataReaponseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A44420347420004B82ED /* DataReaponseModel.h */; };
+		A816A4D32034742A004B82ED /* TblCampaignSite.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A44520347420004B82ED /* TblCampaignSite.m */; };
+		A816A4D42034742A004B82ED /* TblPaymentMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A44620347420004B82ED /* TblPaymentMaster.m */; };
+		A816A4D52034742A004B82ED /* TblProductList.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A44720347420004B82ED /* TblProductList.h */; };
+		A816A4D62034742A004B82ED /* TblSite.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A44820347421004B82ED /* TblSite.m */; };
+		A816A4D72034742A004B82ED /* TblOrderData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A44920347421004B82ED /* TblOrderData.m */; };
+		A816A4D82034742A004B82ED /* TblGiftcouponData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A44A20347421004B82ED /* TblGiftcouponData.m */; };
+		A816A4D92034742A004B82ED /* DataResponseSize.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A44B20347421004B82ED /* DataResponseSize.h */; };
+		A816A4DA2034742A004B82ED /* TblCampaignGroupDtl.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A44C20347421004B82ED /* TblCampaignGroupDtl.h */; };
+		A816A4DB2034742A004B82ED /* TblCountryData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A44D20347421004B82ED /* TblCountryData.m */; };
+		A816A4DC2034742A004B82ED /* TblOrderListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A44E20347421004B82ED /* TblOrderListModel.h */; };
+		A816A4DD2034742A004B82ED /* TblOrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A44F20347421004B82ED /* TblOrderModel.m */; };
+		A816A4DE2034742A004B82ED /* TblWalletModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A45020347421004B82ED /* TblWalletModel.m */; };
+		A816A4DF2034742A004B82ED /* TblWalletTxnListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A45120347422004B82ED /* TblWalletTxnListModel.m */; };
+		A816A4E02034742A004B82ED /* TblNotificationData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A45220347422004B82ED /* TblNotificationData.m */; };
+		A816A4E12034742A004B82ED /* TblCustomerModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A45320347422004B82ED /* TblCustomerModel.h */; };
+		A816A4E22034742A004B82ED /* TblGiftcouponModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A45420347422004B82ED /* TblGiftcouponModel.h */; };
+		A816A4E32034742A004B82ED /* TblCampGrpData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A45520347422004B82ED /* TblCampGrpData.h */; };
+		A816A4E42034742A004B82ED /* TblNotificationListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A45620347422004B82ED /* TblNotificationListModel.h */; };
+		A816A4E52034742A004B82ED /* TblCustomerCouponModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A45720347422004B82ED /* TblCustomerCouponModel.m */; };
+		A816A4E62034742A004B82ED /* TblOverCouponData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A45820347422004B82ED /* TblOverCouponData.m */; };
+		A816A4E72034742A004B82ED /* TblCustomerDeviceData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A45920347422004B82ED /* TblCustomerDeviceData.h */; };
+		A816A4E82034742A004B82ED /* TblCustomerGroupData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A45A20347423004B82ED /* TblCustomerGroupData.m */; };
+		A816A4E92034742A004B82ED /* TblProductLists.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A45B20347423004B82ED /* TblProductLists.m */; };
+		A816A4EA2034742A004B82ED /* TblSiteList.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A45C20347423004B82ED /* TblSiteList.h */; };
+		A816A4EB2034742A004B82ED /* TblMasscouponData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A45D20347423004B82ED /* TblMasscouponData.m */; };
+		A816A4EC2034742A004B82ED /* TblOrderModifierModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A45E20347423004B82ED /* TblOrderModifierModel.h */; };
+		A816A4ED2034742A004B82ED /* TblPaymentMaster.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A45F20347423004B82ED /* TblPaymentMaster.h */; };
+		A816A4EE2034742A004B82ED /* TblCampaign.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A46020347423004B82ED /* TblCampaign.h */; };
+		A816A4EF2034742A004B82ED /* TblPayment.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A46120347423004B82ED /* TblPayment.h */; };
+		A816A4F02034742A004B82ED /* TblMerchant.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A46220347423004B82ED /* TblMerchant.h */; };
+		A816A4F12034742A004B82ED /* TblSiteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A46320347424004B82ED /* TblSiteModel.m */; };
+		A816A4F22034742A004B82ED /* TblNotificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A46420347424004B82ED /* TblNotificationModel.m */; };
+		A816A4F32034742A004B82ED /* TblPaymentModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A46520347424004B82ED /* TblPaymentModel.h */; };
+		A816A4F42034742A004B82ED /* TblCustomerGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A46620347424004B82ED /* TblCustomerGroupModel.m */; };
+		A816A4F52034742A004B82ED /* TblCampaignSearchModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A46720347424004B82ED /* TblCampaignSearchModel.h */; };
+		A816A4F62034742A004B82ED /* TblCampaignGroupDtl.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A46820347424004B82ED /* TblCampaignGroupDtl.m */; };
+		A816A4F72034742A004B82ED /* TblMerchantModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A46920347425004B82ED /* TblMerchantModel.m */; };
+		A816A4F82034742A004B82ED /* TblOrderItemData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A46A20347425004B82ED /* TblOrderItemData.m */; };
+		A816A4F92034742A004B82ED /* TblOrderItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A46B20347425004B82ED /* TblOrderItemModel.m */; };
+		A816A4FA2034742A004B82ED /* TblProductOrderModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A46C20347425004B82ED /* TblProductOrderModel.h */; };
+		A816A4FB2034742A004B82ED /* TblOrderModifierData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A46D20347425004B82ED /* TblOrderModifierData.m */; };
+		A816A4FC2034742A004B82ED /* TblStockData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A46E20347425004B82ED /* TblStockData.m */; };
+		A816A4FD2034742A004B82ED /* TblCampaignCode.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A46F20347425004B82ED /* TblCampaignCode.h */; };
+		A816A4FE2034742A004B82ED /* TblNotificationData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A47020347425004B82ED /* TblNotificationData.h */; };
+		A816A4FF2034742A004B82ED /* TblSite.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A47120347426004B82ED /* TblSite.h */; };
+		A816A5002034742A004B82ED /* TblSiteList.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A47220347426004B82ED /* TblSiteList.m */; };
+		A816A5012034742A004B82ED /* TblStockData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A47320347426004B82ED /* TblStockData.h */; };
+		A816A5022034742A004B82ED /* TblOrderModifierModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A47420347426004B82ED /* TblOrderModifierModel.m */; };
+		A816A5032034742A004B82ED /* TblMerchant.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A47520347426004B82ED /* TblMerchant.m */; };
+		A816A5042034742A004B82ED /* TblStockModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A47620347426004B82ED /* TblStockModel.h */; };
+		A816A5052034742A004B82ED /* TblStockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A47720347426004B82ED /* TblStockModel.m */; };
+		A816A5062034742A004B82ED /* TblGiftcouponModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A47820347426004B82ED /* TblGiftcouponModel.m */; };
+		A816A5072034742A004B82ED /* TblCampGrpData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A47920347427004B82ED /* TblCampGrpData.m */; };
+		A816A5082034742A004B82ED /* TblMasscouponDetailData.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A47A20347427004B82ED /* TblMasscouponDetailData.h */; };
+		A816A5092034742A004B82ED /* TblCustomerCouponModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A47B20347427004B82ED /* TblCustomerCouponModel.h */; };
+		A816A50A2034742A004B82ED /* TblCustomerGroupList.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A47C20347427004B82ED /* TblCustomerGroupList.h */; };
+		A816A50B2034742A004B82ED /* TblCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A47D20347427004B82ED /* TblCampaign.m */; };
+		A816A50C2034742A004B82ED /* TblCountryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A47E20347427004B82ED /* TblCountryModel.h */; };
+		A816A50D2034742A004B82ED /* TblCampaignImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A47F20347427004B82ED /* TblCampaignImage.h */; };
+		A816A50E2034742A004B82ED /* TblSiteModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A48020347427004B82ED /* TblSiteModel.h */; };
+		A816A50F2034742A004B82ED /* TblMerchantModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A48120347428004B82ED /* TblMerchantModel.h */; };
+		A816A5102034742A004B82ED /* TblCouponData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A48220347428004B82ED /* TblCouponData.m */; };
+		A816A5112034742A004B82ED /* TblCampaignSite.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A48320347428004B82ED /* TblCampaignSite.h */; };
+		A816A5122034742A004B82ED /* TblProductOrderListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A48420347428004B82ED /* TblProductOrderListModel.m */; };
+		A816A5132034742A004B82ED /* TblCustomerData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A48520347429004B82ED /* TblCustomerData.m */; };
+		A816A5142034742A004B82ED /* TblPaymentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A48620347429004B82ED /* TblPaymentModel.m */; };
+		A816A5152034742A004B82ED /* DataResponseSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A48720347429004B82ED /* DataResponseSize.m */; };
+		A816A5162034742A004B82ED /* TblCampaignSiteList.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A48820347429004B82ED /* TblCampaignSiteList.h */; };
+		A816A5172034742A004B82ED /* TblCustomerCouponList.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A48920347429004B82ED /* TblCustomerCouponList.h */; };
+		A816A5182034742A004B82ED /* TblNotificationListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A48A20347429004B82ED /* TblNotificationListModel.m */; };
+		A816A5192034742A004B82ED /* TblWalletTxnData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A48B20347429004B82ED /* TblWalletTxnData.m */; };
+		A816A51A2034742A004B82ED /* TblCampaignGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A48C20347429004B82ED /* TblCampaignGroup.h */; };
+		A816A51B2034742A004B82ED /* TblCustomerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A48D2034742A004B82ED /* TblCustomerModel.m */; };
+		A816A51C2034742A004B82ED /* TblOrderTrackData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A48E2034742A004B82ED /* TblOrderTrackData.m */; };
+		A816A540203474AB004B82ED /* CouponOrderModule.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A51E203474A8004B82ED /* CouponOrderModule.h */; };
+		A816A548203474AB004B82ED /* LoaderModule.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A526203474A8004B82ED /* LoaderModule.h */; };
+		A816A549203474AB004B82ED /* CouponModule.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A527203474A8004B82ED /* CouponModule.h */; };
+		A816A54A203474AB004B82ED /* LoaderModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A528203474A8004B82ED /* LoaderModule.m */; };
+		A816A54B203474AB004B82ED /* MassRedeemModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A529203474A8004B82ED /* MassRedeemModule.m */; };
+		A816A54F203474AB004B82ED /* CouponModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A52D203474A9004B82ED /* CouponModule.m */; };
+		A816A552203474AB004B82ED /* CouponPaymentModule.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A530203474A9004B82ED /* CouponPaymentModule.h */; };
+		A816A557203474AB004B82ED /* CustomerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A535203474AA004B82ED /* CustomerModule.m */; };
+		A816A558203474AB004B82ED /* CustomerModule.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A536203474AA004B82ED /* CustomerModule.h */; };
+		A816A55A203474AB004B82ED /* CouponPaymentModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A538203474AA004B82ED /* CouponPaymentModule.m */; };
+		A816A55D203474AB004B82ED /* MassRedeemModule.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A53B203474AA004B82ED /* MassRedeemModule.h */; };
+		A816A561203474AB004B82ED /* CouponOrderModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A53F203474AB004B82ED /* CouponOrderModule.m */; };
+		A816A56720347546004B82ED /* JastorRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A56320347546004B82ED /* JastorRuntimeHelper.m */; };
+		A816A56820347546004B82ED /* Jastor.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A56420347546004B82ED /* Jastor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A816A56920347546004B82ED /* Jastor.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A56520347546004B82ED /* Jastor.h */; };
+		A816A56A20347546004B82ED /* JastorRuntimeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A56620347546004B82ED /* JastorRuntimeHelper.h */; };
+		A8F7EA3A2032F92200F405F3 /* PlatformAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F7EA382032F92200F405F3 /* PlatformAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25206C8F2894430C25ACB263 /* libPods-PlatformAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlatformAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EEA4C37C853C35E73385B1B /* Pods-PlatformAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlatformAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlatformAPI/Pods-PlatformAPI.release.xcconfig"; sourceTree = "<group>"; };
+		A816A3F5203473A1004B82ED /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		A816A3F6203473A1004B82ED /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		A816A3FC203473F5004B82ED /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		A816A3FD203473F5004B82ED /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		A816A4012034741A004B82ED /* TblOrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblOrderModel.h; sourceTree = "<group>"; };
+		A816A4022034741A004B82ED /* TblOrderData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblOrderData.h; sourceTree = "<group>"; };
+		A816A4032034741A004B82ED /* TblProductOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblProductOrder.h; sourceTree = "<group>"; };
+		A816A4042034741A004B82ED /* TblCustomerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCustomerData.h; sourceTree = "<group>"; };
+		A816A4052034741A004B82ED /* TblCountryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCountryModel.m; sourceTree = "<group>"; };
+		A816A4062034741A004B82ED /* TblWalletTxnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblWalletTxnModel.h; sourceTree = "<group>"; };
+		A816A4072034741A004B82ED /* TblProductLists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblProductLists.h; sourceTree = "<group>"; };
+		A816A4082034741A004B82ED /* TblCountryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCountryList.h; sourceTree = "<group>"; };
+		A816A4092034741A004B82ED /* TblPaymentDtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblPaymentDtl.h; sourceTree = "<group>"; };
+		A816A40A2034741A004B82ED /* TblWalletModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblWalletModel.h; sourceTree = "<group>"; };
+		A816A40B2034741A004B82ED /* TblOrderItemData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblOrderItemData.h; sourceTree = "<group>"; };
+		A816A40C2034741A004B82ED /* TblCampaignGroupDtls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCampaignGroupDtls.m; sourceTree = "<group>"; };
+		A816A40D2034741A004B82ED /* TblCustomerGroupData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCustomerGroupData.h; sourceTree = "<group>"; };
+		A816A40E2034741A004B82ED /* TblPaymentDtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblPaymentDtl.m; sourceTree = "<group>"; };
+		A816A40F2034741A004B82ED /* TblCountryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCountryList.m; sourceTree = "<group>"; };
+		A816A4102034741A004B82ED /* TblCountryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCountryData.h; sourceTree = "<group>"; };
+		A816A4112034741A004B82ED /* TblPayment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblPayment.m; sourceTree = "<group>"; };
+		A816A4122034741B004B82ED /* TblProductOrderDtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblProductOrderDtl.m; sourceTree = "<group>"; };
+		A816A4132034741B004B82ED /* TblWalletData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblWalletData.h; sourceTree = "<group>"; };
+		A816A4142034741B004B82ED /* TblOrderListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblOrderListModel.m; sourceTree = "<group>"; };
+		A816A4152034741B004B82ED /* TblWalletTxnListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblWalletTxnListModel.h; sourceTree = "<group>"; };
+		A816A4162034741B004B82ED /* TblWalletData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblWalletData.m; sourceTree = "<group>"; };
+		A816A4172034741B004B82ED /* TblWalletTxnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblWalletTxnModel.m; sourceTree = "<group>"; };
+		A816A4182034741B004B82ED /* TblMassCouponDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblMassCouponDetailModel.h; sourceTree = "<group>"; };
+		A816A4192034741B004B82ED /* TblProductOrderMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblProductOrderMaster.m; sourceTree = "<group>"; };
+		A816A41A2034741B004B82ED /* TblCampaignGroupDtls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCampaignGroupDtls.h; sourceTree = "<group>"; };
+		A816A41B2034741B004B82ED /* TblProductOrderMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblProductOrderMaster.h; sourceTree = "<group>"; };
+		A816A41C2034741B004B82ED /* TblMassCouponModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblMassCouponModel.h; sourceTree = "<group>"; };
+		A816A41D2034741C004B82ED /* TblCustomerDeviceData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCustomerDeviceData.m; sourceTree = "<group>"; };
+		A816A41E2034741C004B82ED /* TblCampaignImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCampaignImage.m; sourceTree = "<group>"; };
+		A816A41F2034741C004B82ED /* TblOrderItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblOrderItemModel.h; sourceTree = "<group>"; };
+		A816A4202034741C004B82ED /* TblOrderModifierData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblOrderModifierData.h; sourceTree = "<group>"; };
+		A816A4212034741C004B82ED /* TblProductList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblProductList.m; sourceTree = "<group>"; };
+		A816A4222034741C004B82ED /* TblCampaignGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCampaignGroup.m; sourceTree = "<group>"; };
+		A816A4232034741C004B82ED /* TblCampaignImageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCampaignImageList.m; sourceTree = "<group>"; };
+		A816A4242034741C004B82ED /* TblCouponData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCouponData.h; sourceTree = "<group>"; };
+		A816A4252034741C004B82ED /* TblOrderTrackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblOrderTrackData.h; sourceTree = "<group>"; };
+		A816A4262034741D004B82ED /* TblCampaignSiteList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCampaignSiteList.m; sourceTree = "<group>"; };
+		A816A4272034741D004B82ED /* TblProductOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblProductOrder.m; sourceTree = "<group>"; };
+		A816A4282034741D004B82ED /* TblCustomerGroupList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCustomerGroupList.m; sourceTree = "<group>"; };
+		A816A4292034741D004B82ED /* TblMasscouponData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblMasscouponData.h; sourceTree = "<group>"; };
+		A816A42A2034741D004B82ED /* TblNotificationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblNotificationModel.h; sourceTree = "<group>"; };
+		A816A42B2034741D004B82ED /* TblCustomerCouponData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCustomerCouponData.m; sourceTree = "<group>"; };
+		A816A42C2034741D004B82ED /* TblProductOrderListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblProductOrderListModel.h; sourceTree = "<group>"; };
+		A816A42D2034741D004B82ED /* TblCampaignGroups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCampaignGroups.m; sourceTree = "<group>"; };
+		A816A42E2034741E004B82ED /* TblCampaignImageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCampaignImageList.h; sourceTree = "<group>"; };
+		A816A42F2034741E004B82ED /* TblCampaignGroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCampaignGroups.h; sourceTree = "<group>"; };
+		A816A4302034741E004B82ED /* TblCampaignSearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCampaignSearchModel.m; sourceTree = "<group>"; };
+		A816A4312034741E004B82ED /* TblCampaignCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCampaignCode.m; sourceTree = "<group>"; };
+		A816A4322034741E004B82ED /* TblCustomerCouponList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCustomerCouponList.m; sourceTree = "<group>"; };
+		A816A4332034741E004B82ED /* TblGiftcouponData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblGiftcouponData.h; sourceTree = "<group>"; };
+		A816A4342034741E004B82ED /* DataReaponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataReaponseModel.m; sourceTree = "<group>"; };
+		A816A4352034741E004B82ED /* TblMasscouponDetailData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblMasscouponDetailData.m; sourceTree = "<group>"; };
+		A816A4362034741F004B82ED /* TblCustomerDeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCustomerDeviceModel.m; sourceTree = "<group>"; };
+		A816A4372034741F004B82ED /* TblProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblProduct.m; sourceTree = "<group>"; };
+		A816A4382034741F004B82ED /* TblCustomerDeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCustomerDeviceModel.h; sourceTree = "<group>"; };
+		A816A4392034741F004B82ED /* TblCustomerCouponData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCustomerCouponData.h; sourceTree = "<group>"; };
+		A816A43A2034741F004B82ED /* TblOverCouponData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblOverCouponData.h; sourceTree = "<group>"; };
+		A816A43B2034741F004B82ED /* TblMassCouponDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblMassCouponDetailModel.m; sourceTree = "<group>"; };
+		A816A43C2034741F004B82ED /* TblOrderTrackModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblOrderTrackModel.h; sourceTree = "<group>"; };
+		A816A43D2034741F004B82ED /* TblProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblProduct.h; sourceTree = "<group>"; };
+		A816A43E2034741F004B82ED /* TblWalletTxnData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblWalletTxnData.h; sourceTree = "<group>"; };
+		A816A43F20347420004B82ED /* TblMassCouponModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblMassCouponModel.m; sourceTree = "<group>"; };
+		A816A44020347420004B82ED /* TblCustomerGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCustomerGroupModel.h; sourceTree = "<group>"; };
+		A816A44120347420004B82ED /* TblProductOrderDtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblProductOrderDtl.h; sourceTree = "<group>"; };
+		A816A44220347420004B82ED /* TblOrderTrackModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblOrderTrackModel.m; sourceTree = "<group>"; };
+		A816A44320347420004B82ED /* TblProductOrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblProductOrderModel.m; sourceTree = "<group>"; };
+		A816A44420347420004B82ED /* DataReaponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataReaponseModel.h; sourceTree = "<group>"; };
+		A816A44520347420004B82ED /* TblCampaignSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCampaignSite.m; sourceTree = "<group>"; };
+		A816A44620347420004B82ED /* TblPaymentMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblPaymentMaster.m; sourceTree = "<group>"; };
+		A816A44720347420004B82ED /* TblProductList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblProductList.h; sourceTree = "<group>"; };
+		A816A44820347421004B82ED /* TblSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblSite.m; sourceTree = "<group>"; };
+		A816A44920347421004B82ED /* TblOrderData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblOrderData.m; sourceTree = "<group>"; };
+		A816A44A20347421004B82ED /* TblGiftcouponData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblGiftcouponData.m; sourceTree = "<group>"; };
+		A816A44B20347421004B82ED /* DataResponseSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataResponseSize.h; sourceTree = "<group>"; };
+		A816A44C20347421004B82ED /* TblCampaignGroupDtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCampaignGroupDtl.h; sourceTree = "<group>"; };
+		A816A44D20347421004B82ED /* TblCountryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCountryData.m; sourceTree = "<group>"; };
+		A816A44E20347421004B82ED /* TblOrderListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblOrderListModel.h; sourceTree = "<group>"; };
+		A816A44F20347421004B82ED /* TblOrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblOrderModel.m; sourceTree = "<group>"; };
+		A816A45020347421004B82ED /* TblWalletModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblWalletModel.m; sourceTree = "<group>"; };
+		A816A45120347422004B82ED /* TblWalletTxnListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblWalletTxnListModel.m; sourceTree = "<group>"; };
+		A816A45220347422004B82ED /* TblNotificationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblNotificationData.m; sourceTree = "<group>"; };
+		A816A45320347422004B82ED /* TblCustomerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCustomerModel.h; sourceTree = "<group>"; };
+		A816A45420347422004B82ED /* TblGiftcouponModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblGiftcouponModel.h; sourceTree = "<group>"; };
+		A816A45520347422004B82ED /* TblCampGrpData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCampGrpData.h; sourceTree = "<group>"; };
+		A816A45620347422004B82ED /* TblNotificationListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblNotificationListModel.h; sourceTree = "<group>"; };
+		A816A45720347422004B82ED /* TblCustomerCouponModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCustomerCouponModel.m; sourceTree = "<group>"; };
+		A816A45820347422004B82ED /* TblOverCouponData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblOverCouponData.m; sourceTree = "<group>"; };
+		A816A45920347422004B82ED /* TblCustomerDeviceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCustomerDeviceData.h; sourceTree = "<group>"; };
+		A816A45A20347423004B82ED /* TblCustomerGroupData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCustomerGroupData.m; sourceTree = "<group>"; };
+		A816A45B20347423004B82ED /* TblProductLists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblProductLists.m; sourceTree = "<group>"; };
+		A816A45C20347423004B82ED /* TblSiteList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblSiteList.h; sourceTree = "<group>"; };
+		A816A45D20347423004B82ED /* TblMasscouponData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblMasscouponData.m; sourceTree = "<group>"; };
+		A816A45E20347423004B82ED /* TblOrderModifierModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblOrderModifierModel.h; sourceTree = "<group>"; };
+		A816A45F20347423004B82ED /* TblPaymentMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblPaymentMaster.h; sourceTree = "<group>"; };
+		A816A46020347423004B82ED /* TblCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCampaign.h; sourceTree = "<group>"; };
+		A816A46120347423004B82ED /* TblPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblPayment.h; sourceTree = "<group>"; };
+		A816A46220347423004B82ED /* TblMerchant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblMerchant.h; sourceTree = "<group>"; };
+		A816A46320347424004B82ED /* TblSiteModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblSiteModel.m; sourceTree = "<group>"; };
+		A816A46420347424004B82ED /* TblNotificationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblNotificationModel.m; sourceTree = "<group>"; };
+		A816A46520347424004B82ED /* TblPaymentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblPaymentModel.h; sourceTree = "<group>"; };
+		A816A46620347424004B82ED /* TblCustomerGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCustomerGroupModel.m; sourceTree = "<group>"; };
+		A816A46720347424004B82ED /* TblCampaignSearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCampaignSearchModel.h; sourceTree = "<group>"; };
+		A816A46820347424004B82ED /* TblCampaignGroupDtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCampaignGroupDtl.m; sourceTree = "<group>"; };
+		A816A46920347425004B82ED /* TblMerchantModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblMerchantModel.m; sourceTree = "<group>"; };
+		A816A46A20347425004B82ED /* TblOrderItemData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblOrderItemData.m; sourceTree = "<group>"; };
+		A816A46B20347425004B82ED /* TblOrderItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblOrderItemModel.m; sourceTree = "<group>"; };
+		A816A46C20347425004B82ED /* TblProductOrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblProductOrderModel.h; sourceTree = "<group>"; };
+		A816A46D20347425004B82ED /* TblOrderModifierData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblOrderModifierData.m; sourceTree = "<group>"; };
+		A816A46E20347425004B82ED /* TblStockData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblStockData.m; sourceTree = "<group>"; };
+		A816A46F20347425004B82ED /* TblCampaignCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCampaignCode.h; sourceTree = "<group>"; };
+		A816A47020347425004B82ED /* TblNotificationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblNotificationData.h; sourceTree = "<group>"; };
+		A816A47120347426004B82ED /* TblSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblSite.h; sourceTree = "<group>"; };
+		A816A47220347426004B82ED /* TblSiteList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblSiteList.m; sourceTree = "<group>"; };
+		A816A47320347426004B82ED /* TblStockData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblStockData.h; sourceTree = "<group>"; };
+		A816A47420347426004B82ED /* TblOrderModifierModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblOrderModifierModel.m; sourceTree = "<group>"; };
+		A816A47520347426004B82ED /* TblMerchant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblMerchant.m; sourceTree = "<group>"; };
+		A816A47620347426004B82ED /* TblStockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblStockModel.h; sourceTree = "<group>"; };
+		A816A47720347426004B82ED /* TblStockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblStockModel.m; sourceTree = "<group>"; };
+		A816A47820347426004B82ED /* TblGiftcouponModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblGiftcouponModel.m; sourceTree = "<group>"; };
+		A816A47920347427004B82ED /* TblCampGrpData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCampGrpData.m; sourceTree = "<group>"; };
+		A816A47A20347427004B82ED /* TblMasscouponDetailData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblMasscouponDetailData.h; sourceTree = "<group>"; };
+		A816A47B20347427004B82ED /* TblCustomerCouponModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCustomerCouponModel.h; sourceTree = "<group>"; };
+		A816A47C20347427004B82ED /* TblCustomerGroupList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCustomerGroupList.h; sourceTree = "<group>"; };
+		A816A47D20347427004B82ED /* TblCampaign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCampaign.m; sourceTree = "<group>"; };
+		A816A47E20347427004B82ED /* TblCountryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCountryModel.h; sourceTree = "<group>"; };
+		A816A47F20347427004B82ED /* TblCampaignImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCampaignImage.h; sourceTree = "<group>"; };
+		A816A48020347427004B82ED /* TblSiteModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblSiteModel.h; sourceTree = "<group>"; };
+		A816A48120347428004B82ED /* TblMerchantModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblMerchantModel.h; sourceTree = "<group>"; };
+		A816A48220347428004B82ED /* TblCouponData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCouponData.m; sourceTree = "<group>"; };
+		A816A48320347428004B82ED /* TblCampaignSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCampaignSite.h; sourceTree = "<group>"; };
+		A816A48420347428004B82ED /* TblProductOrderListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblProductOrderListModel.m; sourceTree = "<group>"; };
+		A816A48520347429004B82ED /* TblCustomerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCustomerData.m; sourceTree = "<group>"; };
+		A816A48620347429004B82ED /* TblPaymentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblPaymentModel.m; sourceTree = "<group>"; };
+		A816A48720347429004B82ED /* DataResponseSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataResponseSize.m; sourceTree = "<group>"; };
+		A816A48820347429004B82ED /* TblCampaignSiteList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCampaignSiteList.h; sourceTree = "<group>"; };
+		A816A48920347429004B82ED /* TblCustomerCouponList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCustomerCouponList.h; sourceTree = "<group>"; };
+		A816A48A20347429004B82ED /* TblNotificationListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblNotificationListModel.m; sourceTree = "<group>"; };
+		A816A48B20347429004B82ED /* TblWalletTxnData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblWalletTxnData.m; sourceTree = "<group>"; };
+		A816A48C20347429004B82ED /* TblCampaignGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCampaignGroup.h; sourceTree = "<group>"; };
+		A816A48D2034742A004B82ED /* TblCustomerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCustomerModel.m; sourceTree = "<group>"; };
+		A816A48E2034742A004B82ED /* TblOrderTrackData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblOrderTrackData.m; sourceTree = "<group>"; };
+		A816A51E203474A8004B82ED /* CouponOrderModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponOrderModule.h; sourceTree = "<group>"; };
+		A816A526203474A8004B82ED /* LoaderModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoaderModule.h; sourceTree = "<group>"; };
+		A816A527203474A8004B82ED /* CouponModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponModule.h; sourceTree = "<group>"; };
+		A816A528203474A8004B82ED /* LoaderModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoaderModule.m; sourceTree = "<group>"; };
+		A816A529203474A8004B82ED /* MassRedeemModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MassRedeemModule.m; sourceTree = "<group>"; };
+		A816A52D203474A9004B82ED /* CouponModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponModule.m; sourceTree = "<group>"; };
+		A816A530203474A9004B82ED /* CouponPaymentModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponPaymentModule.h; sourceTree = "<group>"; };
+		A816A535203474AA004B82ED /* CustomerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerModule.m; sourceTree = "<group>"; };
+		A816A536203474AA004B82ED /* CustomerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerModule.h; sourceTree = "<group>"; };
+		A816A538203474AA004B82ED /* CouponPaymentModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponPaymentModule.m; sourceTree = "<group>"; };
+		A816A53B203474AA004B82ED /* MassRedeemModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MassRedeemModule.h; sourceTree = "<group>"; };
+		A816A53F203474AB004B82ED /* CouponOrderModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponOrderModule.m; sourceTree = "<group>"; };
+		A816A56320347546004B82ED /* JastorRuntimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JastorRuntimeHelper.m; sourceTree = "<group>"; };
+		A816A56420347546004B82ED /* Jastor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jastor.m; sourceTree = "<group>"; };
+		A816A56520347546004B82ED /* Jastor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jastor.h; sourceTree = "<group>"; };
+		A816A56620347546004B82ED /* JastorRuntimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JastorRuntimeHelper.h; sourceTree = "<group>"; };
+		A8F7EA352032F92200F405F3 /* PlatformAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlatformAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F7EA382032F92200F405F3 /* PlatformAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformAPI.h; sourceTree = "<group>"; };
+		A8F7EA392032F92200F405F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F6EE88E2E30219E88177CC /* Pods-PlatformAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlatformAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlatformAPI/Pods-PlatformAPI.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8F7EA312032F92200F405F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056170B7B17A6CC0F5A0E562 /* libPods-PlatformAPI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0283DE648A5581283857574C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25206C8F2894430C25ACB263 /* libPods-PlatformAPI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82266602E4D739BB14E176CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5F6EE88E2E30219E88177CC /* Pods-PlatformAPI.debug.xcconfig */,
+				2EEA4C37C853C35E73385B1B /* Pods-PlatformAPI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A816A3F9203473BC004B82ED /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A816A3F5203473A1004B82ED /* Utils.h */,
+				A816A3F6203473A1004B82ED /* Utils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A816A3FB203473DB004B82ED /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A816A3FD203473F5004B82ED /* Common.h */,
+				A816A3FC203473F5004B82ED /* Common.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A816A4002034740A004B82ED /* Pojo */ = {
+			isa = PBXGroup;
+			children = (
+				A816A44420347420004B82ED /* DataReaponseModel.h */,
+				A816A4342034741E004B82ED /* DataReaponseModel.m */,
+				A816A44B20347421004B82ED /* DataResponseSize.h */,
+				A816A48720347429004B82ED /* DataResponseSize.m */,
+				A816A46020347423004B82ED /* TblCampaign.h */,
+				A816A47D20347427004B82ED /* TblCampaign.m */,
+				A816A46F20347425004B82ED /* TblCampaignCode.h */,
+				A816A4312034741E004B82ED /* TblCampaignCode.m */,
+				A816A48C20347429004B82ED /* TblCampaignGroup.h */,
+				A816A4222034741C004B82ED /* TblCampaignGroup.m */,
+				A816A44C20347421004B82ED /* TblCampaignGroupDtl.h */,
+				A816A46820347424004B82ED /* TblCampaignGroupDtl.m */,
+				A816A41A2034741B004B82ED /* TblCampaignGroupDtls.h */,
+				A816A40C2034741A004B82ED /* TblCampaignGroupDtls.m */,
+				A816A42F2034741E004B82ED /* TblCampaignGroups.h */,
+				A816A42D2034741D004B82ED /* TblCampaignGroups.m */,
+				A816A47F20347427004B82ED /* TblCampaignImage.h */,
+				A816A41E2034741C004B82ED /* TblCampaignImage.m */,
+				A816A42E2034741E004B82ED /* TblCampaignImageList.h */,
+				A816A4232034741C004B82ED /* TblCampaignImageList.m */,
+				A816A46720347424004B82ED /* TblCampaignSearchModel.h */,
+				A816A4302034741E004B82ED /* TblCampaignSearchModel.m */,
+				A816A48320347428004B82ED /* TblCampaignSite.h */,
+				A816A44520347420004B82ED /* TblCampaignSite.m */,
+				A816A48820347429004B82ED /* TblCampaignSiteList.h */,
+				A816A4262034741D004B82ED /* TblCampaignSiteList.m */,
+				A816A45520347422004B82ED /* TblCampGrpData.h */,
+				A816A47920347427004B82ED /* TblCampGrpData.m */,
+				A816A4102034741A004B82ED /* TblCountryData.h */,
+				A816A44D20347421004B82ED /* TblCountryData.m */,
+				A816A4082034741A004B82ED /* TblCountryList.h */,
+				A816A40F2034741A004B82ED /* TblCountryList.m */,
+				A816A47E20347427004B82ED /* TblCountryModel.h */,
+				A816A4052034741A004B82ED /* TblCountryModel.m */,
+				A816A4242034741C004B82ED /* TblCouponData.h */,
+				A816A48220347428004B82ED /* TblCouponData.m */,
+				A816A4392034741F004B82ED /* TblCustomerCouponData.h */,
+				A816A42B2034741D004B82ED /* TblCustomerCouponData.m */,
+				A816A48920347429004B82ED /* TblCustomerCouponList.h */,
+				A816A4322034741E004B82ED /* TblCustomerCouponList.m */,
+				A816A47B20347427004B82ED /* TblCustomerCouponModel.h */,
+				A816A45720347422004B82ED /* TblCustomerCouponModel.m */,
+				A816A4042034741A004B82ED /* TblCustomerData.h */,
+				A816A48520347429004B82ED /* TblCustomerData.m */,
+				A816A45920347422004B82ED /* TblCustomerDeviceData.h */,
+				A816A41D2034741C004B82ED /* TblCustomerDeviceData.m */,
+				A816A4382034741F004B82ED /* TblCustomerDeviceModel.h */,
+				A816A4362034741F004B82ED /* TblCustomerDeviceModel.m */,
+				A816A40D2034741A004B82ED /* TblCustomerGroupData.h */,
+				A816A45A20347423004B82ED /* TblCustomerGroupData.m */,
+				A816A47C20347427004B82ED /* TblCustomerGroupList.h */,
+				A816A4282034741D004B82ED /* TblCustomerGroupList.m */,
+				A816A44020347420004B82ED /* TblCustomerGroupModel.h */,
+				A816A46620347424004B82ED /* TblCustomerGroupModel.m */,
+				A816A45320347422004B82ED /* TblCustomerModel.h */,
+				A816A48D2034742A004B82ED /* TblCustomerModel.m */,
+				A816A4332034741E004B82ED /* TblGiftcouponData.h */,
+				A816A44A20347421004B82ED /* TblGiftcouponData.m */,
+				A816A45420347422004B82ED /* TblGiftcouponModel.h */,
+				A816A47820347426004B82ED /* TblGiftcouponModel.m */,
+				A816A4292034741D004B82ED /* TblMasscouponData.h */,
+				A816A45D20347423004B82ED /* TblMasscouponData.m */,
+				A816A47A20347427004B82ED /* TblMasscouponDetailData.h */,
+				A816A4352034741E004B82ED /* TblMasscouponDetailData.m */,
+				A816A4182034741B004B82ED /* TblMassCouponDetailModel.h */,
+				A816A43B2034741F004B82ED /* TblMassCouponDetailModel.m */,
+				A816A41C2034741B004B82ED /* TblMassCouponModel.h */,
+				A816A43F20347420004B82ED /* TblMassCouponModel.m */,
+				A816A46220347423004B82ED /* TblMerchant.h */,
+				A816A47520347426004B82ED /* TblMerchant.m */,
+				A816A48120347428004B82ED /* TblMerchantModel.h */,
+				A816A46920347425004B82ED /* TblMerchantModel.m */,
+				A816A47020347425004B82ED /* TblNotificationData.h */,
+				A816A45220347422004B82ED /* TblNotificationData.m */,
+				A816A45620347422004B82ED /* TblNotificationListModel.h */,
+				A816A48A20347429004B82ED /* TblNotificationListModel.m */,
+				A816A42A2034741D004B82ED /* TblNotificationModel.h */,
+				A816A46420347424004B82ED /* TblNotificationModel.m */,
+				A816A4022034741A004B82ED /* TblOrderData.h */,
+				A816A44920347421004B82ED /* TblOrderData.m */,
+				A816A40B2034741A004B82ED /* TblOrderItemData.h */,
+				A816A46A20347425004B82ED /* TblOrderItemData.m */,
+				A816A41F2034741C004B82ED /* TblOrderItemModel.h */,
+				A816A46B20347425004B82ED /* TblOrderItemModel.m */,
+				A816A44E20347421004B82ED /* TblOrderListModel.h */,
+				A816A4142034741B004B82ED /* TblOrderListModel.m */,
+				A816A4012034741A004B82ED /* TblOrderModel.h */,
+				A816A44F20347421004B82ED /* TblOrderModel.m */,
+				A816A4202034741C004B82ED /* TblOrderModifierData.h */,
+				A816A46D20347425004B82ED /* TblOrderModifierData.m */,
+				A816A45E20347423004B82ED /* TblOrderModifierModel.h */,
+				A816A47420347426004B82ED /* TblOrderModifierModel.m */,
+				A816A4252034741C004B82ED /* TblOrderTrackData.h */,
+				A816A48E2034742A004B82ED /* TblOrderTrackData.m */,
+				A816A43C2034741F004B82ED /* TblOrderTrackModel.h */,
+				A816A44220347420004B82ED /* TblOrderTrackModel.m */,
+				A816A43A2034741F004B82ED /* TblOverCouponData.h */,
+				A816A45820347422004B82ED /* TblOverCouponData.m */,
+				A816A46120347423004B82ED /* TblPayment.h */,
+				A816A4112034741A004B82ED /* TblPayment.m */,
+				A816A4092034741A004B82ED /* TblPaymentDtl.h */,
+				A816A40E2034741A004B82ED /* TblPaymentDtl.m */,
+				A816A45F20347423004B82ED /* TblPaymentMaster.h */,
+				A816A44620347420004B82ED /* TblPaymentMaster.m */,
+				A816A46520347424004B82ED /* TblPaymentModel.h */,
+				A816A48620347429004B82ED /* TblPaymentModel.m */,
+				A816A43D2034741F004B82ED /* TblProduct.h */,
+				A816A4372034741F004B82ED /* TblProduct.m */,
+				A816A44720347420004B82ED /* TblProductList.h */,
+				A816A4212034741C004B82ED /* TblProductList.m */,
+				A816A4072034741A004B82ED /* TblProductLists.h */,
+				A816A45B20347423004B82ED /* TblProductLists.m */,
+				A816A4032034741A004B82ED /* TblProductOrder.h */,
+				A816A4272034741D004B82ED /* TblProductOrder.m */,
+				A816A44120347420004B82ED /* TblProductOrderDtl.h */,
+				A816A4122034741B004B82ED /* TblProductOrderDtl.m */,
+				A816A42C2034741D004B82ED /* TblProductOrderListModel.h */,
+				A816A48420347428004B82ED /* TblProductOrderListModel.m */,
+				A816A41B2034741B004B82ED /* TblProductOrderMaster.h */,
+				A816A4192034741B004B82ED /* TblProductOrderMaster.m */,
+				A816A46C20347425004B82ED /* TblProductOrderModel.h */,
+				A816A44320347420004B82ED /* TblProductOrderModel.m */,
+				A816A47120347426004B82ED /* TblSite.h */,
+				A816A44820347421004B82ED /* TblSite.m */,
+				A816A45C20347423004B82ED /* TblSiteList.h */,
+				A816A47220347426004B82ED /* TblSiteList.m */,
+				A816A48020347427004B82ED /* TblSiteModel.h */,
+				A816A46320347424004B82ED /* TblSiteModel.m */,
+				A816A47320347426004B82ED /* TblStockData.h */,
+				A816A46E20347425004B82ED /* TblStockData.m */,
+				A816A47620347426004B82ED /* TblStockModel.h */,
+				A816A47720347426004B82ED /* TblStockModel.m */,
+				A816A4132034741B004B82ED /* TblWalletData.h */,
+				A816A4162034741B004B82ED /* TblWalletData.m */,
+				A816A40A2034741A004B82ED /* TblWalletModel.h */,
+				A816A45020347421004B82ED /* TblWalletModel.m */,
+				A816A43E2034741F004B82ED /* TblWalletTxnData.h */,
+				A816A48B20347429004B82ED /* TblWalletTxnData.m */,
+				A816A4152034741B004B82ED /* TblWalletTxnListModel.h */,
+				A816A45120347422004B82ED /* TblWalletTxnListModel.m */,
+				A816A4062034741A004B82ED /* TblWalletTxnModel.h */,
+				A816A4172034741B004B82ED /* TblWalletTxnModel.m */,
+			);
+			path = Pojo;
+			sourceTree = "<group>";
+		};
+		A816A51D20347494004B82ED /* APIModule */ = {
+			isa = PBXGroup;
+			children = (
+				A816A527203474A8004B82ED /* CouponModule.h */,
+				A816A52D203474A9004B82ED /* CouponModule.m */,
+				A816A51E203474A8004B82ED /* CouponOrderModule.h */,
+				A816A53F203474AB004B82ED /* CouponOrderModule.m */,
+				A816A530203474A9004B82ED /* CouponPaymentModule.h */,
+				A816A538203474AA004B82ED /* CouponPaymentModule.m */,
+				A816A536203474AA004B82ED /* CustomerModule.h */,
+				A816A535203474AA004B82ED /* CustomerModule.m */,
+				A816A526203474A8004B82ED /* LoaderModule.h */,
+				A816A528203474A8004B82ED /* LoaderModule.m */,
+				A816A53B203474AA004B82ED /* MassRedeemModule.h */,
+				A816A529203474A8004B82ED /* MassRedeemModule.m */,
+			);
+			path = APIModule;
+			sourceTree = "<group>";
+		};
+		A816A56220347537004B82ED /* Jastor */ = {
+			isa = PBXGroup;
+			children = (
+				A816A56520347546004B82ED /* Jastor.h */,
+				A816A56420347546004B82ED /* Jastor.m */,
+				A816A56620347546004B82ED /* JastorRuntimeHelper.h */,
+				A816A56320347546004B82ED /* JastorRuntimeHelper.m */,
+			);
+			path = Jastor;
+			sourceTree = "<group>";
+		};
+		A8F7EA2B2032F92200F405F3 = {
+			isa = PBXGroup;
+			children = (
+				A8F7EA372032F92200F405F3 /* PlatformAPI */,
+				A8F7EA362032F92200F405F3 /* Products */,
+				82266602E4D739BB14E176CD /* Pods */,
+				0283DE648A5581283857574C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8F7EA362032F92200F405F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8F7EA352032F92200F405F3 /* PlatformAPI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8F7EA372032F92200F405F3 /* PlatformAPI */ = {
+			isa = PBXGroup;
+			children = (
+				A816A56220347537004B82ED /* Jastor */,
+				A816A51D20347494004B82ED /* APIModule */,
+				A816A4002034740A004B82ED /* Pojo */,
+				A816A3FB203473DB004B82ED /* Common */,
+				A816A3F9203473BC004B82ED /* Utils */,
+				A8F7EA382032F92200F405F3 /* PlatformAPI.h */,
+				A8F7EA392032F92200F405F3 /* Info.plist */,
+			);
+			path = PlatformAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A8F7EA322032F92200F405F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A816A4F32034742A004B82ED /* TblPaymentModel.h in Headers */,
+				A816A4BA2034742A004B82ED /* TblProductOrderListModel.h in Headers */,
+				A816A5042034742A004B82ED /* TblStockModel.h in Headers */,
+				A816A4FF2034742A004B82ED /* TblSite.h in Headers */,
+				A816A4A92034742A004B82ED /* TblProductOrderMaster.h in Headers */,
+				A816A5172034742A004B82ED /* TblCustomerCouponList.h in Headers */,
+				A816A5012034742A004B82ED /* TblStockData.h in Headers */,
+				A816A5082034742A004B82ED /* TblMasscouponDetailData.h in Headers */,
+				A816A50E2034742A004B82ED /* TblSiteModel.h in Headers */,
+				A816A4902034742A004B82ED /* TblOrderData.h in Headers */,
+				A816A4C62034742A004B82ED /* TblCustomerDeviceModel.h in Headers */,
+				A816A4DC2034742A004B82ED /* TblOrderListModel.h in Headers */,
+				A816A48F2034742A004B82ED /* TblOrderModel.h in Headers */,
+				A816A4CE2034742A004B82ED /* TblCustomerGroupModel.h in Headers */,
+				A816A5092034742A004B82ED /* TblCustomerCouponModel.h in Headers */,
+				A816A4952034742A004B82ED /* TblProductLists.h in Headers */,
+				A816A4ED2034742A004B82ED /* TblPaymentMaster.h in Headers */,
+				A816A4AA2034742A004B82ED /* TblMassCouponModel.h in Headers */,
+				A816A56A20347546004B82ED /* JastorRuntimeHelper.h in Headers */,
+				A816A4B22034742A004B82ED /* TblCouponData.h in Headers */,
+				A816A4922034742A004B82ED /* TblCustomerData.h in Headers */,
+				A816A4FD2034742A004B82ED /* TblCampaignCode.h in Headers */,
+				A816A4A62034742A004B82ED /* TblMassCouponDetailModel.h in Headers */,
+				A816A4C72034742A004B82ED /* TblCustomerCouponData.h in Headers */,
+				A816A55D203474AB004B82ED /* MassRedeemModule.h in Headers */,
+				A816A4912034742A004B82ED /* TblProductOrder.h in Headers */,
+				A816A49E2034742A004B82ED /* TblCountryData.h in Headers */,
+				A816A4CF2034742A004B82ED /* TblProductOrderDtl.h in Headers */,
+				A816A4B32034742A004B82ED /* TblOrderTrackData.h in Headers */,
+				A816A4D92034742A004B82ED /* DataResponseSize.h in Headers */,
+				A816A4EA2034742A004B82ED /* TblSiteList.h in Headers */,
+				A816A549203474AB004B82ED /* CouponModule.h in Headers */,
+				A816A3F7203473A1004B82ED /* Utils.h in Headers */,
+				A816A4BD2034742A004B82ED /* TblCampaignGroups.h in Headers */,
+				A816A4AE2034742A004B82ED /* TblOrderModifierData.h in Headers */,
+				A816A4CB2034742A004B82ED /* TblProduct.h in Headers */,
+				A816A4982034742A004B82ED /* TblWalletModel.h in Headers */,
+				A816A49B2034742A004B82ED /* TblCustomerGroupData.h in Headers */,
+				A816A558203474AB004B82ED /* CustomerModule.h in Headers */,
+				A816A50D2034742A004B82ED /* TblCampaignImage.h in Headers */,
+				A816A4B72034742A004B82ED /* TblMasscouponData.h in Headers */,
+				A816A540203474AB004B82ED /* CouponOrderModule.h in Headers */,
+				A816A4972034742A004B82ED /* TblPaymentDtl.h in Headers */,
+				A816A50C2034742A004B82ED /* TblCountryModel.h in Headers */,
+				A816A4FE2034742A004B82ED /* TblNotificationData.h in Headers */,
+				A816A4EE2034742A004B82ED /* TblCampaign.h in Headers */,
+				A816A56920347546004B82ED /* Jastor.h in Headers */,
+				A816A4F02034742A004B82ED /* TblMerchant.h in Headers */,
+				A816A5112034742A004B82ED /* TblCampaignSite.h in Headers */,
+				A816A4A12034742A004B82ED /* TblWalletData.h in Headers */,
+				A816A4CA2034742A004B82ED /* TblOrderTrackModel.h in Headers */,
+				A816A4DA2034742A004B82ED /* TblCampaignGroupDtl.h in Headers */,
+				A816A4EF2034742A004B82ED /* TblPayment.h in Headers */,
+				A816A4962034742A004B82ED /* TblCountryList.h in Headers */,
+				A816A4E32034742A004B82ED /* TblCampGrpData.h in Headers */,
+				A816A50F2034742A004B82ED /* TblMerchantModel.h in Headers */,
+				A816A4E72034742A004B82ED /* TblCustomerDeviceData.h in Headers */,
+				A8F7EA3A2032F92200F405F3 /* PlatformAPI.h in Headers */,
+				A816A4992034742A004B82ED /* TblOrderItemData.h in Headers */,
+				A816A4F52034742A004B82ED /* TblCampaignSearchModel.h in Headers */,
+				A816A4BC2034742A004B82ED /* TblCampaignImageList.h in Headers */,
+				A816A4E12034742A004B82ED /* TblCustomerModel.h in Headers */,
+				A816A4B82034742A004B82ED /* TblNotificationModel.h in Headers */,
+				A816A4AD2034742A004B82ED /* TblOrderItemModel.h in Headers */,
+				A816A3FF203473F5004B82ED /* Common.h in Headers */,
+				A816A51A2034742A004B82ED /* TblCampaignGroup.h in Headers */,
+				A816A4E42034742A004B82ED /* TblNotificationListModel.h in Headers */,
+				A816A552203474AB004B82ED /* CouponPaymentModule.h in Headers */,
+				A816A4D22034742A004B82ED /* DataReaponseModel.h in Headers */,
+				A816A4CC2034742A004B82ED /* TblWalletTxnData.h in Headers */,
+				A816A4EC2034742A004B82ED /* TblOrderModifierModel.h in Headers */,
+				A816A5162034742A004B82ED /* TblCampaignSiteList.h in Headers */,
+				A816A4FA2034742A004B82ED /* TblProductOrderModel.h in Headers */,
+				A816A4A32034742A004B82ED /* TblWalletTxnListModel.h in Headers */,
+				A816A4A82034742A004B82ED /* TblCampaignGroupDtls.h in Headers */,
+				A816A4C12034742A004B82ED /* TblGiftcouponData.h in Headers */,
+				A816A548203474AB004B82ED /* LoaderModule.h in Headers */,
+				A816A4D52034742A004B82ED /* TblProductList.h in Headers */,
+				A816A4942034742A004B82ED /* TblWalletTxnModel.h in Headers */,
+				A816A4C82034742A004B82ED /* TblOverCouponData.h in Headers */,
+				A816A4E22034742A004B82ED /* TblGiftcouponModel.h in Headers */,
+				A816A50A2034742A004B82ED /* TblCustomerGroupList.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A8F7EA342032F92200F405F3 /* PlatformAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F7EA3D2032F92200F405F3 /* Build configuration list for PBXNativeTarget "PlatformAPI" */;
+			buildPhases = (
+				AD1F3297CBADAF6C2A6FA68B /* [CP] Check Pods Manifest.lock */,
+				A8F7EA302032F92200F405F3 /* Sources */,
+				A8F7EA312032F92200F405F3 /* Frameworks */,
+				A8F7EA322032F92200F405F3 /* Headers */,
+				A8F7EA332032F92200F405F3 /* Resources */,
+				4145B4155C0F02CF5025B514 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlatformAPI;
+			productName = PlatformAPI;
+			productReference = A8F7EA352032F92200F405F3 /* PlatformAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8F7EA2C2032F92200F405F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Vasanth Inforios";
+				TargetAttributes = {
+					A8F7EA342032F92200F405F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A8F7EA2F2032F92200F405F3 /* Build configuration list for PBXProject "PlatformAPI" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8F7EA2B2032F92200F405F3;
+			productRefGroup = A8F7EA362032F92200F405F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8F7EA342032F92200F405F3 /* PlatformAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8F7EA332032F92200F405F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4145B4155C0F02CF5025B514 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlatformAPI/Pods-PlatformAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD1F3297CBADAF6C2A6FA68B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlatformAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8F7EA302032F92200F405F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A816A4DB2034742A004B82ED /* TblCountryData.m in Sources */,
+				A816A4DD2034742A004B82ED /* TblOrderModel.m in Sources */,
+				A816A4EB2034742A004B82ED /* TblMasscouponData.m in Sources */,
+				A816A4C42034742A004B82ED /* TblCustomerDeviceModel.m in Sources */,
+				A816A4B12034742A004B82ED /* TblCampaignImageList.m in Sources */,
+				A816A4D42034742A004B82ED /* TblPaymentMaster.m in Sources */,
+				A816A4BF2034742A004B82ED /* TblCampaignCode.m in Sources */,
+				A816A5002034742A004B82ED /* TblSiteList.m in Sources */,
+				A816A4B92034742A004B82ED /* TblCustomerCouponData.m in Sources */,
+				A816A5022034742A004B82ED /* TblOrderModifierModel.m in Sources */,
+				A816A4F92034742A004B82ED /* TblOrderItemModel.m in Sources */,
+				A816A5132034742A004B82ED /* TblCustomerData.m in Sources */,
+				A816A4BB2034742A004B82ED /* TblCampaignGroups.m in Sources */,
+				A816A5182034742A004B82ED /* TblNotificationListModel.m in Sources */,
+				A816A4C92034742A004B82ED /* TblMassCouponDetailModel.m in Sources */,
+				A816A4D12034742A004B82ED /* TblProductOrderModel.m in Sources */,
+				A816A4D82034742A004B82ED /* TblGiftcouponData.m in Sources */,
+				A816A4AF2034742A004B82ED /* TblProductList.m in Sources */,
+				A816A5152034742A004B82ED /* DataResponseSize.m in Sources */,
+				A816A4B62034742A004B82ED /* TblCustomerGroupList.m in Sources */,
+				A816A54A203474AB004B82ED /* LoaderModule.m in Sources */,
+				A816A4E92034742A004B82ED /* TblProductLists.m in Sources */,
+				A816A4A22034742A004B82ED /* TblOrderListModel.m in Sources */,
+				A816A4A52034742A004B82ED /* TblWalletTxnModel.m in Sources */,
+				A816A4F12034742A004B82ED /* TblSiteModel.m in Sources */,
+				A816A4E62034742A004B82ED /* TblOverCouponData.m in Sources */,
+				A816A3FE203473F5004B82ED /* Common.m in Sources */,
+				A816A49D2034742A004B82ED /* TblCountryList.m in Sources */,
+				A816A5052034742A004B82ED /* TblStockModel.m in Sources */,
+				A816A5032034742A004B82ED /* TblMerchant.m in Sources */,
+				A816A5192034742A004B82ED /* TblWalletTxnData.m in Sources */,
+				A816A4E82034742A004B82ED /* TblCustomerGroupData.m in Sources */,
+				A816A5072034742A004B82ED /* TblCampGrpData.m in Sources */,
+				A816A4C32034742A004B82ED /* TblMasscouponDetailData.m in Sources */,
+				A816A4D62034742A004B82ED /* TblSite.m in Sources */,
+				A816A51B2034742A004B82ED /* TblCustomerModel.m in Sources */,
+				A816A4F42034742A004B82ED /* TblCustomerGroupModel.m in Sources */,
+				A816A4A02034742A004B82ED /* TblProductOrderDtl.m in Sources */,
+				A816A56720347546004B82ED /* JastorRuntimeHelper.m in Sources */,
+				A816A4A72034742A004B82ED /* TblProductOrderMaster.m in Sources */,
+				A816A5122034742A004B82ED /* TblProductOrderListModel.m in Sources */,
+				A816A4C52034742A004B82ED /* TblProduct.m in Sources */,
+				A816A54F203474AB004B82ED /* CouponModule.m in Sources */,
+				A816A49F2034742A004B82ED /* TblPayment.m in Sources */,
+				A816A4BE2034742A004B82ED /* TblCampaignSearchModel.m in Sources */,
+				A816A4AB2034742A004B82ED /* TblCustomerDeviceData.m in Sources */,
+				A816A4FB2034742A004B82ED /* TblOrderModifierData.m in Sources */,
+				A816A4D02034742A004B82ED /* TblOrderTrackModel.m in Sources */,
+				A816A54B203474AB004B82ED /* MassRedeemModule.m in Sources */,
+				A816A4D32034742A004B82ED /* TblCampaignSite.m in Sources */,
+				A816A4D72034742A004B82ED /* TblOrderData.m in Sources */,
+				A816A4F22034742A004B82ED /* TblNotificationModel.m in Sources */,
+				A816A50B2034742A004B82ED /* TblCampaign.m in Sources */,
+				A816A4FC2034742A004B82ED /* TblStockData.m in Sources */,
+				A816A4DF2034742A004B82ED /* TblWalletTxnListModel.m in Sources */,
+				A816A4F72034742A004B82ED /* TblMerchantModel.m in Sources */,
+				A816A4932034742A004B82ED /* TblCountryModel.m in Sources */,
+				A816A5142034742A004B82ED /* TblPaymentModel.m in Sources */,
+				A816A49C2034742A004B82ED /* TblPaymentDtl.m in Sources */,
+				A816A4AC2034742A004B82ED /* TblCampaignImage.m in Sources */,
+				A816A4B02034742A004B82ED /* TblCampaignGroup.m in Sources */,
+				A816A4B52034742A004B82ED /* TblProductOrder.m in Sources */,
+				A816A4F82034742A004B82ED /* TblOrderItemData.m in Sources */,
+				A816A4A42034742A004B82ED /* TblWalletData.m in Sources */,
+				A816A3F8203473A1004B82ED /* Utils.m in Sources */,
+				A816A56820347546004B82ED /* Jastor.m in Sources */,
+				A816A4F62034742A004B82ED /* TblCampaignGroupDtl.m in Sources */,
+				A816A4E52034742A004B82ED /* TblCustomerCouponModel.m in Sources */,
+				A816A5102034742A004B82ED /* TblCouponData.m in Sources */,
+				A816A55A203474AB004B82ED /* CouponPaymentModule.m in Sources */,
+				A816A4CD2034742A004B82ED /* TblMassCouponModel.m in Sources */,
+				A816A557203474AB004B82ED /* CustomerModule.m in Sources */,
+				A816A51C2034742A004B82ED /* TblOrderTrackData.m in Sources */,
+				A816A561203474AB004B82ED /* CouponOrderModule.m in Sources */,
+				A816A4C22034742A004B82ED /* DataReaponseModel.m in Sources */,
+				A816A49A2034742A004B82ED /* TblCampaignGroupDtls.m in Sources */,
+				A816A4C02034742A004B82ED /* TblCustomerCouponList.m in Sources */,
+				A816A5062034742A004B82ED /* TblGiftcouponModel.m in Sources */,
+				A816A4DE2034742A004B82ED /* TblWalletModel.m in Sources */,
+				A816A4E02034742A004B82ED /* TblNotificationData.m in Sources */,
+				A816A4B42034742A004B82ED /* TblCampaignSiteList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A8F7EA3B2032F92200F405F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8F7EA3C2032F92200F405F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8F7EA3E2032F92200F405F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F6EE88E2E30219E88177CC /* Pods-PlatformAPI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3FCKSCE54E;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PlatformAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inforios.PlatformAPI.PlatformAPI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8F7EA3F2032F92200F405F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EEA4C37C853C35E73385B1B /* Pods-PlatformAPI.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3FCKSCE54E;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PlatformAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inforios.PlatformAPI.PlatformAPI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8F7EA2F2032F92200F405F3 /* Build configuration list for PBXProject "PlatformAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F7EA3B2032F92200F405F3 /* Debug */,
+				A8F7EA3C2032F92200F405F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F7EA3D2032F92200F405F3 /* Build configuration list for PBXNativeTarget "PlatformAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F7EA3E2032F92200F405F3 /* Debug */,
+				A8F7EA3F2032F92200F405F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8F7EA2C2032F92200F405F3 /* Project object */;
+}

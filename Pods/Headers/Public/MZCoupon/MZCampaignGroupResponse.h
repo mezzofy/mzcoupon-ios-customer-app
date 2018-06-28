@@ -1,0 +1,1 @@
+../../../MZCoupon/MZCoupon/DataResponse/Campaign/MZCampaignGroupResponse.h

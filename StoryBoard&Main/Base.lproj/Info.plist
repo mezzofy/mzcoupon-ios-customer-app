@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> LSApplicationQueriesSchemes</key>
+	<array>
+		<string>comgooglemaps</string>
+	</array>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Mezzofy Coupon</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Mezzofy Coupon</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb655551837989474</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>16</string>
+	<key>NSCameraUsageDescription</key>
+	<string>use to scan barcode</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>cf0488b2bd3ceea5aefc49cf9293536702049af4</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>By allowing &quot;Mezzofy Coupon&quot; to access your current location to Show distance of Product</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>By allowing &quot;Mezzofy Coupon&quot; to access your current location to Show distance of Product</string>
+	<key>NSLocationUsageDescription</key>
+	<string>By allowing &quot;Mezzofy Coupon&quot; to access your current location to Show distance of Product</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Use to Access Beacon</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Use to choose Photo from Library</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>FacebookAppID</key>
+	<string>655551837989474</string>
+	<key>FacebookDisplayName</key>
+	<string>Mojodomo</string>
+	<key>branch_app_domain</key>
+	<string>mojodomo.app.link</string>
+	<key>branch_key</key>
+	<string>key_live_hnzoDyWA3nuY9t9ZblETXepnwzh5JKw2</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
+</dict>
+</plist>

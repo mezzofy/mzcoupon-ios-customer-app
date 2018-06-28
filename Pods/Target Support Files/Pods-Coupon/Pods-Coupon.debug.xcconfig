@@ -1,0 +1,11 @@
+EXCLUDED_SOURCE_FILE_NAMES[sdk=iphoneos*][arch=*] = ZBarReaderViewImpl_Simulator.m
+EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*][arch=*] = ZBarReaderViewImpl_Capture.m ZBarCaptureReader.m
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 NDEBUG=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/Branch" "${PODS_ROOT}/Headers/Public/MD5Digest" "${PODS_ROOT}/Headers/Public/MZCoupon" "${PODS_ROOT}/Headers/Public/XCDYouTubeKit" "${PODS_ROOT}/Headers/Public/ZBarSDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/Branch" "${PODS_CONFIGURATION_BUILD_DIR}/MD5Digest" "${PODS_CONFIGURATION_BUILD_DIR}/MZCoupon" "${PODS_CONFIGURATION_BUILD_DIR}/XCDYouTubeKit" "${PODS_CONFIGURATION_BUILD_DIR}/ZBarSDK"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/Branch" -isystem "${PODS_ROOT}/Headers/Public/MD5Digest" -isystem "${PODS_ROOT}/Headers/Public/MZCoupon" -isystem "${PODS_ROOT}/Headers/Public/XCDYouTubeKit" -isystem "${PODS_ROOT}/Headers/Public/ZBarSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"Branch" -l"MD5Digest" -l"MZCoupon" -l"XCDYouTubeKit" -l"ZBarSDK" -l"iconv" -framework "AVFoundation" -framework "AdSupport" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreVideo" -framework "JavaScriptCore" -framework "MediaPlayer" -framework "MobileCoreServices" -framework "QuartzCore" -framework "SafariServices" -framework "Security" -framework "SystemConfiguration"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

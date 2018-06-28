@@ -1,0 +1,325 @@
+/*
+ Localizable.strings
+ Edenred Apps
+ 
+ Created by Inforios on 11/06/14.
+ Copyright (c) 2014 Thoughts Igniter. All rights reserved.
+ */
+"TITLE" = "Issue Refund";
+"RETURNGOOD" = "Returned Goods";
+"ACCIDENTIAL" = "Accidential Charge";
+"CANCELED" = "Void";
+"REFUNDED"="Refunded";
+"GENERAL"="  GENERAL";
+"ITEMS"="  ITEMS";
+"POSNAME"="Pos Name";
+"CUSTOMER"="Customer";
+"SERVEBY"="Serve By";
+"RECEIPTNO"="Receipt No";
+"TOTALAMOUNT"="Total Amount";
+"AMOUNT"="Amount";
+"REFUNDEDON"="Refunded On";
+"REFUNDEDREASON"="Refunded Reason";
+"VOIDON"="Void On";
+"VOIDREASON"="Void Reason";
+"GUEST"="Guest";
+"RECALL"="Recall";
+"REDEEMREWARDS"="Redeem Rewards";
+"DISCOUNTS"="Discounts";
+"ALLITEMS"="All Items";
+"NOSALES"="No Sales";
+"CASHIN"="Cash In";
+"CASHOUT"="Cash Out";
+"CHANGE"="Change";
+"OUTOF"="Out Of";
+"RECEIPT"="Receipt";
+"NOCOMPATIBLESCANNERFOUND"="No Compatible Scanner Found";
+"ORDER"="Order";
+"TOKEN"="Token";
+"NOCOMPATIBLEPRINTERSFOUND"="No Compatible Printers Found";
+"NOCOMPATIBLECASHDRAWERFOUND"="No Compatible Cash Drawer Found";
+"SALESSUMMARY"=" SALES SUMMARY";
+"TENDERSUMMARY"=" TENDER SUMMARY";
+"SALESITEM"=" SALES ITEM";
+"TAXSUMMARY"=" TAX SUMMARY";
+"DISCOUNTSUMMARY"=" DISCOUNT SUMMARY";
+"COUPONSUMMARY"=" COUPON / VOUCHER SUMMARY";
+"PRINTERERROR"="Printer Error !!!";
+"PRINTERNOTCONNECTED"="Printer not connected !!!!";
+"OK"="OK";
+"SITENAME"="Site Name";
+"ITEMNAME"="Item Name";
+"STOCKQUANTITY"="Stock Quantity";
+"STOCKDATE"="Stock Date";
+"STOCKMOVEMENTS"="Stock Movements";
+"DISMISS"="Dismiss";
+"DETAILS"="Details";
+"NOTES"="Notes";
+"PRICE"="Price";
+"DISCOUNTS"="Discounts";
+"TAX"="Tax";
+"BOH"="BOH";
+"MODIFIERS"="Modifiers";
+"UPDATE"="Update";
+"ADD"="Add";
+"CHINA"="China";
+
+"INVALID"="Invalid";
+"EMAILISINVALID"="Email is Invalid";
+"PLEASECHECKYOUREMAILADDRESSISVALID"="Please check your email address is valid";
+"PLEASECHECKYOUREMAILADDRESSANDPASSWORDISVALID"="Please check your email address and password is valid";
+"PLEASEDONOTLEAVEANYFIELDEMPTY"="Please do not leave any field empty";
+"PLEASEENSUREPASSWORDISTHEVALID"="Please ensure password is the valid";
+"COULDNOTSIGNIN"="Could not sign in";
+"INVALIDEMAIL/PASSWORDCOMBINATION"="Invalid email/password combination";
+"ERROR"="Error";
+"CHECKYOUREMAIL"="Check your email";
+"FORGETPASSWORD"="Forgot Password";
+"ENTERSITEPASS"="Enter Site Pass";
+"CANCEL"="Cancel";
+
+
+
+"PASSWORD"="Password";
+"PASSWORDINVALID"="Password Invalid";
+"PASSWORDISTOOSHORT"="Password Is Too Short";
+"PASSWORDMUSTBEATLEAST8-20CHARACTERSLONG"="Password must be 8 - 20 characters long";
+"PASSWORDMISMATCHED"="Password Mismatched";
+"PASSWORDSAME"="Old Password and New Password not be same";
+"ALREADYEXIST"="Already Exist";
+"WARNING"="Please Take Note!";
+"SALESREGISTER"="Sales Register";
+"FORGETEMAIL"="Forgot Email";
+"EMAILISNOTPROPERFORMAT"="Email is not in proper format";
+"CHECKSITEPASSANDTRYAGAIN"="Check site pass and try again";
+"CHECKYOURFIELDS"="Check your fields";
+"NUMBERONLY"="Number Only";
+"POSTALCODEISNOTPROPERFORMAT"="Postal code is not in proper format";
+"CURRENTCASHDRAWER"="Current Cash Drawer";
+"ENTERTHEVALUE"="Enter the value";
+"ENTERONLYNUMBERS"="Enter only numbers";
+"INVALIDSTARTINGCASH"="Invalid Starting Cash";
+"PLEASECHECKYOURSTARTINGCASHANDTRYAGAIN"="Please check your staring cash and try again";
+"INVALIDAMOUNT"="Invalid Amount";
+"PLEASECHECKYOURAMOUNTANDTRYAGAIN"="Please check your amount and try again ";
+
+"ITEMNOTFOUND"="Item not found";
+
+//PaymentViewController
+//"TRANSACTIONFAILURE"="Transaction Failure";
+//"YOURTRANSACTIONFAILURE"="Your transaction failure.";
+//"INVALIDCASH"="Invalid Cash";
+//"PLEASEENTERCASHAMOUNT"="Please enter the cash amount";
+//"CASHVALUE"="Cash Value";
+//"GIVENAMOUNTSHOULDBEGREATERTHANTRANSACTIONAMOUNT"="Given amount should be greater than Transaction amount !!";
+//"ENTERTHENUMBER"="Enter the Number";
+
+//ReaderViewController
+//"READERERROR"="Reader Error";
+
+//ReportView
+//"ENTERTICKETNUMBER"="Enter Ticket Number";
+
+//StaffViewController
+//"PLEASESELECTAATAFF"="Please Select a staff";
+
+//SendEmailViewController
+
+
+//UserProfileViewController
+//"CHECKYOURUSERPROFILESETTINFFIELDS"="Check your user profile setting fields";
+//"USEREMAIL"="User Email";
+//"EMAILISNOTINPROPERFORMAT"="Email is not in proper format";
+
+
+
+
+// BC
+"PULLTOREFRESH"="Pull to refresh";
+"LASTUPDATED"="Last updated on %@";
+"SHARETHISAPPMSG"="This is an awesome app for Mojodomo.\n\n Download now at \n http://www.mojo-domo.com/download";
+
+// FAV
+"NOTHINGHEREYETBOOKMARKYOURFAVOURITEPRODUCTSFOREASYFUTUREREFERENCE"=" Bookmark your favourite coupons here ";
+
+// USER
+"LOGINNAMEISINVALID"="Invalid Sign In";
+"PLEASECHECKYOURLOGINNAMEANDTRYAGAIN"= "Please check your login details and try again";
+"SIGNININVALID" = "Invalid Sign In";
+"INVALIDLOGINNAME/PASSWORDCOMBINATION" = "Please check your login details and try again";
+"COULDNOTSIGNIN" = "Could not sign in";
+"COULDNOTSAVE" ="Could not save";
+"SIGNOUTCONFIRMATION"="Sign Out Confirmation";
+"AREYOUSURETOSIGNOUT?"="Are your sure to sign out";
+"CHECKYOURCURRENTPASSWORD"="Check your current password";
+"INVALIDEMAIL"="Invalid Email";
+"PLEASEENTEREMAILID"="Please enter registered email";
+
+// COUPON
+"DIGITALCOUPONS"="Coupons";
+"DIGITALRECEIPTS"="No Transaction Records";
+"EMPTYCOUPONID"="Empty Coupon Id";
+"ITEMNOTAVAILABLE" = "Item not available";
+"ITEMNOTSELECTED" ="Item not selected";
+"PRODUCTHASMAXITEMS1" = "Product has";
+"PRODUCTHASMAXITEMS2" = "max items";
+"ITEMHASMAXMODIFIERS1"="Item has";
+"ITEMHASMAXMODIFIERS2"="max modifiers";
+"PREVIEWEXIT"="Preview Exit";
+"AREYOUSURETOEXITFROMPREVIEWSCREEN"="Are you sure to exist from preview screen ?";
+"DOWNLOADCOUPON"="Download Coupon";
+"ADDTOCART"="Add to Cart";
+"ORIGINAL"="Original %@";
+"NOW"=" Now %@";
+"DOWNLOADEDCOUPON"="Coupon Downloaded";
+"DOWNLOADEDCOUPONMSG"="Please check your 'My Coupon' in Redeem";
+"OUTOFSTOCK"="Out of Stock";
+"ADDEDTOCART"="Coupon Added to Cart";
+"ADDEDTOCARTMSG"="Please goto your Cart make payment or continue to shop";
+"EXPIRYDATE"="Expiry Date %@";
+"COUPONNOTFOUND"="Coupon Not Found";
+
+// REDEEM
+"SELECTONE"="Select ONE Only";
+"DELIVERYTO"="Delivery Address";
+"PICKUPFROM"="Pick Up Address";
+"BOOKINGFROM"="Booking With";
+"OUTCALLTO"="Outcall To";
+"SELECTTIME"="Select Date/Time (The selection is for reference only and it might be delayed)";
+"ORDERDETAILS"="Order Details";
+"NOTES"="Notes";
+"PRODUCT"="Product: %@";
+"SHOP"="Shop: %@";
+"ORDERTYPE"="Order Type: %@";
+"TIME"="Time: %@";
+"DELIVERY"="Delivery";
+"PICKUP"="Pick Up";
+"CONTACT"="Contact: %@";
+"REMARKS"="Remarks: %@";
+"REMARKSX"="Remarks";
+"PICKUPL"="Pick Up";
+"DELIVERYL"="Delivery";
+"BOOKINGL"="Booking";
+"OUTCALLL"="Outcall";
+
+// TXN
+"SUCCESS"="Success";
+"FAILURE"="Failure";
+
+// CART
+"NOITEMYETINCART"="Please add Coupons to your Cart and proceed with payment";
+"CARTEMPTY!!!" ="Please add Coupons to your Cart and proceed with payment !";
+"CART" ="Cart is empty!";
+"PAYMENT"="Payment";
+"NOCARD"="No Card details will be stored here";
+
+// EMAIL
+"THISDEVICEISNOTCONFIGUREDTOSENDEMAIL" = "This device is not configured to send email";
+"FEEDBACK"="Feedback";
+"INVOICENUMBER"="Invoice Number: %@";
+"MAILCANCELLED"="Mail Cancelled";
+"MAILSAVED"="Mail Saved";
+"MAILSENT"="Mail Sent";
+"MAILSENTFAILURE"="Mail sent failure: %@";
+
+// INVOICE
+"INVOICENO"="<html><table style=width:100%%><tr><td>Invoice: %@</td><td align=right>%@</td></tr></table></html>";
+"TOTAL"="<html><table style=width:100%%><tr><td><b>Total</b></td><td align=right><b>%@</b></td></tr></table></html>";
+
+// Filter
+"ALLCATEGORIES"="All Categories";
+"ALLLOCATIONS"="All Locations";
+"ALLMERCHANTS"="All Merchants";
+
+// Others
+"MERCHANTHOTLINE"="Merchant Hotline %@";
+"INVALIDPATH" = "Invalid Path";
+"QtyX"="Qty X %@";
+"ADDTOCARTQTY"="Add to Cart %@";
+"SENDASGIFT"="Coupon as Gift";
+"SENTGIFTEMAIL"="Coupon as Gift to %@";
+"NEW"="New Order";
+"REDEEMED"="Redeemed";
+
+// PAYMENT
+"VALID FOR SECONDS"="VALID FOR %ld SECONDS";
+"Last Updated On"="Last Updated :%@";
+
+// Transactions
+"NOTXN"="No Transaction Records";
+"Topup"="TOPUP";
+"paid"="Paid";
+"Adjustment+"="ADJUSTMENT(+)";
+"Adjustment-"="ADJUSTMENT(-)";
+"Pending"="PENDING";
+"Reject"="REJECTED";
+
+// REMOTE PAYMENT
+"ApproveP"="Approve";
+"RejectP"="Decline";
+"PENDINGPAYMENTS"="PENDING PAYMENTS";
+"APPROVE"="Confirm Approve";
+"DECLINE"="Confirm Decline";
+"FAILRP"="Fail Payment";
+"RPAMTNOTENOUGHT"="Wallet is less than payment amount. Please Top Up";
+"SERVERCONNECTIONFAIL"="Server Connection Failure. Try again.";
+"APPROVALFAIL"="Approval Failure";
+"NOPENDINGPAYMENT"="No Pending Payments";
+
+"DRAG/SCAN/CODE"="Shake / Scan / Code";
+"NEWREGISTER"="New Register";
+"SEARCH"="Search";
+
+
+"PROMOCODE"="Promo Code";
+"PROMOCODENOTFOUND"="Promo Code Not Found !!!";
+"ok"="OK";
+
+"PAYMENT"="Payment";
+"welcome"="WELCOME";
+"LastUpdatedOn"="Last Updated On";
+"walletlog"="WALLET LOG";
+"coupons"="COUPONS";
+"notifications"="NOTIFICATIONS";
+"transactions"="TRANSACTIONS";
+"luckydraw"="LUCKY DRAW";
+
+"SUCCESS"="Success";
+"TopupdoneSuccessfully"="Topup done Successfully";
+
+"SuccessReceivedfromAgent"="Success - Received from Agent";
+"pending"="Pending";
+
+"ConfirmRedeem"="Confirm Redeem";
+"yes"="Yes";
+"no"="No";
+"qty"="Qty: %@";
+"Qty"="Qty X %@";
+"MassCoupon"="Mass Coupon";
+"InStoreRedeemed"="In Store Redeemed";
+"InstantDraw"="Instant Draw";
+"Youalreadyparticipate"="You already participate.";
+"LuckyDraw"="Lucky Draw";
+"map"="Map";
+
+"Promocodewrong"="Promo code wrong";
+"Prmotiondatemismatch"="Prmotion date mismatch";
+"Couponavailable"="Coupon available";
+"Couponnotavailable"="Coupon not available";
+"MerchantCodeWrong"="Merchant Code Wrong";
+
+"Pleasesignintogettheoffer"="Please signin to get the offer";
+"TurnOnBluetoothtoDragCoupon"="Turn On Bluetooth to Shake for Coupon";
+"TabSettingstoturnBluetoothOn"="Tab Settings to turn Bluetooth On";
+"Settings"="Settings";
+"OutofStock"="Out of Stock";
+
+"Pleasesignuptocontinue"="Please Signup to continue";
+
+"DailyRedeemLeft"="Left";
+"sold"="Downloaded";
+"left"="Redeemable";
+"limit"="Limit";
+"Expiryin"="Due";
+"days"="days";
+"Hours"="Hours";

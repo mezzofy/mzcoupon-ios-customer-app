@@ -1,0 +1,326 @@
+/*
+ Localizable.strings
+ Bali Coupon Apps
+ 
+ Created by Inforios on 11/06/14.
+ Updated by Maverick on 30/06/15.
+ Copyright (c) 2014 Thoughts Igniter. All rights reserved.
+ */
+"TITLE" = "Issue Refund";
+"RETURNGOOD" = "Returned Goods";
+"ACCIDENTIAL" = "Accidential Charge";
+"CANCELED" = "Void";
+"REFUNDED"="Refunded";
+"GENERAL"="  GENERAL";
+"ITEMS"="  ITEMS";
+"POSNAME"="Pos Name";
+"CUSTOMER"="Customer";
+"SERVEBY"="Serve By";
+"RECEIPTNO"="Receipt No";
+"TOTALAMOUNT"="Total Amount";
+"AMOUNT"="Amount";
+"REFUNDEDON"="Refunded On";
+"REFUNDEDREASON"="Refunded Reason";
+"VOIDON"="Void On";
+"VOIDREASON"="Void Reason";
+"GUEST"="Guest";
+"RECALL"="Recall";
+"REDEEMREWARDS"="Redeem Rewards";
+"DISCOUNTS"="Discounts";
+"ALLITEMS"="All Items";
+"NOSALES"="No Sales";
+"CASHIN"="Cash In";
+"CASHOUT"="Cash Out";
+"CHANGE"="Change";
+"OUTOF"="Out Of";
+"RECEIPT"="Receipt";
+"NOCOMPATIBLESCANNERFOUND"="No Compatible Scanner Found";
+"ORDER"="Order";
+"TOKEN"="Token";
+"NOCOMPATIBLEPRINTERSFOUND"="No Compatible Printers Found";
+"NOCOMPATIBLECASHDRAWERFOUND"="No Compatible Cash Drawer Found";
+"SALESSUMMARY"=" SALES SUMMARY";
+"TENDERSUMMARY"=" TENDER SUMMARY";
+"SALESITEM"=" SALES ITEM";
+"TAXSUMMARY"=" TAX SUMMARY";
+"DISCOUNTSUMMARY"=" DISCOUNT SUMMARY";
+"COUPONSUMMARY"=" COUPON / VOUCHER SUMMARY";
+"PRINTERERROR"="Printer Error !!!";
+"PRINTERNOTCONNECTED"="Printer not connected !!!!";
+"OK"="OK";
+"SITENAME"="Site Name";
+"ITEMNAME"="Item Name";
+"STOCKQUANTITY"="Stock Quantity";
+"STOCKDATE"="Stock Date";
+"STOCKMOVEMENTS"="Stock Movements";
+"DISMISS"="Dismiss";
+"DETAILS"="Details";
+"NOTES"="Notes";
+"PRICE"="Price";
+"DISCOUNTS"="Discounts";
+"TAX"="Tax";
+"BOH"="BOH";
+"MODIFIERS"="Modifiers";
+"UPDATE"="Update";
+"ADD"="Add";
+"CHINA"="China";
+"PASSWORDSAME"="Old Password and New Password not be same";
+"INVALID"="无效";
+"EMAILISINVALID"="电子邮件无效";
+"PLEASECHECKYOUREMAILADDRESSISVALID"="请检查您的电子邮件是有效的";
+"PLEASECHECKYOUREMAILADDRESSANDPASSWORDISVALID"="请检查您的电子邮件和密码是否有效";
+"PLEASEDONOTLEAVEANYFIELDEMPTY"="请不要留下任何格空白";
+"PLEASEENSUREPASSWORDISTHEVALID"="请确保密码是有效的";
+"COULDNOTSIGNIN"="登入失败";
+"INVALIDEMAIL/PASSWORDCOMBINATION"="无效的电子邮件/密码组合";
+"ERROR"="错误";
+"CHECKYOUREMAIL"="检查您的电子邮件";
+"FORGETPASSWORD"="忘记密码";
+"ENTERSITEPASS"="Enter Site Pass";
+"CANCEL"="取消";
+
+
+
+"PASSWORD"="密码";
+"PASSWORDINVALID"="密码无效";
+"PASSWORDISTOOSHORT"="密码太短";
+"PASSWORDMUSTBEATLEAST8-20CHARACTERSLONG"="密码必须是8 - 20个字符";
+"PASSWORDMISMATCHED"="密码不匹配";
+"ALREADYEXIST"="已经存在";
+"WARNING"="请注意!";
+"SALESREGISTER"="Sales Register";
+"FORGETEMAIL"="忘记电子邮件";
+"EMAILISNOTPROPERFORMAT"="电子邮件是格式不正确";
+"CHECKSITEPASSANDTRYAGAIN"="Check site pass and try again";
+"CHECKYOURFIELDS"="Check your fields";
+"NUMBERONLY"="仅号码";
+"POSTALCODEISNOTPROPERFORMAT"="邮政编码格式不正确";
+"CURRENTCASHDRAWER"="Current Cash Drawer";
+"ENTERTHEVALUE"="输入数值";
+"ENTERONLYNUMBERS"="只输入数字";
+"INVALIDSTARTINGCASH"="Invalid Starting Cash";
+"PLEASECHECKYOURSTARTINGCASHANDTRYAGAIN"="Please check your staring cash and try again";
+"INVALIDAMOUNT"="金额无效";
+"PLEASECHECKYOURAMOUNTANDTRYAGAIN"="请检查您的金额，然后再试一次 ";
+
+"ITEMNOTFOUND"="没有找到";
+
+//PaymentViewController
+//"TRANSACTIONFAILURE"="Transaction Failure";
+//"YOURTRANSACTIONFAILURE"="Your transaction failure.";
+//"INVALIDCASH"="Invalid Cash";
+//"PLEASEENTERCASHAMOUNT"="Please enter the cash amount";
+//"CASHVALUE"="Cash Value";
+//"GIVENAMOUNTSHOULDBEGREATERTHANTRANSACTIONAMOUNT"="Given amount should be greater than Transaction amount !!";
+//"ENTERTHENUMBER"="Enter the Number";
+
+//ReaderViewController
+//"READERERROR"="Reader Error";
+
+//ReportView
+//"ENTERTICKETNUMBER"="Enter Ticket Number";
+
+//StaffViewController
+//"PLEASESELECTAATAFF"="Please Select a staff";
+
+//SendEmailViewController
+
+
+//UserProfileViewController
+//"CHECKYOURUSERPROFILESETTINFFIELDS"="Check your user profile setting fields";
+//"USEREMAIL"="User Email";
+//"EMAILISNOTINPROPERFORMAT"="Email is not in proper format";
+
+
+
+
+
+
+
+// BC
+"PULLTOREFRESH"="拉刷新";
+"LASTUPDATED"="最后更新于 %@";
+"SHARETHISAPPMSG"="Mojodomo是个真棒的应用程序。\n\n 立即下载在 \n http://www.mojo-domo.com/download";
+
+// Favourite
+"NOTHINGHEREYETBOOKMARKYOURFAVOURITEPRODUCTSFOREASYFUTUREREFERENCE"=" 在此加入您的心仪优惠券 ";
+
+// User
+"LOGINNAMEISINVALID"="登入失败";
+"PLEASECHECKYOURLOGINNAMEANDTRYAGAIN"= "您输入的用户名称或密码不正确";
+"SIGNININVALID" = "登入失败";
+"INVALIDLOGINNAME/PASSWORDCOMBINATION" = "您输入的用户名称或密码不正确";
+"COULDNOTSIGNIN" = "登入失败";
+"COULDNOTSAVE" ="无法保存文件";
+"SIGNOUTCONFIRMATION"="登出确认";
+"AREYOUSURETOSIGNOUT?"="你确定要登出？";
+"CHECKYOURCURRENTPASSWORD"="检查您当前密码";
+"INVALIDEMAIL"="无效的电子邮件";
+"PLEASEENTEREMAILID"="请输入注册的电子邮件";
+
+// COUPON
+"DIGITALCOUPONS"="优惠券";
+"DIGITALRECEIPTS"="没有交易记录";
+"EMPTYCOUPONID"="空优惠券";
+"ITEMNOTAVAILABLE" = "项目不可用";
+"ITEMNOTSELECTED" ="项目未选择";
+"PRODUCTHASMAXITEMS1" ="产品有";
+"PRODUCTHASMAXITEMS2" ="的最大项目";
+"ITEMHASMAXMODIFIERS1"="项目有";
+"ITEMHASMAXMODIFIERS2"="最大修饰符";
+"PREVIEWEXIT"="预览退出";
+"AREYOUSURETOEXITFROMPREVIEWSCREEN"="你肯定从预览屏幕存在?";
+"DOWNLOADCOUPON"="下载优惠券";
+"ADDTOCART"="添加到购物车";
+"ORIGINAL"="原价 %@";
+"NOW"=" 现价 %@";
+"DOWNLOADEDCOUPON"="优惠券已下载";
+"DOWNLOADEDCOUPONMSG"="请检查在兑换里的'我的优惠券'";
+"OUTOFSTOCK"="Out of Stock";
+"ADDEDTOCART"="优惠券已添加";
+"ADDEDTOCARTMSG"="请到您的购物车付款或继续添加优惠券";
+"EXPIRYDATE"="有效期至 %@";
+"COUPONNOTFOUND"="优惠券未找到";
+
+// REDEEM
+"SELECTONE"="请选择其中一项";
+"DELIVERYTO"="外送地址";
+"PICKUPFROM"="自取地址";
+"BOOKINGFROM"="预订与";
+"OUTCALLTO"="外叫到";
+"SELECTTIME"="选择时间 (时间只供参考或会延误)";
+"ORDERDETAILS"="订购详情";
+"NOTES"="注释";
+"PRODUCT"="产品: %@";
+"SHOP"="店: %@";
+"ORDERTYPE"="订单类型: %@";
+"TIME"="时间: %@";
+"DELIVERY"="外送";
+"PICKUP"="自取";
+"CONTACT"="联系: %@";
+"REMARKS"="补充说明: %@";
+"REMARKSX"="补充说明";
+"PICKUPL"="自取";
+"DELIVERYL"="外送";
+"BOOKINGL"="预订";
+"OUTCALLL"="外叫";
+
+// TXN
+"SUCCESS"="成功";
+"FAILURE"="失败";
+
+// CART
+"NOITEMYETINCART"=" 请选择优惠券加到您的购物车及付款! ";
+"CARTEMPTY!!!" ="请选择产品并加到您的购物车及付款!";
+"CART" ="购物车是空的!";
+"PAYMENT"="付款";
+"NOCARD"="没有任何的信用卡资料将被存放在这里";
+
+// Email
+"THISDEVICEISNOTCONFIGUREDTOSENDEMAIL" = "此机还没有设置传送电子邮件功能";
+"FEEDBACK"="意见";
+"INVOICENUMBER"="发票号码: %@";
+"MAILCANCELLED"="邮件已取消";
+"MAILSAVED"="邮件保存";
+"MAILSENT"="邮件发送";
+"MAILSENTFAILURE"="邮件发送失败: %@";
+
+// INVOICE
+"INVOICENO"="<html><table style=width:100%%><tr><td>发票号码: %@</td><td align=right>%@</td></tr></table></html>";
+"TOTAL"="<html><table style=width:100%%><tr><td><b>总金额</b></td><td align=right><b>%@</b></td></tr></table></html>";
+
+// Filter
+"ALLCATEGORIES"="所有分类";
+"ALLLOCATIONS"="所有地点";
+"ALLMERCHANTS"="所有商家";
+
+// Others
+"MERCHANTHOTLINE"="商户热线 %@";
+"INVALIDPATH" = "Invalid Path";
+"QtyX"="数量 X %@";
+"ADDTOCARTQTY"="添加到购物车 %@";
+"SENDASGIFT"="优惠券作为礼物";
+"SENTGIFTEMAIL"="发送优惠券作为礼物至 %@";
+"NEW"="新订单";
+"REDEEMED"="已经兑换";
+
+// PAYMENT
+"VALID FOR SECONDS"="有效为 %ld 秒";
+"Last Updated On"="最后更新 :%@";
+
+// Transactions
+"NOTXN"="没有交易记录";
+"Topup"="充值";
+"paid"="付款";
+"Adjustment+"="调整(+)";
+"Adjustment-"="调整(-)";
+"Pending"="待付款";
+"Reject"="拒绝付款";
+
+// REMOTE PAYMENT
+"ApproveP"="批准";
+"RejectP"="拒绝";
+"PENDINGPAYMENTS"="待付款";
+"APPROVE"="确认批准";
+"DECLINE"="确认拒绝";
+"FAILRP"="失败付款";
+"RPAMTNOTENOUGHT"="瑞嘉家钱包小于付款金额。 请充值。";
+"SERVERCONNECTIONFAIL"="服务器连接失败。 请再试一次。";
+"APPROVALFAIL"="认证失败。 请再试一次。";
+"NOPENDINGPAYMENT"="没有待付款记录。";
+
+"DRAG/SCAN/CODE"="摇一摇/扫描/代码";
+"NEWREGISTER"="新用户注册";
+"SEARCH"="搜索";
+"In Store Redeemed"="在商店兌換";
+
+"PROMOCODE"="促销代码";
+"PROMOCODENOTFOUND"="促销代码未找到！！！";
+"ok"="好";
+
+"PAYMENT"="付款";
+"welcome"="欢迎";
+"LastUpdatedOn"="最后更新";
+"walletlog"="钱包记录";
+"coupons"="优惠券";
+"notifications"="通知信息";
+"transactions"="交易单";
+"luckydraw"="幸运抽奖";
+
+"SUCCESS"="成功";
+"TopupdoneSuccessfully"=" 充值成功";
+"SuccessReceivedfromAgent"="成功 - 接收自代理";
+"pending"="待处理";
+"ConfirmRedeem"="确认兑换";
+"yes"="是";
+"no"="否";
+"qty"="数量: %@";
+"Qty"="数量 X %@";
+"MassCoupon"="多重优惠券";
+"InStoreRedeemed"="在商店兑换";
+"InstantDraw"="即时抽奖";
+"Youalreadyparticipate"="你已经参加了。";
+"LuckyDraw"="幸运抽奖";
+"map"="地圖";
+
+"Promocodewrong"="促销代码错误";
+"Prmotiondatemismatch"="促销日期不匹配";
+"Couponavailable"="优惠券可用";
+"Couponnotavailable"="优惠券无法使用";
+"MerchantCodeWrong"="商户代码错误";
+
+"Pleasesignintogettheoffer"="请登录以获取优惠";
+"TurnOnBluetoothtoDragCoupon"="打开蓝牙拖曳优惠券";
+"TabSettingstoturnBluetoothOn"="进入设置打开蓝牙";
+"Settings"="设置";
+"OutofStock"="缺货";
+
+"Pleasesignuptocontinue"="请注册后继续";
+
+"DailyRedeemLeft"="剩余";
+"sold"="已下载";
+"left"="可換领";
+"limit"="限量";
+"Expiryin"="期限";
+"days"="天";
+"Hours"="小时";

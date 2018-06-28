@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__38-[SpecialProductController addNewData]_block_invoke:SpecialProductController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_rowsCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SpecialProductController viewDidLoad]:SpecialProductController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_totalrows">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProductDetailController prepareForSegue:sender:]:ProductDetailController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "tblProd">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
