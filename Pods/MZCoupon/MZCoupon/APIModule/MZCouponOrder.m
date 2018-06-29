@@ -10,10 +10,10 @@
 #import "OrderListDataModel.h"
 
 @implementation MZCouponOrder
-- (MZCouponOrderListResponse *)GetCouponOrder:(NSUInteger)poffset{
+- (MZCouponOrderListResponse *)GetCouponOrder:(NSString *)CustomerID Offset:(NSUInteger)poffset{
     MZCouponOrderListResponse *returnvalue=[[MZCouponOrderListResponse alloc]init];
     NSMutableDictionary* reqparam = [[NSMutableDictionary alloc]init];
-    [reqparam setValue:[NSString stringWithFormat:@"%@",[MZCouponConfig getCustomerId] ] forKey:@"customerid"];
+    [reqparam setValue:[NSString stringWithFormat:@"%@",CustomerID ] forKey:@"customerid"];
     [reqparam setValue:[NSNumber numberWithInteger:poffset] forKey:@"page"];
     
     

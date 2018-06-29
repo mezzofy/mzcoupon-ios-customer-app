@@ -17,9 +17,8 @@
 
 @interface MZCouponModule: NSObject
 
-
 //Active,Redeem And Expriy Coupon
-- (MZCouponResponse * )getCoupons:(NSString *)pcouponstatus Offset:(NSUInteger)poffset;
+- (MZCouponResponse * )getCoupons:(NSString *)CustomerID CouponStatus:(NSString *)pcouponstatus Offset:(NSUInteger)poffset;
 
 //Gift Coupon
 - (MZCouponGiftResponse *)SendGiftCoupon:(GiftcouponDataModel *)pGiftCoupon;
@@ -32,9 +31,9 @@
 - (MZCouponStockResponse *)getredeamstockfromserver:(NSString *)pcampaignId couponId:(NSString *)pCouponId;
 
 //Active coupon count
-- (MZCouponResponse *)getCouponByStatus:(NSString *)pcouponstatus Offset:(NSUInteger)poffset;
+- (MZCouponResponse *)getCouponByStatus:(NSString *)CustomerID CouponStatus:(NSString *)pcouponstatus Offset:(NSUInteger)poffset;
 //Coupon Details
-- (MZCouponResponse *)getCouponsByCampaign:(NSString *)pcampaign CouponStatus:(NSString *)pcouponstatus Offset:(NSUInteger)poffset;
+- (MZCouponResponse *)getCouponsByCampaign:(NSString *)pcampaign Customer:(NSString *)CustomerID CouponStatus:(NSString *)pcouponstatus Offset:(NSUInteger)poffset;
 
 //Get Coupon Stock
 - (MZCouponStockResponse *)getCouponStockDetailsFromServerCampaignId:(NSString *)pcampaignId couponId:(NSString *)pCouponId;

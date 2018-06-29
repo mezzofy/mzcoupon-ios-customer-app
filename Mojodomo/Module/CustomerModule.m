@@ -28,7 +28,7 @@
         [Common setCustomerEmailID:objmezzofy.customer.customerEmail];
         [Common setCustomerpassword:objmezzofy.customer.customerPassword];
         [Common setCustomerId:objmezzofy.customer.customerId];
-        [MZCouponConfig SetupCustomerID:objmezzofy.customer.customerId];
+        
         BOOL resval=[daocust AddCustomerList:objmezzofy.customer];
         if(resval)
             retval=@"SUCCESS";
@@ -99,7 +99,7 @@
     
     MZCustomerResponse *objmezzofy=[[MZCustomerResponse alloc]init];
     MZCustomer *objMzcustomer=[[MZCustomer alloc]init];
-    objmezzofy=[objMzcustomer CustomerUpdate:pcustomermodel];
+    objmezzofy=[objMzcustomer CustomerUpdate:[Common getCustomerId] CustomerData:pcustomermodel];
     
     if(!objmezzofy.customer.customerEmail)
         retval=[objmezzofy message];

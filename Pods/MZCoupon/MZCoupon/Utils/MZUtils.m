@@ -9,19 +9,11 @@
 #import "MZUtils.h"
 
 
-//#define BASIC_KEY @"3TN1FZ"
-//#define BASIC_SECRET @"x"
-//#define BASIC_KEY @"NPNN10"
-//#define BASIC_KEY @"YT0KZO"
-
 static NSString *_dbpath;
 static NSString *_initpath;
 static NSString *_logindbpath;
 static BOOL iSLocal=FALSE;
-//static BOOL iSLocal=TRUE;
 
-
-//static BOOL iSUAT=FALSE;
 @implementation MZUtils
 
 

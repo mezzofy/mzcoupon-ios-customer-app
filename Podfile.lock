@@ -18,10 +18,10 @@ PODS:
     - Branch/Core (= 0.25.0)
   - Branch/Core (0.25.0)
   - MD5Digest (1.1.0)
-  - MZCoupon (1.0.1):
+  - MZCoupon (1.0.3):
     - AFNetworking (~> 3.0)
-    - MZCoupon/no-arc (= 1.0.1)
-  - MZCoupon/no-arc (1.0.1):
+    - MZCoupon/no-arc (= 1.0.3)
+  - MZCoupon/no-arc (1.0.3):
     - AFNetworking (~> 3.0)
   - XCDYouTubeKit (2.5.6)
   - ZBarSDK (1.3.1)
@@ -29,7 +29,7 @@ PODS:
 DEPENDENCIES:
   - Branch
   - MD5Digest
-  - MZCoupon (~> 1.0)
+  - MZCoupon (> 1.0.2)
   - XCDYouTubeKit
   - ZBarSDK
 
@@ -46,10 +46,10 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Branch: 127d29ab0a8866025eece1cf9e950ddb6f7d4070
   MD5Digest: fea371215507cfcdc3c9633d02cffc7fd075ebc3
-  MZCoupon: 67eac36c1d143fb9380426a93cc85815394d6612
+  MZCoupon: 3913af5440fe345e37838a6c8482e0f40bc917b1
   XCDYouTubeKit: dccfe0c17dd5c5187969ec27e93069573badb08f
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
 
-PODFILE CHECKSUM: 8b7413196ceb10e1db156ce05eb0938c28f92045
+PODFILE CHECKSUM: 2a0874ceefcec223264110a7b69c1069d75b4be4
 
 COCOAPODS: 1.5.0

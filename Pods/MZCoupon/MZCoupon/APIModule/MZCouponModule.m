@@ -19,11 +19,11 @@
 @implementation MZCouponModule
 
 
-- (MZCouponResponse * )getCoupons:(NSString *)pcouponstatus Offset:(NSUInteger)poffset{
+- (MZCouponResponse * )getCoupons:(NSString *)CustomerID CouponStatus:(NSString *)pcouponstatus Offset:(NSUInteger)poffset{
     MZCouponResponse *returnvalue=[[MZCouponResponse alloc]init];
     
     NSMutableDictionary* reqparam = [[NSMutableDictionary alloc]init];
-    [reqparam setValue:[NSString stringWithFormat:@"%@",[MZCouponConfig getCustomerId]] forKey:@"customerid"];
+    [reqparam setValue:[NSString stringWithFormat:@"%@",CustomerID] forKey:@"customerid"];
     [reqparam setValue:pcouponstatus forKey:@"status"]; // Active Coupon=A INCATIVE Coupon=I
     [reqparam setValue:[NSNumber numberWithInteger:poffset] forKey:@"page"];
     
@@ -43,10 +43,10 @@
     return  returnvalue;
 }
 
-- (MZCouponResponse *)getCouponByStatus:(NSString *)pcouponstatus Offset:(NSUInteger)poffset{
+- (MZCouponResponse *)getCouponByStatus:(NSString *)CustomerID CouponStatus:(NSString *)pcouponstatus Offset:(NSUInteger)poffset{
     MZCouponResponse *returnvalue=[[MZCouponResponse alloc]init];
     NSMutableDictionary* reqparam = [[NSMutableDictionary alloc]init];
-    [reqparam setValue:[NSString stringWithFormat:@"%@", [MZCouponConfig getCustomerId]] forKey:@"customerid"];
+    [reqparam setValue:[NSString stringWithFormat:@"%@", CustomerID] forKey:@"customerid"];
     [reqparam setValue:pcouponstatus forKey:@"status"];
     //    [reqparam setValue:[NSNumber numberWithInteger:poffset] forKey:@"page"];
     
@@ -63,10 +63,10 @@
     }
     return  returnvalue;
 }
-- (MZCouponResponse *)getCouponsByCampaign:(NSString *)pcampaign CouponStatus:(NSString *)pcouponstatus Offset:(NSUInteger)poffset{
+- (MZCouponResponse *)getCouponsByCampaign:(NSString *)pcampaign Customer:(NSString *)CustomerID CouponStatus:(NSString *)pcouponstatus Offset:(NSUInteger)poffset{
     MZCouponResponse *returnvalue=[[MZCouponResponse alloc]init];
     NSMutableDictionary* reqparam = [[NSMutableDictionary alloc]init];
-    [reqparam setValue:[NSString stringWithFormat:@"%@", [MZCouponConfig getCustomerId]] forKey:@"customerid"];
+    [reqparam setValue:[NSString stringWithFormat:@"%@", CustomerID] forKey:@"customerid"];
     [reqparam setValue:pcouponstatus forKey:@"status"];
     [reqparam setValue:[NSNumber numberWithInteger:poffset] forKey:@"page"];
     

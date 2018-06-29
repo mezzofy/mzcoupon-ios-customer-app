@@ -11,6 +11,6 @@
 
 @interface MZCampaignOrder : NSObject
 //Orders
-- (MZCampaignProductOrderListResponse *)GetOrders:(NSInteger )pOffset;
+- (MZCampaignProductOrderListResponse *)GetOrders:(NSString *)CustomerID Offset:(NSInteger )pOffset;
 
 @end

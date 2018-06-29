@@ -13,10 +13,10 @@
 #import "ProductOrderDataModel.h"
 
 @implementation MZCampaignOrder
-- (MZCampaignProductOrderListResponse *)GetOrders:(NSInteger )pOffset{
+- (MZCampaignProductOrderListResponse *)GetOrders:(NSString *)CustomerID Offset:(NSInteger )pOffset{
     MZCampaignProductOrderListResponse *returnvalue=[[MZCampaignProductOrderListResponse alloc]init];
     NSMutableDictionary* reqparam = [[NSMutableDictionary alloc]init];
-    [reqparam setValue:[NSString stringWithFormat:@"%@", [MZCouponConfig getCustomerId]] forKey:@"customerid"];
+    [reqparam setValue:[NSString stringWithFormat:@"%@", CustomerID] forKey:@"customerid"];
     [reqparam setValue:[NSNumber numberWithInteger:pOffset] forKey:@"page"];
 
   

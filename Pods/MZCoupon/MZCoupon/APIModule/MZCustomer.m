@@ -59,11 +59,11 @@
     }
     return  returnvalue;
 }
-- (MZCustomerResponse *)CustomerUpdate:(CustomerDataModel*)pcustomermodel{
+- (MZCustomerResponse *)CustomerUpdate:(NSString *)CustomerID CustomerData:(CustomerDataModel*)pcustomermodel{
     MZCustomerResponse *returnvalue=[[MZCustomerResponse alloc]init];
     NSError *error;
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:[pcustomermodel toDictionary] options:kNilOptions error:&error];
-    NSData *data =[MZUtils urlPutRequest:[NSString stringWithFormat:@"api/v1/customers/%@",[MZCouponConfig getCustomerId]] body:jsonData];
+    NSData *data =[MZUtils urlPutRequest:[NSString stringWithFormat:@"api/v1/customers/%@",CustomerID] body:jsonData];
     if(data){
         NSError *error;
         NSDictionary* json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];

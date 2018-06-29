@@ -15,7 +15,7 @@
     
     MZCouponOrderListResponse *objmezzofy=[[MZCouponOrderListResponse alloc]init];
     MZCouponOrder *MZCouponorder=[[MZCouponOrder alloc]init];
-    objmezzofy=[MZCouponorder GetCouponOrder:poffset];
+    objmezzofy=[MZCouponorder GetCouponOrder:[Common getCustomerId] Offset:poffset];
     
     
     
@@ -171,25 +171,15 @@
     
     
 }
-//-(TblSite *)getSiteFromServerBySitepass:(NSString *)pSitepass{
-//    TblSite *retval=[[TblSite alloc]init];
-//    NSData *data = [Utils urlGetRequest:[NSString stringWithFormat:@"api/v1/sites/sitepass/%@",pSitepass] param:nil];
-//    if(data) {
-//        NSError *error;
-//        
-//        
-//        NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
-//        
-//        if (json){
-//            TblSiteModel *modsite=[[TblSiteModel alloc]initWithDictionary:json];
-//            if(modsite.site.siteId)
-//                retval=modsite.site;
-//        }
-//        
-//    }
-//    
-//    return retval;
-//}
+-(SiteData *)getSiteFromServerBySitepass:(NSString *)pSitepass{
+    SiteData *retval=[[SiteData alloc]init];
+    MZCouponSiteResponse *objmezzofy=[[MZCouponSiteResponse alloc]init];
+    MZCouponOrder *objMZcoupon=[[MZCouponOrder alloc]init];
+    objmezzofy=[objMZcoupon CheckSitePass:pSitepass];
+            if(objmezzofy.site.siteId)
+                retval=objmezzofy.site;
+    return retval;
+}
 
 - (TblOrderData *)getCouponOrderData:(NSString *)pcouponId{
     CouponOrderDao *daocoupon=[[CouponOrderDao alloc]init];

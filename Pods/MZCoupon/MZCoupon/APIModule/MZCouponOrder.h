@@ -17,8 +17,7 @@
 
 @interface MZCouponOrder : NSObject
 //Get Order List From Server
-- (MZCouponOrderListResponse *)GetCouponOrder:(NSUInteger)poffset;
-
+- (MZCouponOrderListResponse *)GetCouponOrder:(NSString *)CustomerID Offset:(NSUInteger)poffset;
 //Get Order Detail From Server
 - (MZCouponOrderResponse *)GetCouponOrderById:(NSString *)pCouponId;
 

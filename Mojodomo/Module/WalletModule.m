@@ -17,7 +17,7 @@
 - (void)getWalletFromServer{
     MZWalletResponse *objmezzofy=[[MZWalletResponse alloc]init];
     MZWallet *objMZWallet=[[MZWallet alloc]init];
-    objmezzofy=[objMZWallet GetCustomerWallet];
+    objmezzofy=[objMZWallet GetCustomerWallet:[Common getCustomerId]];
     
             LoaderModule *modloader=[[LoaderModule alloc]init];
             WalletDao *objwallet=[[WalletDao alloc]init];
@@ -39,7 +39,7 @@
 - (WalletData *)getWalletQRCODERequestFromServer{
     MZWalletResponse *objmezzofy=[[MZWalletResponse alloc]init];
     MZWallet *objMZWallet=[[MZWallet alloc]init];
-    objmezzofy=[objMZWallet GetCustomerWalletQR];
+    objmezzofy=[objMZWallet GetCustomerWalletQR:[Common getCustomerId]];
     WalletData *objwallet=[[WalletData alloc]init];
 
             if(objmezzofy.wallet.walletId)

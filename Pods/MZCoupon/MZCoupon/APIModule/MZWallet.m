@@ -14,9 +14,9 @@
 
 
 @implementation MZWallet
-- (MZWalletResponse *)GetCustomerWallet{
+- (MZWalletResponse *)GetCustomerWallet:(NSString *)CustomerID {
     MZWalletResponse *returnvalue=[[MZWalletResponse alloc]init];
-    NSData *data = [MZUtils urlGetRequest:[NSString stringWithFormat:@"api/v1/wallet/balance/%@",[MZCouponConfig getCustomerId]] param:nil];
+    NSData *data = [MZUtils urlGetRequest:[NSString stringWithFormat:@"api/v1/wallet/balance/%@",CustomerID] param:nil];
     NSError *error;
     if(data){
         NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
@@ -29,9 +29,9 @@
     return returnvalue;
 }
 
-- (MZWalletResponse *)GetCustomerWalletQR{
+- (MZWalletResponse *)GetCustomerWalletQR:(NSString *)CustomerID {
     MZWalletResponse *returnvalue=[[MZWalletResponse alloc]init];
-    NSData *data = [MZUtils urlGetRequest:[NSString stringWithFormat:@"api/v1/wallet/qrrequest/%@",[MZCouponConfig getCustomerId]] param:nil];
+    NSData *data = [MZUtils urlGetRequest:[NSString stringWithFormat:@"api/v1/wallet/qrrequest/%@",CustomerID] param:nil];
     NSError *error;
     if(data){
         NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];

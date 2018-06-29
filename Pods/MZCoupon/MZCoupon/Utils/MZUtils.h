@@ -35,8 +35,6 @@
 + (NSString *)getCurrentDate:(NSString *)fmt;
 + (NSString *)formatDate:(NSDate *)pdate Format:(NSString *)fmt;
 
-//+ (NSString*)serverpath;
-
 +(NSString *)generateUUID;
 
 +(MKCoordinateRegion) getRegionByMiles:(double)miles Location:(CLLocationCoordinate2D)newLocation;

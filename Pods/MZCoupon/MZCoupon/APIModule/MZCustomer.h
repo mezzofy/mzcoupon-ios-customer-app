@@ -21,7 +21,7 @@
 //FacebookLogin
 - (MZCustomerResponse *)LoginFacebook:(CustomerDeviceDataModel *)pdevicemod;
 //Edit Profile
-- (MZCustomerResponse *)CustomerUpdate:(CustomerDataModel*)pcustomermodel;
+- (MZCustomerResponse *)CustomerUpdate:(NSString *)CustomerID CustomerData:(CustomerDataModel*)pcustomermodel;
 //Forgot Password
 - (MZCustomerResponse *)PasswordForgot:(CustomerDataModel*)pcustomermodel;
 //Change Password

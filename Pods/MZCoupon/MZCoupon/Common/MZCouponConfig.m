@@ -10,17 +10,12 @@
 
 @implementation MZCouponConfig
 
-//static NSString* _merchtid=@"DMHA";
-//static NSString* _CustomerId=@"ZHYVRS";
 static NSString* _merchtid=NULL;
 static NSString* _CustomerId=NULL;
 static NSString* AccessToken=NULL;
 static NSString* AccessKey=NULL;
 static bool IsUAT=NULL;
-//static NSString* _merchtid=@"BIYZ";
-//static NSString* _merchtid=@"PTFH";
-//BIYZ
-//PTFH
+
 +(void)SetupMerchantID:(NSString *)MerchantID Server:(BOOL)server AccessToken:(NSString *)ptoken AccessKey:(NSString *)pkey{
     IsUAT=server;
     _merchtid=MerchantID;

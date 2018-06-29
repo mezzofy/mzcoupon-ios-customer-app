@@ -115,7 +115,7 @@
 - (void) checkPin {
     NSString *strpass=txtpin.text;
     CouponOrderModule *objcouponorder=[[CouponOrderModule alloc]init];
-    TblSite *objsite=[[TblSite alloc]init];
+    SiteData *objsite=[[SiteData alloc]init];
     
     objsite = [objcouponorder getSiteFromServerBySitepass:strpass];
     if([objcoupon.delflag isEqualToString:@"Mass Coupon"]&&[objsite.siteId isEqualToString:siteid]){
@@ -134,13 +134,13 @@
                                                MassRedeemModule *modmassredeem=[[MassRedeemModule alloc]init];
                                                //                TblMassCouponModel *objmass=[modmassredeem ]
                                            }else{
-                                               TblOrderData *objorderdata=[[TblOrderData alloc]init];
+                                               OrderData *objorderdata=[[OrderData alloc]init];
                                                [objorderdata setSiteId:SelectedSiteId];
                                                [objorderdata setCouponId:objcoupon.couponId];
                                                [objorderdata setOrderType:@"R"];
                                                [objorderdata setCustomerId:[Common getCustomerId]];
                                                
-                                               TblOrderModel *objordermodel=[[TblOrderModel alloc]init];
+                                               OrderDataModel *objordermodel=[[OrderDataModel alloc]init];
                                                [objordermodel setOrder:objorderdata];
                                                
                                                CouponOrderModule *modcouponorder=[[CouponOrderModule alloc]init];
@@ -183,13 +183,13 @@
                                                MassRedeemModule *modmassredeem=[[MassRedeemModule alloc]init];
                                                //                TblMassCouponModel *objmass=[modmassredeem ]
                                            }else{
-                                               TblOrderData *objorderdata=[[TblOrderData alloc]init];
+                                               OrderData *objorderdata=[[OrderData alloc]init];
                                                [objorderdata setSiteId:SelectedSiteId];
                                                [objorderdata setCouponId:objcoupon.couponId];
                                                [objorderdata setOrderType:@"R"];
                                                [objorderdata setCustomerId:[Common getCustomerId]];
                                                
-                                               TblOrderModel *objordermodel=[[TblOrderModel alloc]init];
+                                               OrderDataModel *objordermodel=[[OrderDataModel alloc]init];
                                                [objordermodel setOrder:objorderdata];
                                                
                                                CouponOrderModule *modcouponorder=[[CouponOrderModule alloc]init];

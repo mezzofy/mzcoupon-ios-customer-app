@@ -11,10 +11,10 @@
 
 @interface MZWallet : NSObject
 //WalletBalance
-- (MZWalletResponse *)GetCustomerWallet;
+- (MZWalletResponse *)GetCustomerWallet:(NSString *)CustomerID;
 
 //Wallet QRCODE
-- (MZWalletResponse *)GetCustomerWalletQR;
+- (MZWalletResponse *)GetCustomerWalletQR:(NSString *)CustomerID;
 
 
 

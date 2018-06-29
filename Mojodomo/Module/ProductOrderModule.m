@@ -19,7 +19,7 @@
     NSString *retval=@"";
     MZCampaignProductOrderListResponse *objmezzofy=[[MZCampaignProductOrderListResponse alloc]init];
     MZCampaignOrder *objMZCampaignorder=[[MZCampaignOrder alloc]init];
-    objmezzofy=[objMZCampaignorder GetOrders:psize];
+    objmezzofy=[objMZCampaignorder GetOrders:[Common getCustomerId] Offset:psize];
         LoaderDao *daoloader=[[LoaderDao alloc]init];
 //        TblProductOrderMaster *objprodmtr=[[TblProductOrderMaster alloc]initWithDictionary:json];
         if(objmezzofy.pos.count>0){

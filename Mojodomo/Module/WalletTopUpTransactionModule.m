@@ -29,13 +29,13 @@
 }
 - (NSString *)getWalletTopUpTransationDataFromServer:(NSString *)pTransationId{
     NSString *retval=@"";
-//    MZWalletTransactionResponse *objmezzofy=[[MZWalletTransactionResponse alloc]init];
-//    MZWalletTopUpTransaction *objMZWalleTopup=[[MZWalletTopUpTransaction alloc]init];
-//    objmezzofy=[objMZWalleTopup WalletTopUpTransationByTransactionId:pTransationId];
-//
-//            if(objmezzofy.wallettxn.transactionReference)
-//                retval=[NSString stringWithFormat:@"%@",objmezzofy.wallettxn.transactionReference];
-//
+    MZWalletTransactionResponse *objmezzofy=[[MZWalletTransactionResponse alloc]init];
+    MZWalletTopUpTransaction *objMZWalleTopup=[[MZWalletTopUpTransaction alloc]init];
+    objmezzofy=[objMZWalleTopup WalletTopUpTransationByTransactionId:pTransationId];
+
+            if(objmezzofy.wallettxn.transactionReference)
+                retval=[NSString stringWithFormat:@"%@",objmezzofy.wallettxn.transactionReference];
+
     return retval;
 
 }
@@ -44,10 +44,7 @@
     
     MZWalletTransactionListResponse *objmezzofy=[[MZWalletTransactionListResponse alloc]init];
     MZWalletTopUpTransaction *objMZWalleTopup=[[MZWalletTopUpTransaction alloc]init];
-    objmezzofy=[objMZWalleTopup GetWalletTransactions:pStatus Offset:poffsetId];
-    
-    
-    
+    objmezzofy=[objMZWalleTopup GetWalletTransactions:[Common getCustomerId] Status:pStatus Offset:poffsetId];
             LoaderModule *modloader=[[LoaderModule alloc]init];
             WalletTopUpTransactionDao *daowallet=[[WalletTopUpTransactionDao alloc]init];
             if(poffsetId==1)

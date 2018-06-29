@@ -9,11 +9,11 @@
 #import "MZNotification.h"
 
 @implementation MZNotification
-- (MZNotificationResponse *)GetNotifications:(NSUInteger)poffset {
+- (MZNotificationResponse *)GetNotifications:(NSString *)CustomerID Offset:(NSUInteger)poffset {
     
     MZNotificationResponse *returnvalue=[[MZNotificationResponse alloc]init];
     NSMutableDictionary* reqparam = [[NSMutableDictionary alloc]init];
-    [reqparam setValue:[NSString stringWithFormat:@"%@", [MZCouponConfig getCustomerId]] forKey:@"customerid"];
+    [reqparam setValue:[NSString stringWithFormat:@"%@", CustomerID] forKey:@"customerid"];
     [reqparam setValue:[NSNumber numberWithInteger:poffset] forKey:@"page"];
     NSData *data = [MZUtils urlGetRequest:[NSString stringWithFormat:@"api/v1/notificatios"]param:reqparam];
     if(data){

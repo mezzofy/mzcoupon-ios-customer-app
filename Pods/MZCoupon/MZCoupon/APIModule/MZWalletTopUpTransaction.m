@@ -41,11 +41,11 @@
 
  
 }
-- (MZWalletTransactionListResponse *)GetWalletTransactions:(NSString *)pStatus Offset:(NSInteger )poffsetId{
+- (MZWalletTransactionListResponse *)GetWalletTransactions:(NSString *)CustomerID Status:(NSString *)pStatus Offset:(NSInteger )poffsetId{
     
     MZWalletTransactionListResponse *returnvalue=[[MZWalletTransactionListResponse alloc]init];
     NSMutableDictionary* reqparam = [[NSMutableDictionary alloc]init];
-    [reqparam setValue:[MZCouponConfig getCustomerId] forKey:@"customerid"];
+    [reqparam setValue:CustomerID forKey:@"customerid"];
     [reqparam setValue:pStatus forKey:@"status"];
     [reqparam setValue:[NSNumber numberWithInteger:poffsetId] forKey:@"page"];
     

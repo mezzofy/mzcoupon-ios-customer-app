@@ -12,5 +12,5 @@
 #import "MZNotificationResponse.h"
 
 @interface MZNotification : NSObject
-- (MZNotificationResponse *)GetNotifications:(NSUInteger)poffset;
+- (MZNotificationResponse *)GetNotifications:(NSString *)CustomerID Offset:(NSUInteger)poffset;
 @end

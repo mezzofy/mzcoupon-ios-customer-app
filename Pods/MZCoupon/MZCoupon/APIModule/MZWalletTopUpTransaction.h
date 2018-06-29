@@ -19,7 +19,7 @@
 //- (MZWalletTransactionListResponse *)getWalletAllTransationListFromServer:(NSString *)pStatus Offset:(NSInteger )poffsetId;
 
 - (MZWalletTransactionResponse *)WalletTransactionCreate:(WalletTxnDataModel *)pwalletTxnmodel;
-- (MZWalletTransactionListResponse *)GetWalletTransactions:(NSString *)pStatus Offset:(NSInteger )poffsetId;
+- (MZWalletTransactionListResponse *)GetWalletTransactions:(NSString *)CustomerID Status:(NSString *)pStatus Offset:(NSInteger )poffsetId;
 - (MZWalletTransactionResponse *)WalletTopUpTransationByTransactionId:(NSString *)pTransationId;
 
 @end

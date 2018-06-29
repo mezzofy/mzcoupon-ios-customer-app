@@ -23,7 +23,7 @@
 - (void)getCouponListFromServerCouponStatus:(NSString *)pcouponstatus Offset:(NSUInteger)poffset{
     MZCouponModule *objcoupon=[[MZCouponModule alloc]init];
     MZCouponResponse *objcouponresponse=[[MZCouponResponse alloc]init];
-    objcouponresponse=[objcoupon getCoupons:pcouponstatus Offset:poffset];
+    objcouponresponse=[objcoupon getCoupons:[Common getCustomerId] CouponStatus: pcouponstatus Offset:poffset];
     CouponDao *daocoupon=[[CouponDao alloc]init];
     LoaderModule *modloader=[[LoaderModule alloc]init];
     [Common dataResponse:objcouponresponse.size];
@@ -51,7 +51,7 @@
     
     MZCouponModule *objMZCoupon=[[MZCouponModule alloc]init];
     MZCouponResponse *objmezzofy=[[MZCouponResponse alloc]init];
-    objmezzofy=[objMZCoupon getCouponByStatus:pcouponstatus Offset:poffset];
+    objmezzofy=[objMZCoupon getCouponByStatus:[Common getCustomerId] CouponStatus:pcouponstatus Offset:poffset];
     
     LoaderModule *modloader=[[LoaderModule alloc]init];
     [modloader UpdateDeleteFlagBeforeServerCall:@"tbl_coupon_count"];
@@ -79,7 +79,7 @@
     
     MZCouponModule *objMZCoupon=[[MZCouponModule alloc]init];
     MZCouponResponse *objmezzofy=[[MZCouponResponse alloc]init];
-    objmezzofy=[objMZCoupon getCouponsByCampaign:pcampaign CouponStatus:pcouponstatus Offset:poffset];
+    objmezzofy=[objMZCoupon getCouponsByCampaign:pcampaign Customer:[Common getCustomerId] CouponStatus:pcouponstatus Offset:poffset];
     CouponDao *daocoupon=[[CouponDao alloc]init];
     LoaderModule *modloader=[[LoaderModule alloc]init];
     if(poffset==1)
