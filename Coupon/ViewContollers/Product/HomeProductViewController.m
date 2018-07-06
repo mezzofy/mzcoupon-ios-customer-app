@@ -74,7 +74,7 @@
         if (![CLLocationManager locationServicesEnabled]) {
             
             UIAlertView *errorAlert = [[UIAlertView alloc]
-                                       initWithTitle:nil message:@"Turn On Location Services to Allow Mojodomo to connect Accessories" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"Cancel",nil];
+                                       initWithTitle:nil message:@"Turn On Location Services to Allow Coupon to connect Accessories" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"Cancel",nil];
             errorAlert.tag=2;
             [errorAlert show];
         }
@@ -99,7 +99,7 @@
     if (![CLLocationManager locationServicesEnabled]) {
         
         UIAlertView *errorAlert = [[UIAlertView alloc]
-                                   initWithTitle:nil message:@"Turn On Location Services to Allow Mojodomo to connect Accessories" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"Cancel",nil];
+                                   initWithTitle:nil message:@"Turn On Location Services to Allow Coupon to connect Accessories" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"Cancel",nil];
         errorAlert.tag=2;
         [errorAlert show];
     }else

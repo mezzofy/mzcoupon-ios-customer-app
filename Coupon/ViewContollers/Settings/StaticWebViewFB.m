@@ -39,7 +39,7 @@
 }
 
 -(void)startWebViewLoad{
-    NSURL *url = [NSURL URLWithString:@"https://www.facebook.com/mojodomo"];
+    NSURL *url = [NSURL URLWithString:@"https://www.facebook.com/Coupon"];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
     
     [webViewFB loadRequest:urlRequest];

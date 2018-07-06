@@ -423,7 +423,7 @@
 "MJD-Yf-RC9.text" = "Item Name";
 
 /* Class = "UINavigationItem"; title = "Walnet"; ObjectID = "MSa-zO-1rn"; */
-"MSa-zO-1rn.title" = "Mojodomo";
+"MSa-zO-1rn.title" = "Coupon";
 
 /* Class = "UIBarButtonItem"; title = "Send as Gift"; ObjectID = "MUA-vU-hDT"; */
 "MUA-vU-hDT.title" = "Send as Gift";
@@ -549,7 +549,7 @@
 "Tb9-C8-WNb.text" = "Original $8,000 Now $800";
 
 /* Class = "UILabel"; text = "Walnet v1.0"; ObjectID = "TiH-dd-1fW"; */
-"TiH-dd-1fW.text" = "Mojodomo v1.3";
+"TiH-dd-1fW.text" = "Coupon v1.3";
 
 /* Class = "UILabel"; text = "$100,000.00"; ObjectID = "TpC-bO-XXe"; */
 "TpC-bO-XXe.text" = "$100,000.00";

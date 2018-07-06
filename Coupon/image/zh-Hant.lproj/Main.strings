@@ -372,7 +372,7 @@
 "MJD-Yf-RC9.text" = "項目名稱";
 
 /* Class = "UINavigationItem"; title = "Bali COUPON"; ObjectID = "MSa-zO-1rn"; */
-"MSa-zO-1rn.title" = "Mojodomo";
+"MSa-zO-1rn.title" = "Coupon";
 
 /* Class = "UILabel"; text = "Merchant Name"; ObjectID = "MVk-iz-6ed"; */
 "MVk-iz-6ed.text" = "商家名稱";
@@ -480,7 +480,7 @@
 "Tb9-C8-WNb.text" = "Original $8,000 Now $800";
 
 /* Class = "UILabel"; text = "Coupon vX"; ObjectID = "TiH-dd-1fW"; */
-"TiH-dd-1fW.text" = "Mojodomo v1.3";
+"TiH-dd-1fW.text" = "Coupon v1.3";
 
 /* Class = "UILabel"; text = "$100,000.00"; ObjectID = "TpC-bO-XXe"; */
 "TpC-bO-XXe.text" = "$100,000.00";

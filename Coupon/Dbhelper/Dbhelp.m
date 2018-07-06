@@ -51,7 +51,7 @@
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     
     NSString *docsPath = [paths objectAtIndex:0];
-    NSString *fullpath = [docsPath stringByAppendingPathComponent:@"MojodomoWalletdbV.1.0.sqlite"];
+    NSString *fullpath = [docsPath stringByAppendingPathComponent:@"CouponWalletdbV.1.0.sqlite"];
     
     [Utils dbpath:fullpath];
     NSLog(@"Main Path is : %@",fullpath);

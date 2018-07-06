@@ -81,9 +81,9 @@
 	<key>FacebookAppID</key>
 	<string>655551837989474</string>
 	<key>FacebookDisplayName</key>
-	<string>Mojodomo</string>
+	<string>Coupon</string>
 	<key>branch_app_domain</key>
-	<string>mojodomo.app.link</string>
+	<string>Coupon.app.link</string>
 	<key>branch_key</key>
 	<string>key_live_hnzoDyWA3nuY9t9ZblETXepnwzh5JKw2</string>
 	<key>LSApplicationQueriesSchemes</key>

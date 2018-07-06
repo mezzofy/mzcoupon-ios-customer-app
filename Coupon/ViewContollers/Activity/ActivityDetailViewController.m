@@ -138,7 +138,7 @@
     [arrmessage appendString:[NSString stringWithFormat:NSLocalizedString(@"TOTAL", nil),[NSString stringWithFormat:@"%@ %@",[Common getMerchantCurrency],[objproductorder poTotal]]]];
     
     // Footer
-    [arrmessage appendString:@"<html><table style=width:100%% bgcolor=#ebebeb><tr><td align=center>&#169 Mojodomo</td></tr></table></html>"];
+    [arrmessage appendString:@"<html><table style=width:100%% bgcolor=#ebebeb><tr><td align=center>&#169 Coupon</td></tr></table></html>"];
     
     //    NSLog(@"%@", arrmessage);
     

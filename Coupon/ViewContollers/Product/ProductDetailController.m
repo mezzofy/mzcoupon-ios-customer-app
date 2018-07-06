@@ -725,7 +725,7 @@
     NSString *prodname= [objprod campaignName];
     
     NSString *price= [NSString stringWithFormat:@"%@ %@",[Common getMerchantCurrency],[objprod sellingPrice]];
-    BranchUniversalObject *branchUniversalObject = [[BranchUniversalObject alloc] initWithCanonicalIdentifier:[NSString stringWithFormat:@"mojodomo://ProductDtl?prodId=%@",[objprod campaignId]]];
+    BranchUniversalObject *branchUniversalObject = [[BranchUniversalObject alloc] initWithCanonicalIdentifier:[NSString stringWithFormat:@"Coupon://ProductDtl?prodId=%@",[objprod campaignId]]];
     branchUniversalObject.title = [objprod campaignName];
     
     branchUniversalObject.imageUrl =imageurl ;

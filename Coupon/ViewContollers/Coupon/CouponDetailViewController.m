@@ -408,7 +408,7 @@
     NSString *prodname= [objcoupon couponName];
     
     NSString *price= [NSString stringWithFormat:@"%@ %@",[Common getMerchantCurrency],[objcoupon sellingPrice]];
-    BranchUniversalObject *branchUniversalObject = [[BranchUniversalObject alloc] initWithCanonicalIdentifier:[NSString stringWithFormat:@"mojodomo://CouponDtl?couponId=%@",[objcoupon couponId]]];
+    BranchUniversalObject *branchUniversalObject = [[BranchUniversalObject alloc] initWithCanonicalIdentifier:[NSString stringWithFormat:@"Coupon://CouponDtl?couponId=%@",[objcoupon couponId]]];
     branchUniversalObject.title = [objcoupon couponName];
     
     branchUniversalObject.imageUrl =[objcoupon productImageurl] ;
