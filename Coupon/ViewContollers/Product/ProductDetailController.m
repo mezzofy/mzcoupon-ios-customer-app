@@ -79,7 +79,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [self LoadDataFromServer];
-    UIImageView *bgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"specialbgx.jpg"]];
+    UIImageView *bgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@""]];
     bgView.frame = self.view.frame;
     self.tableView.backgroundColor = [UIColor clearColor];
     self.tableView.backgroundView = bgView;

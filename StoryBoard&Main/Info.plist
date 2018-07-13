@@ -36,7 +36,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>6</string>
+	<string>7</string>
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>
@@ -72,17 +72,17 @@
 		<true/>
 	</dict>
 	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>By allowing "Mezzofy Coupon" to turn on Bluetooth to Access Nearest Beacon and Show Product</string>
+	<string>By allowing "Coupon" to turn on Bluetooth to Access Nearest Beacon and Show Product</string>
 	<key>NSCameraUsageDescription</key>
 	<string>use to scan barcode</string>
 	<key>NSFaceIDUsageDescription</key>
 	<string>Verify Ownership for Autologin Purpose</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>By allowing "Mezzofy Coupon" to access your current location to Show distance of Product</string>
+	<string>By allowing "Coupon" to access your current location to Show distance of Product</string>
 	<key>NSLocationUsageDescription</key>
-	<string>By allowing "Mezzofy Coupon" to access your current location to Show distance of Product</string>
+	<string>By allowing "Coupon" to access your current location to Show distance of Product</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>By allowing "Mezzofy Coupon" to access your current location to Show distance of Product</string>
+	<string>By allowing "Coupon" to access your current location to Show distance of Product</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Use to choose Photo from Library</string>
 	<key>UILaunchStoryboardName</key>

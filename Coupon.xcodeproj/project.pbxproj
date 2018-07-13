@@ -70,6 +70,7 @@
 		A83C86571F6AC63D002AEB19 /* TblStockData.m in Sources */ = {isa = PBXBuildFile; fileRef = A83C86561F6AC63D002AEB19 /* TblStockData.m */; };
 		A83C865A1F6AC699002AEB19 /* TblStockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A83C86591F6AC699002AEB19 /* TblStockModel.m */; };
 		A84191A81A3B09D000917038 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A84191A71A3B09D000917038 /* libz.dylib */; };
+		A84A8FE420F89BC000CD09F7 /* background-login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A84A8FE320F89BC000CD09F7 /* background-login.jpg */; };
 		A84D7DAA1F78DB9200DB0364 /* PaymentDao.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D7DA91F78DB9200DB0364 /* PaymentDao.m */; };
 		A84D7DAD1F78DBB200DB0364 /* PaymentModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D7DAC1F78DBB200DB0364 /* PaymentModule.m */; };
 		A84D7DB61F78DC3C00DB0364 /* TblPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = A84D7DAF1F78DC3C00DB0364 /* TblPayment.m */; };
@@ -645,6 +646,7 @@
 		A83C86581F6AC699002AEB19 /* TblStockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblStockModel.h; sourceTree = "<group>"; };
 		A83C86591F6AC699002AEB19 /* TblStockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblStockModel.m; sourceTree = "<group>"; };
 		A84191A71A3B09D000917038 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A84A8FE320F89BC000CD09F7 /* background-login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-login.jpg"; sourceTree = "<group>"; };
 		A84D7DA81F78DB9200DB0364 /* PaymentDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentDao.h; sourceTree = "<group>"; };
 		A84D7DA91F78DB9200DB0364 /* PaymentDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentDao.m; sourceTree = "<group>"; };
 		A84D7DAB1F78DBB200DB0364 /* PaymentModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentModule.h; sourceTree = "<group>"; };
@@ -1610,6 +1612,7 @@
 		A877928A1F2865AB00C00654 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A84A8FE320F89BC000CD09F7 /* background-login.jpg */,
 				A8CBC4052031945400F0F547 /* navlogo.png */,
 				A8CBC4042031944100F0F547 /* navlogo@2x.png */,
 				A8CBC4062031946600F0F547 /* navlogo@3x.png */,
@@ -2848,6 +2851,7 @@
 				A87791DC1F2865A000C00654 /* editw.png in Resources */,
 				A87792561F2865A000C00654 /* search.png in Resources */,
 				A87791B51F2865A000C00654 /* Check-96.png in Resources */,
+				A84A8FE420F89BC000CD09F7 /* background-login.jpg in Resources */,
 				A877925C1F2865A000C00654 /* Shake Phone@2x.png in Resources */,
 				A87791C61F2865A000C00654 /* cross@3x.png in Resources */,
 				A877921E1F2865A000C00654 /* map.png in Resources */,
