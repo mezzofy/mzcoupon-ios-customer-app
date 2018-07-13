@@ -96,14 +96,7 @@
     
 
   
-    if ([[UIApplication sharedApplication] respondsToSelector:@selector(registerUserNotificationSettings:)])
-    {
-        [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeSound | UIUserNotificationTypeAlert | UIUserNotificationTypeBadge) categories:nil]];
-        
-    }else{
-        [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
-         (UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert)];
-    }
+   
 
 
     [DLManager setStoryboard:self.window.rootViewController.storyboard];
@@ -156,15 +149,6 @@
    
 }
 
-- (BOOL) pushNotificationOnOrOff
-{
-    if ([UIApplication instancesRespondToSelector:@selector(isRegisteredForRemoteNotifications)]) {
-        return ([[UIApplication sharedApplication] isRegisteredForRemoteNotifications]);
-    } else {
-        UIRemoteNotificationType types = [[UIApplication sharedApplication] enabledRemoteNotificationTypes];
-        return (types & UIRemoteNotificationTypeAlert);
-    }
-}
 
 
 - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
@@ -174,10 +158,6 @@
     NSLog(@"coupon Token %@", str);
     [Common deviceToken:str];
     
-}
-- (void)application:(UIApplication *)application   didRegisterUserNotificationSettings:   (UIUserNotificationSettings *)notificationSettings
-{
-    [application registerForRemoteNotifications];
 }
 
 - (void)application:(UIApplication *)application handleActionWithIdentifier:(NSString   *)identifier forRemoteNotification:(NSDictionary *)userInfo completionHandler:(void(^)())completionHandler

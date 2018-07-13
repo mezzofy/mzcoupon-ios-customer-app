@@ -107,7 +107,7 @@
         
     }   else if ([[objprod brand]isEqualToString:@"C"]){
         _txntotal = [self getCartItemTotal];
-        NSString *str=[NSString stringWithFormat:NSLocalizedString(@"ADDTOCARTQTY",nil), [NSString stringWithFormat:@"%@ %.2f",@"INR",_txntotal]];
+        NSString *str=[NSString stringWithFormat:NSLocalizedString(@"ADDTOCARTQTY",nil), [NSString stringWithFormat:@"%@ %.2f",[Common getMerchantCurrency],_txntotal]];
         [btnclick setTitle:str forState:UIControlStateNormal];
         
     }
@@ -204,7 +204,7 @@
         } else if (indexPath.row == 2) {
             ProductViewCell *cellprice = [tableView dequeueReusableCellWithIdentifier:@"cellprice" forIndexPath:indexPath];
             
-            NSMutableAttributedString *originalPrice = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:NSLocalizedString(@"ORIGINAL", nil),[NSString stringWithFormat:@"%@ %@",@"INR",[objprod orginalPrice]]]];
+            NSMutableAttributedString *originalPrice = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:NSLocalizedString(@"ORIGINAL", nil),[NSString stringWithFormat:@"%@ %@",[Common getMerchantCurrency],[objprod orginalPrice]]]];
             
             NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
             [formatter setNumberStyle: NSNumberFormatterDecimalStyle];
@@ -214,7 +214,7 @@
             [formatter setAlwaysShowsDecimalSeparator:NO];
             [formatter setUsesGroupingSeparator:YES];
             NSString *formattedString = [objprod sellingPrice];
-            NSMutableAttributedString *nowPrice = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:NSLocalizedString(@"NOW", nil),[NSString stringWithFormat:@"%@ %@",@"INR",formattedString]]];
+            NSMutableAttributedString *nowPrice = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:NSLocalizedString(@"NOW", nil),[NSString stringWithFormat:@"%@ %@",[Common getMerchantCurrency],formattedString]]];
             
             [originalPrice addAttribute:NSStrikethroughStyleAttributeName value:[NSNumber numberWithInteger:NSUnderlineStyleSingle] range:NSMakeRange(0, [originalPrice length])];
             
@@ -425,7 +425,7 @@
         
         _txntotal = [self getCartItemTotal];
         
-        NSString *str=[NSString stringWithFormat:NSLocalizedString(@"ADDTOCARTQTY",nil), [NSString stringWithFormat:@"%@ %.2f",@"INR",_txntotal]];
+        NSString *str=[NSString stringWithFormat:NSLocalizedString(@"ADDTOCARTQTY",nil), [NSString stringWithFormat:@"%@ %.2f",[Common getMerchantCurrency],_txntotal]];
         [btnclick setTitle:str forState:UIControlStateNormal];
     }
     

@@ -168,7 +168,7 @@
                                     NSStrikethroughStyleAttributeName: [NSNumber numberWithInt:NSUnderlineStyleSingle]
                                     };
             
-            NSAttributedString* attrText = [[NSAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@%@",@"INR",[objcoupon orginalPrice]] attributes:attrs];
+            NSAttributedString* attrText = [[NSAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@%@",[Common getMerchantCurrency],[objcoupon orginalPrice]] attributes:attrs];
             cellgeneral.lblOriginalPrice.attributedText = attrText;
             
             cell = cellgeneral;
@@ -183,7 +183,7 @@
             if([objcoupon.brand isEqualToString:@"F"])
                 cellprice.lblPrice.text = [NSString stringWithFormat:@"Free Coupon"];
             else
-                cellprice.lblPrice.text = [NSString stringWithFormat:@"%@ %@",@"INR",[objcoupon sellingPrice]];
+                cellprice.lblPrice.text = [NSString stringWithFormat:@"%@ %@",[Common getMerchantCurrency],[objcoupon sellingPrice]];
 //            NSMutableAttributedString *originalPrice = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:NSLocalizedString(@"ORIGINAL", nil),[NSString stringWithFormat:@"%@ %@",@"INR",[objcoupon orginalPrice]]]];
 //            NSMutableAttributedString *nowPrice = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:NSLocalizedString(@"NOW", nil),[NSString stringWithFormat:@"%@ %@",@"INR",[objcoupon sellingPrice]]]];
 //            

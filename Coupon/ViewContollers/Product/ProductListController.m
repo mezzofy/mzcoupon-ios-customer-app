@@ -298,7 +298,7 @@
             cells.lblOriginalPrice.hidden=NO;
             NSDictionary* attrs = @{ NSStrikethroughStyleAttributeName: [NSNumber numberWithInt:NSUnderlineStyleSingle]};
             
-            NSAttributedString* attrText = [[NSAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@ %@",@"INR",[tblprod orginalPrice]] attributes:attrs];
+            NSAttributedString* attrText = [[NSAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@ %@",[Common getMerchantCurrency],[tblprod orginalPrice]] attributes:attrs];
             
             cells.lblOriginalPrice.attributedText = attrText;
         }
@@ -313,7 +313,7 @@
         if([tblprod.brand isEqualToString:@"F"])
             cells.lblPrice.text =[NSString stringWithFormat:@"Free Coupon"];
         else
-            cells.lblPrice.text =[NSString stringWithFormat:@"%@ %@",@"INR",[tblprod sellingPrice]];
+            cells.lblPrice.text =[NSString stringWithFormat:@"%@ %@",[Common getMerchantCurrency],[tblprod sellingPrice]];
         
         //remark
         cells.lblFreeText1.text = [tblprod campaignNote1];

@@ -2504,7 +2504,7 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="110" id="2Eu-9g-8nT" customClass="CartViewCell">
                                 <rect key="frame" x="0.0" y="22" width="375" height="110"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2Eu-9g-8nT" id="ORs-OD-7NM">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="2Eu-9g-8nT" id="ORs-OD-7NM">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
@@ -2512,10 +2512,10 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                                             <rect key="frame" x="0.0" y="0.0" width="400" height="110"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0bg-dR-FsJ">
+                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0bg-dR-FsJ">
                                             <rect key="frame" x="5" y="5" width="390.33333333333331" height="100"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X Qty" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="eeh-7m-oJ5">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="X Qty" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="eeh-7m-oJ5">
                                                     <rect key="frame" x="110.33333333333334" y="75" width="36" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="EC1-wS-GUP"/>
@@ -2524,7 +2524,7 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider.png" translatesAutoresizingMaskIntoConstraints="NO" id="aII-X9-1oP">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="divider.png" translatesAutoresizingMaskIntoConstraints="NO" id="aII-X9-1oP">
                                                     <rect key="frame" x="100.33333333333334" y="0.0" width="6" height="100"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="6" id="CV8-5I-RYg"/>
@@ -2532,7 +2532,7 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                                                         <constraint firstAttribute="width" secondItem="aII-X9-1oP" secondAttribute="height" multiplier="3:50" id="J9I-lp-JVa"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$800.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="9nE-0d-SlQ">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="$800.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="9nE-0d-SlQ">
                                                     <rect key="frame" x="316.33333333333337" y="75" width="64" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="eIG-ld-PUx"/>
@@ -2541,7 +2541,7 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                                                     <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YYT-uZ-LFb">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YYT-uZ-LFb">
                                                     <rect key="frame" x="0.0" y="0.0" width="100.33333333333333" height="100"/>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
@@ -2550,7 +2550,7 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                                                         <constraint firstAttribute="height" constant="100" id="Nev-c3-JDG"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Long Name Description into 2 Lines Long Name Description into 2 Lines or more." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ykh-md-BDf">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Product Long Name Description into 2 Lines Long Name Description into 2 Lines or more." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ykh-md-BDf">
                                                     <rect key="frame" x="110.33333333333334" y="25" width="270" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="4cV-tD-STx"/>
@@ -2560,7 +2560,7 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Merchant Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Zt-wN-YXB">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Merchant Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Zt-wN-YXB">
                                                     <rect key="frame" x="110.33333333333334" y="0.0" width="272" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="0Zt-wN-YXB" secondAttribute="height" multiplier="136:15" constant="45.333333333333343" id="5dX-2I-F9Y"/>
@@ -2748,12 +2748,13 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                     </tableView>
                     <navigationItem key="navigationItem" id="jnl-Nv-POZ">
                         <barButtonItem key="leftBarButtonItem" image="back.png" id="Lzd-x6-fWb">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="btnback_Touch:" destination="2u5-PP-xbG" id="Jfs-gW-goz"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" enabled="NO" title="Continue" id="WXZ-AQ-2sD">
-                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="btnProceed_Touch:" destination="2u5-PP-xbG" id="zex-Z3-k2M"/>
                             </connections>
@@ -3319,7 +3320,7 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                                             <outlet property="lblProductName" destination="T9k-RG-xEc" id="ZIp-5t-6ev"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellprice" rowHeight="60" id="0RG-7I-s3e" customClass="ProductViewCell">
+                                    <tableViewCell contentMode="scaleToFill" misplaced="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellprice" rowHeight="60" id="0RG-7I-s3e" customClass="ProductViewCell">
                                         <rect key="frame" x="0.0" y="322" width="400" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0RG-7I-s3e" id="hdJ-5T-LCt">
@@ -3338,7 +3339,7 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Downloaded" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHq-bX-vMa">
-                                                    <rect key="frame" x="235" y="0.0" width="150" height="15"/>
+                                                    <rect key="frame" x="260" y="0.0" width="150" height="15"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="fHq-bX-vMa" secondAttribute="height" multiplier="10:1" id="WTO-Q8-mia"/>
                                                         <constraint firstAttribute="width" constant="150" id="gX4-dp-jdG"/>
@@ -3349,7 +3350,7 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Due" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMD-b8-EtJ">
-                                                    <rect key="frame" x="244" y="36" width="141" height="15"/>
+                                                    <rect key="frame" x="269" y="36" width="141" height="15"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="141" id="US4-C9-rDa"/>
                                                         <constraint firstAttribute="width" secondItem="bMD-b8-EtJ" secondAttribute="height" multiplier="47:5" id="fEP-xx-Rtx"/>
@@ -3360,7 +3361,7 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Limit  | Redeemable" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="2h5-JT-uSv">
-                                                    <rect key="frame" x="235" y="18" width="150" height="15"/>
+                                                    <rect key="frame" x="260" y="18" width="150" height="15"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="2h5-JT-uSv" secondAttribute="height" multiplier="10:1" id="Cfh-UO-iQx"/>
                                                         <constraint firstAttribute="width" constant="150" id="IfG-lB-ss3"/>
@@ -3593,7 +3594,7 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reviews" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbm-wQ-faN">
-                                                    <rect key="frame" x="46" y="34.666666666666664" width="60" height="25"/>
+                                                    <rect key="frame" x="46" y="34.333333333333336" width="60" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="60" id="Ldd-Gk-faC"/>
                                                         <constraint firstAttribute="width" secondItem="Cbm-wQ-faN" secondAttribute="height" multiplier="12:5" id="Os2-LU-iYN"/>
@@ -3604,7 +3605,7 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locations" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPO-eA-24e">
-                                                    <rect key="frame" x="128" y="34.666666666666664" width="60" height="25"/>
+                                                    <rect key="frame" x="128" y="34.333333333333336" width="60" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="60" id="4Tc-ly-uFW"/>
                                                         <constraint firstAttribute="width" secondItem="jPO-eA-24e" secondAttribute="height" multiplier="12:5" id="9kD-4T-GGk"/>
@@ -3657,7 +3658,7 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NLj-C3-j6F">
-                                                    <rect key="frame" x="294" y="34.666666666666664" width="60" height="25"/>
+                                                    <rect key="frame" x="294" y="34.333333333333336" width="60" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="NLj-C3-j6F" secondAttribute="height" multiplier="12:5" id="4gM-rc-krK"/>
                                                         <constraint firstAttribute="height" constant="25" id="qCC-0C-MKs"/>
@@ -3668,7 +3669,7 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Call" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJq-K9-GFl">
-                                                    <rect key="frame" x="212" y="34.666666666666664" width="60" height="25"/>
+                                                    <rect key="frame" x="212" y="34.333333333333336" width="60" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="zJq-K9-GFl" secondAttribute="height" multiplier="12:5" id="JIf-kN-Zt8"/>
                                                         <constraint firstAttribute="width" constant="60" id="igN-4E-fsj"/>
@@ -4855,11 +4856,11 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellimg" rowHeight="290" id="9Kz-fp-CBE" customClass="ProductViewCell">
                                         <rect key="frame" x="0.0" y="22" width="375" height="290"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9Kz-fp-CBE" id="fIA-5Z-vm2">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="9Kz-fp-CBE" id="fIA-5Z-vm2">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="290"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Cif-Qu-Fs4">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cif-Qu-Fs4">
                                                     <rect key="frame" x="-0.33333333333334281" y="0.0" width="400.66666666666674" height="290"/>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="tintColor" red="0.1753101646900177" green="0.34410941600799561" blue="0.32565557956695557" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -4869,7 +4870,7 @@ Promotional Communications. You may opt out of receiving promotional emails or t
                                                         <constraint firstAttribute="width" secondItem="Cif-Qu-Fs4" secondAttribute="height" multiplier="2:1" constant="-180" id="ogl-8D-XXd"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sent as Gift to &lt;Email&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2XX-1t-yeh">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Sent as Gift to &lt;Email&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2XX-1t-yeh">
                                                     <rect key="frame" x="15.333333333333343" y="261" width="370" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="2XX-1t-yeh" secondAttribute="height" multiplier="370:21" id="011-iH-Ccj"/>
@@ -12562,7 +12563,7 @@ Postal Code</string>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OgR-M3-TuO">
-                                            <rect key="frame" x="18" y="13" width="355" height="334"/>
+                                            <rect key="frame" x="18" y="13" width="87.333333333333329" height="334"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HC4-P0-Mx2">
                                                     <rect key="frame" x="0.0" y="0.0" width="355" height="220"/>
@@ -12627,7 +12628,7 @@ Postal Code</string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IDR888,888" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="1l4-7e-cTR">
-                                                    <rect key="frame" x="210" y="249" width="135" height="25"/>
+                                                    <rect key="frame" x="-57.666666666666686" y="249" width="135" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="ANa-Ww-zol"/>
                                                         <constraint firstAttribute="width" constant="135" id="Gf5-Y6-lZA"/>
@@ -12638,7 +12639,7 @@ Postal Code</string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100,000.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="YU4-Ci-MV4">
-                                                    <rect key="frame" x="210" y="274" width="135" height="20"/>
+                                                    <rect key="frame" x="-57.666666666666686" y="274" width="135" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="YPJ-bM-NtZ"/>
                                                         <constraint firstAttribute="width" secondItem="YU4-Ci-MV4" secondAttribute="height" multiplier="27:4" id="ah0-Zl-VEs"/>
@@ -12649,7 +12650,7 @@ Postal Code</string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8s-Wp-mmv">
-                                                    <rect key="frame" x="320" y="294" width="25" height="25"/>
+                                                    <rect key="frame" x="52.333333333333371" y="294" width="25" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="25" id="7Zn-pB-fdC"/>
                                                         <constraint firstAttribute="height" constant="25" id="ep1-4L-2Jt"/>
@@ -12660,7 +12661,7 @@ Postal Code</string>
                                                     </state>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krc-KY-ZEw">
-                                                    <rect key="frame" x="10" y="294" width="305" height="20"/>
+                                                    <rect key="frame" x="10" y="294" width="37.333333333333336" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="Sgk-bX-Gsi"/>
                                                     </constraints>
@@ -12964,7 +12965,7 @@ Postal Code</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2s-oT-2Ps">
-                                <rect key="frame" x="50.333333333333343" y="306" width="502.66666666666663" height="50"/>
+                                <rect key="frame" x="50.333333333333343" y="306" width="274.66666666666663" height="50"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.58431372550000005" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="3Nf-bD-eHB"/>
@@ -13181,10 +13182,10 @@ Postal Code</string>
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nxi-CJ-e3Z">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                <rect key="frame" x="0.0" y="0.0" width="400.33333333333331" height="60"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0v-96-lyO">
-                                        <rect key="frame" x="320" y="30" width="30" height="30"/>
+                                        <rect key="frame" x="345.33333333333337" y="30" width="30" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="KYA-96-llz"/>
                                             <constraint firstAttribute="width" secondItem="U0v-96-lyO" secondAttribute="height" multiplier="1:1" id="jW2-RX-d5x"/>
@@ -13193,7 +13194,7 @@ Postal Code</string>
                                         <state key="normal" image="config.png"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTh-7e-eoZ">
-                                        <rect key="frame" x="8" y="30" width="80.666666666666671" height="30"/>
+                                        <rect key="frame" x="8" y="30" width="81" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="rTh-7e-eoZ" secondAttribute="height" multiplier="73:30" constant="7" id="2G7-pq-cbZ"/>
                                             <constraint firstAttribute="width" constant="80" id="E3Q-pS-IqG"/>
@@ -13220,10 +13221,10 @@ Postal Code</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jk1-4A-va7">
-                                <rect key="frame" x="0.0" y="60" width="375" height="250"/>
+                                <rect key="frame" x="0.0" y="60" width="400.33333333333331" height="250"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RG-Card.png" translatesAutoresizingMaskIntoConstraints="NO" id="MMg-lb-JTL">
-                                        <rect key="frame" x="0.0" y="0.0" width="400.66666666666669" height="250"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="401" height="250"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="400" id="0k5-dC-jOs"/>
                                             <constraint firstAttribute="height" constant="250" id="Dya-T6-CjB"/>
@@ -13231,7 +13232,7 @@ Postal Code</string>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HKD$ 19,000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="Ju8-tm-GiB">
-                                        <rect key="frame" x="50.666666666666657" y="90" width="300" height="50"/>
+                                        <rect key="frame" x="51" y="90" width="300" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="300" id="Qxr-ww-1G6"/>
                                             <constraint firstAttribute="height" constant="50" id="UjL-46-yJF"/>
@@ -13241,7 +13242,7 @@ Postal Code</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome, [Customer Name]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="sKg-0t-VJm">
-                                        <rect key="frame" x="50.666666666666657" y="60" width="300" height="25"/>
+                                        <rect key="frame" x="51" y="60" width="300" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="sKg-0t-VJm" secondAttribute="height" multiplier="12:1" id="KJ2-u7-NTD"/>
                                             <constraint firstAttribute="width" constant="300" id="Xsp-ex-WkX"/>
@@ -13251,7 +13252,7 @@ Postal Code</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Updated 18 Aug 2015" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="59i-eA-C4O">
-                                        <rect key="frame" x="50.666666666666657" y="205" width="300" height="20"/>
+                                        <rect key="frame" x="51" y="205" width="300" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="300" id="V4C-Gd-Kld"/>
                                             <constraint firstAttribute="height" constant="20" id="i6n-53-8vh"/>
@@ -13261,7 +13262,7 @@ Postal Code</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pW-On-tvL">
-                                        <rect key="frame" x="157.66666666666666" y="167" width="60" height="30"/>
+                                        <rect key="frame" x="170.33333333333331" y="167" width="60" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="HDJ-t2-IsO"/>
                                             <constraint firstAttribute="height" constant="30" id="PZB-Qj-Elr"/>
@@ -13299,10 +13300,10 @@ Postal Code</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q16-QI-W5p">
-                                <rect key="frame" x="0.0" y="310" width="375" height="60"/>
+                                <rect key="frame" x="0.0" y="310" width="400.33333333333331" height="60"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ilD-oP-AOP">
-                                        <rect key="frame" x="15.666666666666657" y="5" width="370" height="50"/>
+                                        <rect key="frame" x="16" y="5" width="370" height="50"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="GeO-B4-QdH"/>
@@ -14490,7 +14491,7 @@ Postal Code</string>
                                 </state>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-only.png" translatesAutoresizingMaskIntoConstraints="NO" id="rXM-As-fAR">
-                                <rect key="frame" x="101.00000000000001" y="52" width="199.33333333333337" height="75"/>
+                                <rect key="frame" x="100" y="52" width="175" height="75"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="24h-PG-n9e"/>

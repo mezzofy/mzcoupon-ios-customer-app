@@ -238,7 +238,7 @@
     
     NSLog(@"shareButton pressed");
     NSString *texttoshare = NSLocalizedString(@"SHARETHISAPPMSG", nil);
-    UIImage *imagetoshare = [UIImage imageNamed:@"app-logo-email.jpg"];
+    UIImage *imagetoshare = [UIImage imageNamed:@"AppIcon"];
     NSArray *activityItems = @[texttoshare, imagetoshare];
     UIActivityViewController *activityVC = [[UIActivityViewController alloc] initWithActivityItems:activityItems applicationActivities:nil];
     activityVC.excludedActivityTypes = @[UIActivityTypeAssignToContact, UIActivityTypePrint, UIActivityTypePostToTwitter, UIActivityTypePostToWeibo];
