@@ -342,7 +342,7 @@
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
 //    if (alertView.tag==1){
 //        if (buttonIndex==1) {
-//            //[[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"www.getso.today/today"]];
+//            //[[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"www.mezzofy.com.today/today"]];
 //            Dbhelp* db = [[Dbhelp alloc]init];
 //            [db removeDB];
 //            CustomerModule *modcus = [[CustomerModule alloc]init];

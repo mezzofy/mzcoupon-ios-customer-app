@@ -258,9 +258,9 @@
 //            
 //            NSString *retval = [daoProduct getFavouriteStatusById:[tblprod prodId]];
 //            if ([retval isEqualToString:@"Y"]) {
-//                [cellcpn.btnFavourite setImage:[UIImage imageNamed:@"GETSO_UI_11OCT2016-09.png"] forState:UIControlStateNormal];
+//                [cellcpn.btnFavourite setImage:[UIImage imageNamed:@"checkfav.png"] forState:UIControlStateNormal];
 //            } else {
-//                [cellcpn.btnFavourite setImage:[UIImage imageNamed:@"GETSO_UI_11OCT2016-08.png"] forState:UIControlStateNormal];
+//                [cellcpn.btnFavourite setImage:[UIImage imageNamed:@"uncheckfav.png"] forState:UIControlStateNormal];
 //            }
 //            cell = cellcpn;
 //        }
