@@ -1,1 +1,0 @@
-../../../MZCoupon/MZCoupon/Pojo/WalletTxnDataModel.h

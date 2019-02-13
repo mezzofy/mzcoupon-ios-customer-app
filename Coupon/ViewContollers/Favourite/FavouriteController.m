@@ -225,6 +225,7 @@
 
 
 - (IBAction)btnBack_Touch:(id)sender {
+    [Common CampaignFilter:@"YES"];
     [self.navigationController popViewControllerAnimated:YES];
 }
 

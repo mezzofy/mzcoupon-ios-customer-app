@@ -68,6 +68,7 @@
 @property (nonatomic, strong) NSString *favourite;
 @property (nonatomic, strong) NSString *topten;
 @property (nonatomic, strong) NSString *size;
+@property (nonatomic, strong) NSString *channelCode;
 
 @property (nonatomic, strong) NSNumber *tbl_cart_id;
 @property (nonatomic, strong) NSString *productQty;

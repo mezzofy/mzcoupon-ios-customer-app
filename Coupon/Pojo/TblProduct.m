@@ -65,6 +65,7 @@
 @synthesize outcall;
 @synthesize dailyLimitType;
 @synthesize redemptionQuota;
+@synthesize channelCode;
 
 
 //localREF

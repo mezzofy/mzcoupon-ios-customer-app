@@ -51,7 +51,7 @@
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     
     NSString *docsPath = [paths objectAtIndex:0];
-    NSString *fullpath = [docsPath stringByAppendingPathComponent:@"CouponWalletdbV.1.0.sqlite"];
+    NSString *fullpath = [docsPath stringByAppendingPathComponent:@"CouponWalletdb_V1.1.0.sqlite"];
     
     [Utils dbpath:fullpath];
     NSLog(@"Main Path is : %@",fullpath);
@@ -82,7 +82,7 @@
         res = res && [database executeUpdate:@"CREATE TABLE IF NOT EXISTS tbl_site(tbl_site_Id INTEGER PRIMARY KEY AUTOINCREMENT,siteId VARCHAR,merchantId VARCHAR,siteName VARCHAR,siteAddress VARCHAR,siteLatitude double,siteLongitude double,siteLocation VARCHAR,siteEmailId VARCHAR,siteOnlineStatus VARCHAR,siteContact VARCHAR,siteStatus VARCHAR, siteRedeemPass VARCHAR,hashCode VARCHAR,locationId VARCHAR,siteDesc VARCHAR,siteDisplayWallet ,siteSeqNo VARCHAR,siteImageurl VARCHAR,createdOn VARCHAR,updatedOn VARCHAR,updatedBy VARCHAR,delflag VARCHAR)"];
         
         //6 campaign
-        res = res && [database executeUpdate:@"CREATE TABLE IF NOT EXISTS tbl_campaign (tbl_campaign_id INTEGER PRIMARY KEY AUTOINCREMENT,campaignId  VARCHAR, merchantId  VARCHAR, productId  VARCHAR, productmerchantId  VARCHAR, campaignCode  VARCHAR, orginalPrice  VARCHAR, campaignName  VARCHAR, campaignDesc  VARCHAR, sellingPrice  VARCHAR, campaignTc  VARCHAR, campaignStatus  VARCHAR, campaignType  VARCHAR, brand  VARCHAR, expirydue  VARCHAR, dailyLimit  VARCHAR, packQty  VARCHAR, emailStaff  VARCHAR, couponOver  VARCHAR, expiryDays  VARCHAR,dayFilter  VARCHAR, fromDate  VARCHAR, toDate  VARCHAR, totalRedeem  VARCHAR, allocationCount  VARCHAR, couponUrl  VARCHAR, passbookUrl  VARCHAR, issuedcoupon  VARCHAR ,redeemcoupon  VARCHAR, allocationcoupon  VARCHAR, campaignNote1 VARCHAR, campaignNote2 VARCHAR, campaignNote3 VARCHAR, distance VARCHAR,dailyLimitType VARCHAR, redemptionQuota VARCHAR, campaignUuid VARCHAR, typeService VARCHAR, reviewUrl VARCHAR, videoUrl VARCHAR, startDate  VARCHAR, endDate  VARCHAR, ratecoupon  VARCHAR,outletDistance  VARCHAR,expiryname  VARCHAR,txBrand  VARCHAR,campaignRemark  VARCHAR,pickup  VARCHAR,delivery  VARCHAR,booking  VARCHAR,outcall  VARCHAR, hashCode  VARCHAR, createdOn  VARCHAR, delflag VARCHAR, favourite VARCHAR, topten VARCHAR)"];
+        res = res && [database executeUpdate:@"CREATE TABLE IF NOT EXISTS tbl_campaign (tbl_campaign_id INTEGER PRIMARY KEY AUTOINCREMENT,campaignId  VARCHAR, merchantId  VARCHAR, productId  VARCHAR, productmerchantId  VARCHAR, campaignCode  VARCHAR, orginalPrice  VARCHAR, campaignName  VARCHAR, campaignDesc  VARCHAR, sellingPrice  VARCHAR, campaignTc  VARCHAR, campaignStatus  VARCHAR, campaignType  VARCHAR, brand  VARCHAR, expirydue  VARCHAR, dailyLimit  VARCHAR, packQty  VARCHAR, emailStaff  VARCHAR, couponOver  VARCHAR, expiryDays  VARCHAR,dayFilter  VARCHAR, fromDate  VARCHAR, toDate  VARCHAR, totalRedeem  VARCHAR, allocationCount  VARCHAR, couponUrl  VARCHAR, passbookUrl  VARCHAR, issuedcoupon  VARCHAR ,redeemcoupon  VARCHAR, allocationcoupon  VARCHAR, campaignNote1 VARCHAR, campaignNote2 VARCHAR, campaignNote3 VARCHAR, distance VARCHAR,dailyLimitType VARCHAR, redemptionQuota VARCHAR, campaignUuid VARCHAR, typeService VARCHAR, reviewUrl VARCHAR, videoUrl VARCHAR, startDate  VARCHAR, endDate  VARCHAR, ratecoupon  VARCHAR,outletDistance  VARCHAR,expiryname  VARCHAR,txBrand  VARCHAR,campaignRemark  VARCHAR,pickup  VARCHAR,delivery  VARCHAR,booking  VARCHAR,outcall  VARCHAR, hashCode  VARCHAR, createdOn  VARCHAR, delflag VARCHAR, favourite VARCHAR, topten VARCHAR,channelCode VARCHAR)"];
         
         
         //7 CampaignGroup
@@ -140,8 +140,9 @@
         //24 Wallet Transaction
         res = res && [database executeUpdate:@"CREATE TABLE IF NOT EXISTS tbl_wallet_transcation (tbl_wallet_transcation_id INTEGER PRIMARY KEY AUTOINCREMENT,transactionReference VARCHAR, userId VARCHAR, merchantId VARCHAR, siteId VARCHAR, customerId VARCHAR, walletId VARCHAR, transactionType VARCHAR, transactionAmount VARCHAR, transactionPayRef VARCHAR, paidOn VARCHAR, processBy VARCHAR, status VARCHAR, transactionNotes VARCHAR, hashCode VARCHAR, transactionDate VARCHAR, paymentResponse VARCHAR, rewardPoint VARCHAR, updatedOn VARCHAR, approvalCode VARCHAR, delflag VARCHAR)"];
         
-
-
+        //25 Channel
+        res = res && [database executeUpdate:@"CREATE TABLE IF NOT EXISTS tbl_channel (tbl_channel_id INTEGER PRIMARY KEY AUTOINCREMENT,          channelLocId VARCHAR, merchantId VARCHAR, countryCode VARCHAR, countryName VARCHAR, merchantName VARCHAR, timeZone VARCHAR, channelCode VARCHAR, channelAddress VARCHAR, googleAddress VARCHAR, headerImage VARCHAR, latitude VARCHAR, channelRemark VARCHAR, channelImage VARCHAR, longitude VARCHAR, channelDesc VARCHAR, qrImage VARCHAR, channelUrl VARCHAR, targetUrl VARCHAR, channelStatus VARCHAR, connectCount VARCHAR, createdBy VARCHAR, createdOn VARCHAR, updatedOn VARCHAR, delflag VARCHAR)"];
+      
 
         if(res)
             [database commit];
@@ -183,6 +184,7 @@
     [database executeUpdate:@" DELETE FROM tbl_cart "];                     //22
     [database executeUpdate:@" DELETE FROM tbl_payment_dtl "];              //23
     [database executeUpdate:@" DELETE FROM tbl_wallet_transcation "];       //24
+    [database executeUpdate:@" DELETE FROM tbl_channel "];                  //25
     
     [database close];
     

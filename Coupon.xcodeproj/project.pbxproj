@@ -57,6 +57,7 @@
 		A8354B1D1F3C8AFE00F1CF45 /* CouponModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A8354B1C1F3C8AFE00F1CF45 /* CouponModule.m */; };
 		A8354B201F3C8FA300F1CF45 /* CouponDao.m in Sources */ = {isa = PBXBuildFile; fileRef = A8354B1F1F3C8FA300F1CF45 /* CouponDao.m */; };
 		A836842F1F56EFD10021619B /* TblOverCouponData.m in Sources */ = {isa = PBXBuildFile; fileRef = A836842E1F56EFD10021619B /* TblOverCouponData.m */; };
+		A83741212193FBB0002DFF2A /* ChannelDao.m in Sources */ = {isa = PBXBuildFile; fileRef = A83741202193FBB0002DFF2A /* ChannelDao.m */; };
 		A83802481F2892A200507975 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A838024A1F2892A200507975 /* Info.plist */; };
 		A83B81361F6008CB008D48FF /* TblOrderData.m in Sources */ = {isa = PBXBuildFile; fileRef = A83B81351F6008CB008D48FF /* TblOrderData.m */; };
 		A83B81391F6008F8008D48FF /* TblOrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A83B81381F6008F8008D48FF /* TblOrderModel.m */; };
@@ -456,6 +457,7 @@
 		A8864F541F289C7100530FB9 /* CustomerDao.m in Sources */ = {isa = PBXBuildFile; fileRef = A8864F521F289C7100530FB9 /* CustomerDao.m */; };
 		A8864F571F28CC1A00530FB9 /* SettingsDao.m in Sources */ = {isa = PBXBuildFile; fileRef = A8864F561F28CC1A00530FB9 /* SettingsDao.m */; };
 		A88983BD1F2F5C8D000D469D /* TblCampaignGroupDtls.m in Sources */ = {isa = PBXBuildFile; fileRef = A88983BC1F2F5C8D000D469D /* TblCampaignGroupDtls.m */; };
+		A88F9F0F2175B85E004DA8C5 /* SetUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A88F9F0E2175B85D004DA8C5 /* SetUpViewController.m */; };
 		A89E9AEC1F6901D500EFDA56 /* TblMassCouponModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A89E9AEB1F6901D500EFDA56 /* TblMassCouponModel.m */; };
 		A89E9AEF1F6901FE00EFDA56 /* TblMasscouponData.m in Sources */ = {isa = PBXBuildFile; fileRef = A89E9AEE1F6901FE00EFDA56 /* TblMasscouponData.m */; };
 		A89E9AF21F69022300EFDA56 /* TblMassCouponDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A89E9AF11F69022300EFDA56 /* TblMassCouponDetailModel.m */; };
@@ -483,6 +485,9 @@
 		A8DCB7881F4F087900546AE7 /* TblWalletModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DCB7871F4F087900546AE7 /* TblWalletModel.m */; };
 		A8DCB78B1F4F096B00546AE7 /* WalletModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DCB78A1F4F096B00546AE7 /* WalletModule.m */; };
 		A8DCB78E1F4F0AA200546AE7 /* WalletDao.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DCB78D1F4F0AA200546AE7 /* WalletDao.m */; };
+		A8E056552192AD3F00E3E0CA /* MZCoupon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E056542192AD3F00E3E0CA /* MZCoupon.framework */; };
+		A8E056562192AD4700E3E0CA /* MZCoupon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E056542192AD3F00E3E0CA /* MZCoupon.framework */; };
+		A8E056572192AD4700E3E0CA /* MZCoupon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8E056542192AD3F00E3E0CA /* MZCoupon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A8E2A1011F34A4860013107E /* RegsisterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E2A1001F34A4860013107E /* RegsisterTableViewCell.m */; };
 		A8E2A1041F34AA8B0013107E /* RegsisterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E2A1031F34AA8B0013107E /* RegsisterModule.m */; };
 		A8E2A10B1F34B87A0013107E /* TblCountryData.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E2A1061F34B87A0013107E /* TblCountryData.m */; };
@@ -508,18 +513,26 @@
 		A8F4A67C1F29E45B00F2A069 /* CampaingroupDao.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F4A67B1F29E45B00F2A069 /* CampaingroupDao.m */; };
 		A8F4A67F1F2A235A00F2A069 /* HomeProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F4A67E1F2A235A00F2A069 /* HomeProductViewController.m */; };
 		A8F7F07B1F45CE8200EB16FB /* CouponPaymentModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F7F07A1F45CE8200EB16FB /* CouponPaymentModule.m */; };
+		A8FBC1CC218C23DF00CA4E71 /* TblChannelLocationData.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC1CB218C23DF00CA4E71 /* TblChannelLocationData.m */; };
+		A8FBC1CF218C23F500CA4E71 /* TblChannelPlayListData.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC1CE218C23F500CA4E71 /* TblChannelPlayListData.m */; };
+		A8FBC1D2218C240A00CA4E71 /* TblChannelPromotionData.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC1D1218C240A00CA4E71 /* TblChannelPromotionData.m */; };
+		A8FBC1D5218C242100CA4E71 /* TblChannelLocationDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC1D4218C242100CA4E71 /* TblChannelLocationDataModel.m */; };
+		A8FBC1D8218C2F7800CA4E71 /* ChannelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC1D7218C2F7800CA4E71 /* ChannelTableViewCell.m */; };
+		A8FBC1DC218C336000CA4E71 /* ChannelTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC1DB218C336000CA4E71 /* ChannelTableViewController.m */; };
+		A8FBC1DF218C35E600CA4E71 /* ChannelModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FBC1DE218C35E600CA4E71 /* ChannelModule.m */; };
 		C806A89C1A2374A800E210F3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C806A89B1A2374A800E210F3 /* libsqlite3.dylib */; };
 		C82A14851A7F405600F38A59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82A14841A7F405600F38A59 /* UIKit.framework */; };
 		F233D9D5FED53C1D86BD35A1 /* libPods-Coupon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 395F825A8C60EB568C85AA7C /* libPods-Coupon.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A863506E2052B1C8005B41A1 /* Embed Frameworks */ = {
+		A8E056582192AD4700E3E0CA /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				A8E056572192AD4700E3E0CA /* MZCoupon.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -611,6 +624,8 @@
 		A8354B1F1F3C8FA300F1CF45 /* CouponDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponDao.m; sourceTree = "<group>"; };
 		A836842D1F56EFD10021619B /* TblOverCouponData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblOverCouponData.h; sourceTree = "<group>"; };
 		A836842E1F56EFD10021619B /* TblOverCouponData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblOverCouponData.m; sourceTree = "<group>"; };
+		A837411F2193FBB0002DFF2A /* ChannelDao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChannelDao.h; sourceTree = "<group>"; };
+		A83741202193FBB0002DFF2A /* ChannelDao.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChannelDao.m; sourceTree = "<group>"; };
 		A83802491F2892A200507975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		A83B81341F6008CB008D48FF /* TblOrderData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblOrderData.h; sourceTree = "<group>"; };
 		A83B81351F6008CB008D48FF /* TblOrderData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblOrderData.m; sourceTree = "<group>"; };
@@ -1206,6 +1221,8 @@
 		A8864F561F28CC1A00530FB9 /* SettingsDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsDao.m; sourceTree = "<group>"; };
 		A88983BB1F2F5C8D000D469D /* TblCampaignGroupDtls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TblCampaignGroupDtls.h; sourceTree = "<group>"; };
 		A88983BC1F2F5C8D000D469D /* TblCampaignGroupDtls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TblCampaignGroupDtls.m; sourceTree = "<group>"; };
+		A88F9F0D2175B85C004DA8C5 /* SetUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUpViewController.h; sourceTree = "<group>"; };
+		A88F9F0E2175B85D004DA8C5 /* SetUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetUpViewController.m; sourceTree = "<group>"; };
 		A8914D851F67B6FB00825EC4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/Info.plist"; sourceTree = "<group>"; };
 		A8914D861F67B6FD00825EC4 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = id; path = id.lproj/Info.plist; sourceTree = "<group>"; };
 		A8914D871F67B70000825EC4 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hant"; path = "zh-Hant.lproj/Info.plist"; sourceTree = "<group>"; };
@@ -1259,6 +1276,7 @@
 		A8DCB78A1F4F096B00546AE7 /* WalletModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletModule.m; sourceTree = "<group>"; };
 		A8DCB78C1F4F0AA200546AE7 /* WalletDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletDao.h; sourceTree = "<group>"; };
 		A8DCB78D1F4F0AA200546AE7 /* WalletDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletDao.m; sourceTree = "<group>"; };
+		A8E056542192AD3F00E3E0CA /* MZCoupon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MZCoupon.framework; path = Coupon/Frameworks/MZCoupon.framework; sourceTree = SOURCE_ROOT; };
 		A8E2A0FF1F34A4860013107E /* RegsisterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegsisterTableViewCell.h; sourceTree = "<group>"; };
 		A8E2A1001F34A4860013107E /* RegsisterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegsisterTableViewCell.m; sourceTree = "<group>"; };
 		A8E2A1021F34AA8B0013107E /* RegsisterModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegsisterModule.h; sourceTree = "<group>"; };
@@ -1309,6 +1327,20 @@
 		A8F4A67E1F2A235A00F2A069 /* HomeProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeProductViewController.m; path = Coupon/ViewContollers/Product/HomeProductViewController.m; sourceTree = SOURCE_ROOT; };
 		A8F7F0791F45CE8200EB16FB /* CouponPaymentModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponPaymentModule.h; sourceTree = "<group>"; };
 		A8F7F07A1F45CE8200EB16FB /* CouponPaymentModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponPaymentModule.m; sourceTree = "<group>"; };
+		A8FBC1CA218C23DF00CA4E71 /* TblChannelLocationData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TblChannelLocationData.h; sourceTree = "<group>"; };
+		A8FBC1CB218C23DF00CA4E71 /* TblChannelLocationData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TblChannelLocationData.m; sourceTree = "<group>"; };
+		A8FBC1CD218C23F500CA4E71 /* TblChannelPlayListData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TblChannelPlayListData.h; sourceTree = "<group>"; };
+		A8FBC1CE218C23F500CA4E71 /* TblChannelPlayListData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TblChannelPlayListData.m; sourceTree = "<group>"; };
+		A8FBC1D0218C240A00CA4E71 /* TblChannelPromotionData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TblChannelPromotionData.h; sourceTree = "<group>"; };
+		A8FBC1D1218C240A00CA4E71 /* TblChannelPromotionData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TblChannelPromotionData.m; sourceTree = "<group>"; };
+		A8FBC1D3218C242100CA4E71 /* TblChannelLocationDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TblChannelLocationDataModel.h; sourceTree = "<group>"; };
+		A8FBC1D4218C242100CA4E71 /* TblChannelLocationDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TblChannelLocationDataModel.m; sourceTree = "<group>"; };
+		A8FBC1D6218C2F7700CA4E71 /* ChannelTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChannelTableViewCell.h; sourceTree = "<group>"; };
+		A8FBC1D7218C2F7800CA4E71 /* ChannelTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChannelTableViewCell.m; sourceTree = "<group>"; };
+		A8FBC1DA218C336000CA4E71 /* ChannelTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChannelTableViewController.h; sourceTree = "<group>"; };
+		A8FBC1DB218C336000CA4E71 /* ChannelTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChannelTableViewController.m; sourceTree = "<group>"; };
+		A8FBC1DD218C35E600CA4E71 /* ChannelModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChannelModule.h; sourceTree = "<group>"; };
+		A8FBC1DE218C35E600CA4E71 /* ChannelModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChannelModule.m; sourceTree = "<group>"; };
 		C806A89B1A2374A800E210F3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		C82A14841A7F405600F38A59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C8665F3B1A23663200C711D2 /* Coupon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coupon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1339,10 +1371,12 @@
 				A87984CB20EF559F005F2BF4 /* FBSDKLoginKit.framework in Frameworks */,
 				A809DF791B1F216100BBDBBD /* CoreMedia.framework in Frameworks */,
 				A809DF771B1F215800BBDBBD /* CoreGraphics.framework in Frameworks */,
+				A8E056552192AD3F00E3E0CA /* MZCoupon.framework in Frameworks */,
 				A809DF751B1F214E00BBDBBD /* AVFoundation.framework in Frameworks */,
 				A87984CE20EF559F005F2BF4 /* Crashlytics.framework in Frameworks */,
 				A809DF731B1F214800BBDBBD /* AudioToolbox.framework in Frameworks */,
 				84DEF4C91A9C7348004FD7AC /* MessageUI.framework in Frameworks */,
+				A8E056562192AD4700E3E0CA /* MZCoupon.framework in Frameworks */,
 				A87984CD20EF559F005F2BF4 /* Fabric.framework in Frameworks */,
 				C82A14851A7F405600F38A59 /* UIKit.framework in Frameworks */,
 				A84191A81A3B09D000917038 /* libz.dylib in Frameworks */,
@@ -1521,6 +1555,8 @@
 				A877906A1F28647500C00654 /* SiteCell.m */,
 				A877906B1F28647500C00654 /* SiteTableViewCell.h */,
 				A877906C1F28647500C00654 /* SiteTableViewCell.m */,
+				A8FBC1D6218C2F7700CA4E71 /* ChannelTableViewCell.h */,
+				A8FBC1D7218C2F7800CA4E71 /* ChannelTableViewCell.m */,
 			);
 			name = Cells;
 			path = Coupon/Cells;
@@ -1851,6 +1887,8 @@
 				A8BADBA51F8607CD00E8BD15 /* MassRedeemModule.m */,
 				A8D62B9A1FE3FF5600E13C63 /* NotificationModule.h */,
 				A8D62B9B1FE3FF5700E13C63 /* NotificationModule.m */,
+				A8FBC1DD218C35E600CA4E71 /* ChannelModule.h */,
+				A8FBC1DE218C35E600CA4E71 /* ChannelModule.m */,
 			);
 			name = Module;
 			path = Coupon/Module;
@@ -1961,6 +1999,7 @@
 		A87792F11F2867B400C00654 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A8E056542192AD3F00E3E0CA /* MZCoupon.framework */,
 				A87984C820EF559E005F2BF4 /* Crashlytics.framework */,
 				A87984C620EF559D005F2BF4 /* EstimoteSDK.framework */,
 				A87984C720EF559E005F2BF4 /* Fabric.framework */,
@@ -2201,6 +2240,8 @@
 				A8864F061F2898ED00530FB9 /* LanguageViewController.m */,
 				A8864F071F2898ED00530FB9 /* SettingsViewController.h */,
 				A8864F081F2898ED00530FB9 /* SettingsViewController.m */,
+				A88F9F0D2175B85C004DA8C5 /* SetUpViewController.h */,
+				A88F9F0E2175B85D004DA8C5 /* SetUpViewController.m */,
 				A8864F091F2898ED00530FB9 /* StaticWebView1.h */,
 				A8864F0A1F2898ED00530FB9 /* StaticWebView1.m */,
 				A8864F0B1F2898ED00530FB9 /* StaticWebView2.h */,
@@ -2306,9 +2347,20 @@
 				A84D7DA91F78DB9200DB0364 /* PaymentDao.m */,
 				A8C9A3411FE803BB0041DFED /* WalletTopUpTransactionDao.h */,
 				A8C9A3421FE803BB0041DFED /* WalletTopUpTransactionDao.m */,
+				A837411F2193FBB0002DFF2A /* ChannelDao.h */,
+				A83741202193FBB0002DFF2A /* ChannelDao.m */,
 			);
 			name = Dao;
 			path = Coupon/Dao;
+			sourceTree = "<group>";
+		};
+		A8FBC1D9218C323000CA4E71 /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				A8FBC1DA218C336000CA4E71 /* ChannelTableViewController.h */,
+				A8FBC1DB218C336000CA4E71 /* ChannelTableViewController.m */,
+			);
+			path = Channel;
 			sourceTree = "<group>";
 		};
 		C84F70FD1A2C3F3B00159DBA /* Pojo */ = {
@@ -2456,6 +2508,14 @@
 				A82959781FE14362003239C0 /* TblCampGrpData.m */,
 				A829597B1FE14396003239C0 /* TblCampaignSearchModel.h */,
 				A829597A1FE14396003239C0 /* TblCampaignSearchModel.m */,
+				A8FBC1CA218C23DF00CA4E71 /* TblChannelLocationData.h */,
+				A8FBC1CB218C23DF00CA4E71 /* TblChannelLocationData.m */,
+				A8FBC1CD218C23F500CA4E71 /* TblChannelPlayListData.h */,
+				A8FBC1CE218C23F500CA4E71 /* TblChannelPlayListData.m */,
+				A8FBC1D0218C240A00CA4E71 /* TblChannelPromotionData.h */,
+				A8FBC1D1218C240A00CA4E71 /* TblChannelPromotionData.m */,
+				A8FBC1D3218C242100CA4E71 /* TblChannelLocationDataModel.h */,
+				A8FBC1D4218C242100CA4E71 /* TblChannelLocationDataModel.m */,
 			);
 			name = Pojo;
 			path = Coupon/Pojo;
@@ -2510,6 +2570,7 @@
 		C8665F3D1A23663200C711D2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A8FBC1D9218C323000CA4E71 /* Channel */,
 				A8864F501F28995400530FB9 /* Wallet */,
 				A8864F401F28993A00530FB9 /* Tour */,
 				A8864F391F28992100530FB9 /* Specials */,
@@ -2542,7 +2603,7 @@
 				C8665F391A23663200C711D2 /* Resources */,
 				01FEFB001AEAC203000C0AD4 /* ShellScript */,
 				7566D605B0FD011CDF422B70 /* [CP] Copy Pods Resources */,
-				A863506E2052B1C8005B41A1 /* Embed Frameworks */,
+				A8E056582192AD4700E3E0CA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2890,6 +2951,8 @@
 				A80B4A221F84EFB9000CC03F /* TblCustomerCouponData.m in Sources */,
 				A831F5AC1F388DCE00C1AA50 /* TblCustomerGroupData.m in Sources */,
 				A8864F371F28991900530FB9 /* SpecialViewController.m in Sources */,
+				A8FBC1CF218C23F500CA4E71 /* TblChannelPlayListData.m in Sources */,
+				A8FBC1DC218C336000CA4E71 /* ChannelTableViewController.m in Sources */,
 				A8864EC51F28987E00530FB9 /* PromoCouponViewController.m in Sources */,
 				A83B814B1F6010B8008D48FF /* TblOrderTrackData.m in Sources */,
 				A8864F1A1F2898ED00530FB9 /* SettingsViewController.m in Sources */,
@@ -2931,6 +2994,7 @@
 				A859F18B1F2740AA000DE216 /* TblCustomerModel.m in Sources */,
 				A87792F61F28680900C00654 /* ActivityDetailViewController.m in Sources */,
 				A8864E7A1F2897E500530FB9 /* ScanCouponViewController.m in Sources */,
+				A8FBC1D5218C242100CA4E71 /* TblChannelLocationDataModel.m in Sources */,
 				A8354B171F3C881000F1CF45 /* TblCustomerCouponModel.m in Sources */,
 				A8864E771F2897E500530FB9 /* MerchantViewController.m in Sources */,
 				A8F4A6491F29B75700F2A069 /* ProductModule.m in Sources */,
@@ -2943,6 +3007,7 @@
 				A877901F1F28635B00C00654 /* pngrio.c in Sources */,
 				A8354B021F3C223200F1CF45 /* TblSite.m in Sources */,
 				A87790301F28638300C00654 /* QR_Encode.mm in Sources */,
+				A8FBC1D2218C240A00CA4E71 /* TblChannelPromotionData.m in Sources */,
 				A84D7DB71F78DC3C00DB0364 /* TblPaymentDtl.m in Sources */,
 				A87790771F28647500C00654 /* PromoCommonTableCell.m in Sources */,
 				A8354B1D1F3C8AFE00F1CF45 /* CouponModule.m in Sources */,
@@ -2963,7 +3028,9 @@
 				A87790271F28635B00C00654 /* pngwutil.c in Sources */,
 				A8D2F6CA1F39CB6A0078CFCA /* TblProductOrder.m in Sources */,
 				A87792CF1F28670100C00654 /* UIImage+GIF.m in Sources */,
+				A8FBC1CC218C23DF00CA4E71 /* TblChannelLocationData.m in Sources */,
 				A80A1A8B1F753D0900AD54EA /* CartDao.m in Sources */,
+				A88F9F0F2175B85E004DA8C5 /* SetUpViewController.m in Sources */,
 				A8864EFA1F2898CB00530FB9 /* ImageContentView.m in Sources */,
 				A87792E41F28672900C00654 /* SWLongPressGestureRecognizer.m in Sources */,
 				A8E2A10B1F34B87A0013107E /* TblCountryData.m in Sources */,
@@ -2974,6 +3041,7 @@
 				A87792E71F28672900C00654 /* SWUtilityButtonView.m in Sources */,
 				A8864E371F28976000530FB9 /* EditCartController.m in Sources */,
 				A8864EC21F28987E00530FB9 /* MyAnnotation.m in Sources */,
+				A8FBC1D8218C2F7800CA4E71 /* ChannelTableViewCell.m in Sources */,
 				A8864E891F28984100530FB9 /* DeliveryController.m in Sources */,
 				A8864F1E1F2898ED00530FB9 /* StaticWebViewFB.m in Sources */,
 				A87792C81F28670100C00654 /* SDWebImageDecoder.m in Sources */,
@@ -3110,6 +3178,7 @@
 				A8F4A6601F29C3EB00F2A069 /* TblCampaignCode.m in Sources */,
 				A8BBECD21F6BFD4300410E25 /* WalletTopUpTransactionModule.m in Sources */,
 				A8864EC81F28987E00530FB9 /* ResetMessgaeView.m in Sources */,
+				A8FBC1DF218C35E600CA4E71 /* ChannelModule.m in Sources */,
 				A8BADBA61F8607CD00E8BD15 /* MassRedeemModule.m in Sources */,
 				A82959731FE13BA9003239C0 /* TblGiftcouponData.m in Sources */,
 				A82959761FE13C14003239C0 /* TblGiftcouponModel.m in Sources */,
@@ -3148,6 +3217,7 @@
 				A8F4A66A1F29C46500F2A069 /* ProductDao.m in Sources */,
 				A8E2A10D1F34B87B0013107E /* TblCountryModel.m in Sources */,
 				A87792981F28668400C00654 /* CustomerModule.m in Sources */,
+				A83741212193FBB0002DFF2A /* ChannelDao.m in Sources */,
 				A8E2A10C1F34B87B0013107E /* TblCountryList.m in Sources */,
 				A8354B051F3C227F00F1CF45 /* TblSiteModel.m in Sources */,
 				A87790231F28635B00C00654 /* pngtrans.c in Sources */,
@@ -3307,6 +3377,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Coupon/Frameworks",
+					"$(PROJECT_DIR)/Mojodomo",
 				);
 				INFOPLIST_FILE = "StoryBoard&Main/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -3341,6 +3412,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Coupon/Frameworks",
+					"$(PROJECT_DIR)/Mojodomo",
 				);
 				INFOPLIST_FILE = "StoryBoard&Main/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

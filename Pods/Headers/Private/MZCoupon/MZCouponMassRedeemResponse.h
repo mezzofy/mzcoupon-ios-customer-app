@@ -1,1 +1,0 @@
-../../../MZCoupon/MZCoupon/DataResponse/Coupon/MZCouponMassRedeemResponse.h

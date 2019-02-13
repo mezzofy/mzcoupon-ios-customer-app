@@ -16,6 +16,7 @@
 @synthesize btnMap;
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
     // Initialization code
 }
 

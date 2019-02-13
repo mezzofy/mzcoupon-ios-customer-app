@@ -1,0 +1,6 @@
+framework module MZCoupon {
+  umbrella header "MZCoupon.h"
+
+  export *
+  module * { export * }
+}

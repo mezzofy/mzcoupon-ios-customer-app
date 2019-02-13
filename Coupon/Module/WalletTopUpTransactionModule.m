@@ -44,7 +44,7 @@
     
     MZWalletTransactionListResponse *objmezzofy=[[MZWalletTransactionListResponse alloc]init];
     MZWalletTopUpTransaction *objMZWalleTopup=[[MZWalletTopUpTransaction alloc]init];
-    objmezzofy=[objMZWalleTopup GetWalletTransactions:[Common getCustomerId] Status:pStatus Offset:poffsetId];
+    objmezzofy=[objMZWalleTopup GetWalletTransactions:pStatus Offset:poffsetId];
             LoaderModule *modloader=[[LoaderModule alloc]init];
             WalletTopUpTransactionDao *daowallet=[[WalletTopUpTransactionDao alloc]init];
             if(poffsetId==1)

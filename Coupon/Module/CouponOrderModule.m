@@ -15,7 +15,7 @@
     
     MZCouponOrderListResponse *objmezzofy=[[MZCouponOrderListResponse alloc]init];
     MZCouponOrder *MZCouponorder=[[MZCouponOrder alloc]init];
-    objmezzofy=[MZCouponorder GetCouponOrder:[Common getCustomerId] Offset:poffset];
+    objmezzofy=[MZCouponorder GetCouponOrder:poffset];
     
     
     

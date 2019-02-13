@@ -210,6 +210,7 @@
                                    actionWithTitle:NSLocalizedString(@"OK", nil)
                                    style:UIAlertActionStyleDefault
                                    handler:^(UIAlertAction *action){
+                                       [MZCouponConfig SetupCustomerID:@""];
                                        Dbhelp* db = [[Dbhelp alloc]init];
                                        [db DeleteTables];
                                        NSBundle *bundle = [NSBundle mainBundle];

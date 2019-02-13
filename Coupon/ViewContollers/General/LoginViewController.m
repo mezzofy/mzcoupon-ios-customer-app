@@ -46,8 +46,9 @@
     loginButton.frame = CGRectMake(self.view_fblogin.frame.size.width/2 - loginButton.frame.size.width/2, self.view_fblogin.frame.size.height/2 - loginButton.frame.size.height/2, loginButton.frame.size.width, loginButton.frame.size.height);
     [self.view_fblogin addSubview:loginButton];
     [self.navigationController setNavigationBarHidden:NO];
-    
-
+    UISwipeGestureRecognizer *swipeRight = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(slideToRightWithGestureRecognizer:)];
+    swipeRight.direction = UISwipeGestureRecognizerDirectionLeft;
+    [self.view addGestureRecognizer:swipeRight];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -62,7 +63,9 @@
     [super didReceiveMemoryWarning];
     
 }
-
+-(void)slideToRightWithGestureRecognizer:(UISwipeGestureRecognizer *)gestureRecognizer{
+    [self performSegueWithIdentifier:@"changevalues" sender:self];
+}
 - (void)dismFromKeyboardNotifications {
     
     

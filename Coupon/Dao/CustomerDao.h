@@ -12,6 +12,7 @@
 #import "FMDatabase.h"
 #import "TblCustomerData.h"
 #import "TblCustomerGroupData.h"
+#import <MZCoupon/MZCoupon.h>
 
 @interface CustomerDao : NSObject
 - (TblCustomerData *)getCustmerList;

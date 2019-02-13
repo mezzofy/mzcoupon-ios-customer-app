@@ -28,6 +28,9 @@
 //campaign Group
 - (void)loadCampaigngroupsAndDetailsfromserverLatitude:(double)platitute Longitude:(double)plongitude;
 
+//Campaign With Channel
+- (void)loadCampaignChannelID:(NSString *)pChannelId Offset:(NSInteger )poffset Latitude:(double)platitute Longitude:(double)plongitude;
+
 //DataBase
 - (NSMutableArray *)getProductList:(NSString *)pstatus;
 - (NSMutableArray *)getCampaignImg:(NSString *)ppcampaignId;

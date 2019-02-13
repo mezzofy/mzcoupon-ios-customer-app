@@ -39,6 +39,7 @@
             [Common setCustomerEmailID:objmezzofy.customer.customerEmail];
             [Common setCustomerpassword:objmezzofy.customer.customerPassword];
             [Common setCustomerId:objmezzofy.customer.customerId];
+            [MZCouponConfig SetupCustomerID:objmezzofy.customer.customerId];
             bool retrn=[daocust AddCustomerList:objmezzofy.customer];
             if(retrn)
                 retval=@"SUCCESS";

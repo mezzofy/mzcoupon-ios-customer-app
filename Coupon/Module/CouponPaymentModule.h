@@ -14,6 +14,9 @@
 //Download free Coupon
 - (NSString *)downloadFreeCouponFromServer:(ProductOrderListDataModel *)pproductOrder;
 
+//Download free Coupon with channel
+- (NSString *)downloadFreeCouponWithChannelFromServer:(NSString *)pChannelCode Data:(ProductOrderListDataModel *)pproductOrder;
+
 //Check Avalibality
 - (NSString *)checkAvalibalityInServer:(NSString *)pCouponId CouponQuantity:(NSString *)pQyt;
 

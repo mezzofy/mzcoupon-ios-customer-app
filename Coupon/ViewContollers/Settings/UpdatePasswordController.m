@@ -113,8 +113,8 @@ self.tableView.backgroundView.layer.zPosition -= 1;
         });
     } else {
         NSString *strreply=@"";
-        TblCustomerModel *objcustmod=[[TblCustomerModel alloc]init];
-        TblCustomerData *objcustdata=[[TblCustomerData alloc]init];
+        CustomerDataModel *objcustmod=[[CustomerDataModel alloc]init];
+        CustomerData *objcustdata=[[CustomerData alloc]init];
         [objcustdata setCustomerId:[Common getCustomerId]];
         [objcustdata setCustomerPassword:txtNewPassword.text];
         [objcustmod setCustomer:objcustdata];

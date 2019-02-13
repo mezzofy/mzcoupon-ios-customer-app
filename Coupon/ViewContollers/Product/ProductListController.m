@@ -51,7 +51,7 @@
 @implementation ProductListController
 @synthesize catfilterid,catfiltername;
 @synthesize searchBar;
-@synthesize searchResults;
+@synthesize searchResults,channelId;
 
 
 - (void)viewDidLoad {
@@ -59,7 +59,7 @@
     if([Common hotdeals]==NULL)
         [Common hotdeals:@"N"];
     
-    self.tabBarController.delegate=self;
+    
     searchBar.delegate =self;
 //    UIImageView *navigationImage=[[UIImageView alloc]initWithFrame:CGRectMake(self.view.center.x, 0, 100, 30)];
 //    navigationImage.image=[UIImage imageNamed:@"navlogo.png"];
@@ -191,18 +191,7 @@
         
     
 }
--(void) tabBarController:(UITabBarController *)tabBarController didSelectViewController:(nonnull UIViewController *)viewController
-{
-     NSLog(@"Selected INDEX OF TAB-BAR ==> %lu", (unsigned long)tabBarController.selectedIndex);
-    if([[Common getCustomertype]isEqualToString:@"G"]&&(tabBarController.selectedIndex==1)){
-        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Guest User" message:@"You must signin or Regsister to access all these" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"SignIn", nil];
-        [alert show];
-        alert.tag=11;
-    }
-   
-    
-    
-}
+
 
 - (CGFloat) tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
 {
@@ -447,6 +436,7 @@ if (indexPath.section == 0) {
         
         ProductDetailController *proDetails = segue.destinationViewController;
         proDetails.campid = [tblprod campaignId];
+        proDetails.ChannelCode=channelId;
     }
     else if ([segue.identifier isEqualToString:@"splproduct"]) {
         
@@ -494,27 +484,30 @@ if (indexPath.section == 0) {
     LoaderModule *modloader=[[LoaderModule alloc]init];
     if([tblprod.favourite isEqualToString:@"Y"])
         [modloader updateFlagDataFromServer:@"tbl_campaign" flagname:@"favourite" flagvalue:@"N" tblindex:@"campaignId" tblvalue:tblprod.campaignId];
-     else
+    else{
          [modloader updateFlagDataFromServer:@"tbl_campaign" flagname:@"favourite" flagvalue:@"Y" tblindex:@"campaignId" tblvalue:tblprod.campaignId];
+         [modloader updateFlagDataFromServer:@"tbl_campaign" flagname:@"channelCode" flagvalue:channelId tblindex:@"campaignId" tblvalue:tblprod.campaignId];
+    }
   
     [self.tableView reloadData];
 }
 
 - (void)loadProductList {
     modprod=[[ProductModule alloc]init];
-    [modprod loadCampaigngroupsAndDetailsfromserverLatitude:curlatitude Longitude:curlongitude];
-    if([[Common hotdeals]isEqualToString:@"S"]){
-        [modprod loadToptenProductListFromServer];
-        [Common filterCampaignGroup:[[NSMutableArray alloc]init]];
-        [Common filterSite:[[NSMutableArray alloc]init]];
-        [Common CampaignFilter:@"NO"];
-    }
-    else if(([Common filterSite].count>0)||([Common filterCampaignGroup].count>0)){
-        [modprod loadProductListFromServerWithFilter:_pagesize Latitude:curlatitude Longitude:curlongitude];
-    }
-    else
-        [modprod loadProductListFromServer:_pagesize Latitude:curlatitude Longitude:curlongitude];
-    
+    [modprod loadCampaignChannelID:channelId Offset:_pagesize Latitude:curlatitude Longitude:curlongitude];
+//    [modprod loadCampaigngroupsAndDetailsfromserverLatitude:curlatitude Longitude:curlongitude];
+//    if([[Common hotdeals]isEqualToString:@"S"]){
+//        [modprod loadToptenProductListFromServer];
+//        [Common filterCampaignGroup:[[NSMutableArray alloc]init]];
+//        [Common filterSite:[[NSMutableArray alloc]init]];
+//        [Common CampaignFilter:@"NO"];
+//    }
+//    else if(([Common filterSite].count>0)||([Common filterCampaignGroup].count>0)){
+//        [modprod loadProductListFromServerWithFilter:_pagesize Latitude:curlatitude Longitude:curlongitude];
+//    }
+//    else
+//        [modprod loadProductListFromServer:_pagesize Latitude:curlatitude Longitude:curlongitude];
+//
 }
 #pragma mark - Product Pagination
 -(void)refreshcontroller
@@ -536,8 +529,8 @@ if (indexPath.section == 0) {
 - (IBAction)Btn_hotdeals:(id)sender {
     _pagesize=1;
     if([[Common hotdeals]isEqualToString:@"S"]){
-        [self LoadDataFromServer];
         [Common hotdeals:@"N"];
+        [self LoadDataFromServer];
     }
     else{
         [Common filterSite:[[NSMutableArray alloc]init]];
@@ -546,20 +539,7 @@ if (indexPath.section == 0) {
         [self LoadDataFromServer];
     }
 }
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-    if(alertView.tag==11&&buttonIndex==1){
-        
-        NSBundle *bundle = [NSBundle mainBundle];
-        NSString *sbFile = [bundle objectForInfoDictionaryKey:@"UIMainStoryboardFile"];
-        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:sbFile bundle:bundle];
-        UINavigationController *vc = [storyboard instantiateViewControllerWithIdentifier:@"vcappstart"];
-        
-        [self presentViewController:vc animated:NO completion:^{[[NSNotificationCenter defaultCenter] postNotificationName:@"GuestSignOut" object:@"GuestSignOut"];}];
-        
-    }
-    else
-        [self.tabBarController setSelectedIndex:0];
-  }
+
 
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
@@ -567,14 +547,19 @@ if (indexPath.section == 0) {
         if(_pagesize*20 < _rowsCount){
             _pagesize=_pagesize+1;
             if(([Common filterSite].count>0)||([Common filterCampaignGroup].count>0)){
-                [modprod loadProductListFromServerWithFilter:_pagesize Latitude:curlatitude Longitude:curlongitude];
+                [modprod loadCampaignChannelID:channelId Offset:_pagesize Latitude:curlatitude Longitude:curlongitude];
+//                [modprod loadProductListFromServerWithFilter:_pagesize Latitude:curlatitude Longitude:curlongitude];
             }
             else
-                [modprod loadProductListFromServer:_pagesize Latitude:curlatitude Longitude:curlongitude];
+                [modprod loadCampaignChannelID:channelId Offset:_pagesize Latitude:curlatitude Longitude:curlongitude];
+//                [modprod loadProductListFromServer:_pagesize Latitude:curlatitude Longitude:curlongitude];
            
            
             [self.tableView reloadData];
         }
     }
+}
+- (IBAction)btn_BackAction:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
 }
 @end

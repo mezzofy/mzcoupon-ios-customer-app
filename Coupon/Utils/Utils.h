@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
-#import <AFNetworking/AFHTTPSessionManager.h>
-#import <AFNetworking/AFURLRequestSerialization.h>
 #import "Common.h"
 
 

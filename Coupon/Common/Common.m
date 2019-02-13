@@ -175,12 +175,12 @@ static NSString* _merchtid=@"DMHA";
     retval = [dao getMerchantValue:@"merchantEmail"];
     return retval;
 }
-+(NSString*)getMerchantID{
-    NSString* retval;
-    SettingsDao* dao = [[SettingsDao alloc]init];
-    retval = [dao getValue:@"MerchantID"];
-    return retval;
-}
+//+(NSString*)getMerchantID{
+//    NSString* retval;
+//    SettingsDao* dao = [[SettingsDao alloc]init];
+//    retval = [dao getValue:@"MerchantID"];
+//    return retval;
+//}
 +(void)dataResponse:(DataReaponseDataModel *)pdatares {
     _dataResopnse = pdatares;
 }
@@ -260,6 +260,59 @@ static NSString* _merchtid=@"DMHA";
     }
     activityView = nil;
 }
-
++(void)setMerchantID:(NSString*)pmerchantId setOAuthKey:(NSString *)pOauthKey  setOAuthSecret:(NSString *)pOauthSecret setUserSetting:(NSString *)pusersetting{
+    SettingsDao* dao = [[SettingsDao alloc]init];
+    NSString *tempuser=[self getMerchantID];
+    if(tempuser!=NULL&&[tempuser length]>0)
+        [dao UpdateSettings:@"MerchantID" Value:pmerchantId];
+    
+    else
+        [dao setValue:@"MerchantID" Value:pmerchantId];
+    
+    tempuser=[self getOAuthKey];
+    if(tempuser!=NULL&&[tempuser length]>0)
+        [dao UpdateSettings:@"OAuthKey" Value:pOauthKey];
+    
+    else
+        [dao setValue:@"OAuthKey" Value:pOauthKey];
+    
+    tempuser=[self getOauthSecret];
+    if(tempuser!=NULL&&[tempuser length]>0)
+        [dao UpdateSettings:@"OauthSecret" Value:pOauthSecret];
+    
+    else
+        [dao setValue:@"OauthSecret" Value:pOauthSecret];
+    
+    tempuser=[self getUserSetting];
+    if(tempuser!=NULL&&[tempuser length]>0)
+        [dao UpdateSettings:@"UserSetting" Value:pusersetting];
+    
+    else
+        [dao setValue:@"UserSetting" Value:pusersetting];
+}
++(NSString*)getMerchantID{
+    NSString* retval;
+    SettingsDao* dao = [[SettingsDao alloc]init];
+    retval = [dao getValue:@"MerchantID"];
+    return retval;
+}
++(NSString*)getOAuthKey{
+    NSString* retval;
+    SettingsDao* dao = [[SettingsDao alloc]init];
+    retval = [dao getValue:@"OAuthKey"];
+    return retval;
+}
++(NSString*)getOauthSecret{
+    NSString* retval;
+    SettingsDao* dao = [[SettingsDao alloc]init];
+    retval = [dao getValue:@"OauthSecret"];
+    return retval;
+}
++(NSString*)getUserSetting{
+    NSString* retval;
+    SettingsDao* dao = [[SettingsDao alloc]init];
+    retval = [dao getValue:@"UserSetting"];
+    return retval;
+}
 
 @end

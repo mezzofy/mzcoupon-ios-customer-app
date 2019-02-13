@@ -11,6 +11,23 @@
 #import "TblOverCouponData.h"
 
 @implementation CouponPaymentModule
+- (NSString *)downloadFreeCouponWithChannelFromServer:(NSString *)pChannelCode Data:(ProductOrderListDataModel *)pproductOrder{
+    NSString *retval=@"";
+    
+    MZCouponProductOrderResponse *objmezzofy=[[MZCouponProductOrderResponse alloc]init];
+    MZCouponPayment *MZPayment=[[MZCouponPayment alloc]init];
+    objmezzofy=[MZPayment RequestFreeCouponWithChannel:pChannelCode Data:pproductOrder];
+    
+    if(objmezzofy.po.poId){
+        NSLog(@"%@",objmezzofy);
+        retval=@"SUCCESS";
+    }
+    else
+        retval=[objmezzofy message];
+    
+    
+    return retval;
+}
 - (NSString *)downloadFreeCouponFromServer:(ProductOrderListDataModel *)pproductOrder{
     NSString *retval=@"";
     
@@ -28,6 +45,7 @@
     
     return retval;
 }
+
 - (ProductOrderData *)downloadChargeCouponFromServer:(ProductOrderListDataModel *)pproductOrder{
     ProductOrderData *retval=[[ProductOrderData alloc]init];
     

@@ -18,7 +18,7 @@
 @property (nonatomic, retain) IBOutlet UITableView *tableView;
 @property (nonatomic, retain) IBOutlet UIButton *btnclick;
 @property (nonatomic, retain) IBOutlet UIBarButtonItem *btnfav;
-
+@property (nonatomic, retain) NSString *ChannelCode;
 - (IBAction)btnplayvideo:(id)sender;
 
 @end

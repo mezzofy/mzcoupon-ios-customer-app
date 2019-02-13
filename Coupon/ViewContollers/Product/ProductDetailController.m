@@ -55,12 +55,11 @@
 @end
 
 @implementation ProductDetailController
-@synthesize campid,btnclick,btnfav;
+@synthesize campid,btnclick,btnfav,ChannelCode;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
    
-    //Location current
     locationManager = [[CLLocationManager alloc] init];
     locationManager.distanceFilter = kCLDistanceFilterNone; // whenever we move
     locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters; // 100 m
@@ -87,7 +86,6 @@
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 -(void)LoadDataFromServer{
     ProductModule *modprod=[[ProductModule alloc]init];
@@ -130,8 +128,6 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    
-    // Return the number of sections.
     return 1;
 }
 
@@ -163,8 +159,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     UITableViewCell *cell = NULL;
-    
-    // Configure the cell...
+ 
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
             cellgeneral = [tableView dequeueReusableCellWithIdentifier:@"cellimg" forIndexPath:indexPath];
@@ -185,17 +180,10 @@
                 cellgeneral.imgProduct.contentMode = UIViewContentModeScaleAspectFill;
                 cellgeneral.imgProduct.clipsToBounds = YES;
             }
-            
-            
-            
             if([objprod videoUrl] != Nil && [objprod.videoUrl length] > 0){
                 [self addPlayButton:[objprod videoUrl]];
             }
-            
-            
-            cell = cellgeneral;
-            
-            
+           cell = cellgeneral;
         } else if (indexPath.row == 1) {
             ProductViewCell *cellproduct = [tableView dequeueReusableCellWithIdentifier:@"cellmer" forIndexPath:indexPath];
             cellproduct.lblProductName.text = [objprod campaignName];
@@ -407,6 +395,7 @@
     }
     else{
         [modloader updateFlagDataFromServer:@"tbl_campaign" flagname:@"favourite" flagvalue:@"Y" tblindex:@"campaignId" tblvalue:objprod.campaignId];
+        [modloader updateFlagDataFromServer:@"tbl_campaign" flagname:@"channelCode" flagvalue:ChannelCode tblindex:@"campaignId" tblvalue:objprod.campaignId];
         [btnfav setImage:[UIImage imageNamed:@"starz.png"]];
     }
     ProductModule *modprod=[[ProductModule alloc]init];
@@ -444,7 +433,12 @@
                                    handler:^(UIAlertAction *action){
                                        Dbhelp* db = [[Dbhelp alloc]init];
                                        [db DeleteTables];
-                                       [self performSegueWithIdentifier:@"gohome" sender:self];
+                                       NSBundle *bundle = [NSBundle mainBundle];
+                                       NSString *sbFile = [bundle objectForInfoDictionaryKey:@"UIMainStoryboardFile"];
+                                       UIStoryboard *storyboard = [UIStoryboard storyboardWithName:sbFile bundle:bundle];
+                                       UINavigationController *vc = [storyboard instantiateViewControllerWithIdentifier:@"vcappstart"];
+                                       
+                                       [self presentViewController:vc animated:NO completion:^{[[NSNotificationCenter defaultCenter] postNotificationName:@"GuestSignOut" object:@"GuestSignOut"];}];
                                    }];
 
         UIAlertAction *cancelAction = [UIAlertAction
@@ -457,10 +451,6 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             [self presentViewController:alertController animated:YES completion:nil];
         });
-        
-        
-        
-    
         
     }else if (([[Common getCustomertype]isEqualToString:@"F"] ||[[Common getCustomertype]isEqualToString:@"C"])&&([[objprod brand]isEqualToString:@"F"] )) {
         CouponPaymentModule *modcoup=[[CouponPaymentModule alloc]init];
@@ -478,10 +468,7 @@
                                            
                                        }];
             [alertController addAction:okAction];
-           
-            
-            
-            
+
             dispatch_async(dispatch_get_main_queue(), ^{
                 [self presentViewController:alertController animated:YES completion:nil];
             });
@@ -508,8 +495,11 @@
             
             [objprodOdrList setPo:tblprod];
             [objprodOdrList setPodetails:arrmod];
-            
-        NSString *retval =[modcoup downloadFreeCouponFromServer:objprodOdrList];
+            NSString *retval;
+            if([objprod.favourite isEqualToString:@"Y"])
+                retval =[modcoup downloadFreeCouponWithChannelFromServer:objprod.channelCode Data:objprodOdrList];
+            else
+                retval =[modcoup downloadFreeCouponWithChannelFromServer:ChannelCode Data:objprodOdrList];
         
         if ([retval isEqualToString:@"SUCCESS"]){
             UIAlertController *alertController = [UIAlertController
@@ -523,10 +513,6 @@
                                            [self.navigationController popViewControllerAnimated:YES];
                                        }];
             [alertController addAction:okAction];
-            
-            
-            
-            
             dispatch_async(dispatch_get_main_queue(), ^{
                 [self presentViewController:alertController animated:YES completion:nil];
             });
@@ -568,9 +554,6 @@
                                        }];
             [alertController addAction:okAction];
             
-            
-            
-            
             dispatch_async(dispatch_get_main_queue(), ^{
                 [self presentViewController:alertController animated:YES completion:nil];
             });
@@ -584,7 +567,7 @@
                 TblCampaignImage *objimg=productImages[0];
                 [objprod setCampaignImage:objimg.campaignImage];
             }
-            
+            [objprod setChannelCode:ChannelCode];
             BOOL res = [modcart addCartItemsData:objprod];
             if (res){
                 [[NSNotificationCenter defaultCenter] postNotificationName:@"CartList" object:@"List"];
@@ -599,9 +582,6 @@
                                                [self.navigationController popViewControllerAnimated:YES];
                                            }];
                 [alertController addAction:okAction];
-                
-                
-                
                 
                 dispatch_async(dispatch_get_main_queue(), ^{
                     [self presentViewController:alertController animated:YES completion:nil];
@@ -618,10 +598,7 @@
                                                
                                            }];
                 [alertController addAction:okAction];
-                
-                
-                
-                
+               
                 dispatch_async(dispatch_get_main_queue(), ^{
                     [self presentViewController:alertController animated:YES completion:nil];
                 });

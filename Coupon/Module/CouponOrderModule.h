@@ -10,7 +10,7 @@
 #import "Utils.h"
 #import "TblOrderModel.h"
 #import "CouponOrderDao.h"
-#import "TblSiteModel.h"
+//#import "SiteData.h"
 
 
 @interface CouponOrderModule : NSObject
@@ -27,7 +27,7 @@
 - (NSString *)getOrderTrackFromServer:(NSString *)pCouponId;
 
 //Get site by site pass
--(TblSite *)getSiteFromServerBySitepass:(NSString *)pSitepass;
+-(SiteData *)getSiteFromServerBySitepass:(NSString *)pSitepass;
 
 
 //DataBase

@@ -75,4 +75,12 @@
 +(void)filterCampaignGroup:(NSMutableArray *)pcampaigngroup;
 +(NSMutableArray *)filterSite;
 +(void)filterSite:(NSMutableArray *)psite;
+
+
+
++(void)setMerchantID:(NSString*)pmerchantId setOAuthKey:(NSString *)pOauthKey  setOAuthSecret:(NSString *)pOauthSecret setUserSetting:(NSString *)pusersetting;
++(NSString*)getMerchantID;
++(NSString*)getOAuthKey;
++(NSString*)getOauthSecret;
++(NSString*)getUserSetting;
 @end

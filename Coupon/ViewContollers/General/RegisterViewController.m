@@ -45,6 +45,9 @@
     txtCustName.delegate=self;
     txtCountry.delegate=self;
     txtCountry.tag=1;
+    UISwipeGestureRecognizer *swipeRight = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(slideToRightWithGestureRecognizer:)];
+    swipeRight.direction = UISwipeGestureRecognizerDirectionLeft;
+    [self.view addGestureRecognizer:swipeRight];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -69,10 +72,10 @@
          [self AlertMessage:NSLocalizedString(@"PASSWORDINVALID", nil) Message:NSLocalizedString(@"PASSWORDMUSTBEATLEAST8-20CHARACTERSLONG", nil) ];
        
         
-    }else if (![txtPassword.text isEqualToString:txtRePassword.text]) {
+    }else if ((![txtPassword.text isEqualToString:txtRePassword.text])) {
          [self AlertMessage:NSLocalizedString(@"PASSWORD", nil) Message:NSLocalizedString(@"PASSWORDMISMATCHED", nil) ];
        
-    }else if (![emailTest evaluateWithObject:txtEmail.text] == YES){
+    }else if ((![emailTest evaluateWithObject:txtEmail.text]) == true){
          [self AlertMessage:NSLocalizedString(@"EMAILISINVALID", nil) Message:NSLocalizedString(@"PLEASECHECKYOUREMAILADDRESSISVALID", nil) ];
       
         
@@ -100,6 +103,9 @@
     
 }
 
+-(void)slideToRightWithGestureRecognizer:(UISwipeGestureRecognizer *)gestureRecognizer{
+    [self performSegueWithIdentifier:@"changevalue" sender:self];
+}
 -(void)AlertMessage:(NSString *)tittle Message:(NSString *)pmessage{
     UIAlertController *alertController = [UIAlertController
                                           alertControllerWithTitle:tittle

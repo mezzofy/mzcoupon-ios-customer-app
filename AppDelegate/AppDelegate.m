@@ -41,12 +41,13 @@
     strGetPath=[[Dbhelp alloc]init];
 
     [strGetPath CreateDataBase];
- 
-    [MZCouponConfig SetupMerchantID:@"DMHA" Server:FALSE AccessToken:@"NPNN10" AccessKey:@"x"];
     
-    
-    
-    
+    if([[Common getUserSetting]isEqualToString:@"YES"]){
+        [MZCouponConfig SetupMerchantID:[Common getMerchantID] Server:FALSE AccessToken:[Common getOauthSecret] AccessKey:[Common getOAuthKey]];
+    }else{
+         [MZCouponConfig SetupMerchantID:@"DMHA" Server:FALSE AccessToken:@"NPNN10" AccessKey:@"x"];
+    }
+
     [ESTConfig setupAppID:@"com-promerce-getso-lka" andAppToken:@"864532236c372ef1be9117cc5f4ab53b"];
     
     self.beaconNotificationsManager = [BeaconNotificationsManager new];
@@ -202,7 +203,8 @@
                                     if (success) {
                                         
                                         dispatch_async(dispatch_get_main_queue(), ^{
-                                            
+                                            if([Common getCustomerId].length>0)
+                                                [MZCouponConfig SetupCustomerID:[Common getCustomerId]];
                                             LoaderViewController *loginVC=[storyboard instantiateViewControllerWithIdentifier:@"vcloader"];
                                             [self.window setRootViewController:loginVC];
                                         });
@@ -214,7 +216,8 @@
                 if(success){
                     dispatch_async(dispatch_get_main_queue(), ^{
                         
-                        
+                        if([Common getCustomerId].length>0)
+                            [MZCouponConfig SetupCustomerID:[Common getCustomerId]];
                         LoaderViewController *loginVC=[storyboard instantiateViewControllerWithIdentifier:@"vcloader"];
                         [self.window setRootViewController:loginVC];
                         
@@ -261,6 +264,8 @@
     
     if([[Common getCustomerpassword] isEqualToString:pass.text]){
         dispatch_async(dispatch_get_main_queue(), ^{
+            if([Common getCustomerId].length>0)
+                [MZCouponConfig SetupCustomerID:[Common getCustomerId]];
             NSBundle *bundle = [NSBundle mainBundle];
             NSString *sbFile = [bundle objectForInfoDictionaryKey:@"UIMainStoryboardFile"];
             UIStoryboard *storyboard = [UIStoryboard storyboardWithName:sbFile bundle:bundle];

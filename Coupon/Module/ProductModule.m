@@ -254,6 +254,61 @@
     [modloader DeleteDataFromDataBaseWhereDelFlagEnable:@"tbl_campaign"];
     
 }
+
+- (void)loadCampaignChannelID:(NSString *)pChannelId Offset:(NSInteger )poffset Latitude:(double)platitute Longitude:(double)plongitude{
+    MZCampaign *objmezzofy=[[MZCampaign alloc]init];
+    MZCampaignResponse *objres=[[MZCampaignResponse alloc]init];
+    objres=[objmezzofy getCampaignsWithChannelID:pChannelId Offset:poffset Latitude:platitute Longitude:plongitude];
+    LoaderModule *modloader=[[LoaderModule alloc]init];
+    if(poffset==1)
+        [modloader UpdateSyncflagBeforeServerCallCampaign:@"tbl_campaign" Campaignstatus:@"A"];
+    
+    
+    
+    [Common dataResponse:objres.size];
+    ProductDao *daoprod = [[ProductDao alloc]init];
+    
+    [daoprod deleteCampaignSite];
+    
+    for(int i=0;i<objres.campaigns.count;i++){
+        TblProductList *objprodlist=[[TblProductList alloc]init];
+        objprodlist=[objres.campaigns objectAtIndex:i];
+        
+        TblProduct *objres = [daoprod getProductsDetail:[objprodlist.campaign campaignId]];
+        if([objres.campaignId isEqualToString:objprodlist.campaign.campaignId])
+            [daoprod updateProduct:objprodlist.campaign];
+        else
+            [daoprod addProduct:objprodlist.campaign];
+        
+        //CampaignImage
+        
+        for(int i=0;i<objprodlist.campaign.campaignimages.count;i++){
+            TblCampaignImageList *objprodimg=[[TblCampaignImageList alloc]init];
+            objprodimg=[objprodlist.campaign.campaignimages objectAtIndex:i];
+            
+            TblCampaignImage *objcampimg = [daoprod getCampaignImage:objprodimg.campaignimage.pimageId];
+            
+            if (objcampimg) {
+                [daoprod updateCampainImage:objprodimg.campaignimage];
+            } else {
+                [daoprod addCampaignImage:objprodimg.campaignimage];
+            }
+        }
+        
+        //Campaignsite
+        for(int i=0;i<objprodlist.campaign.sites.count;i++){
+            TblCampaignSiteList *objprodsite=[[TblCampaignSiteList alloc]init];
+            objprodsite=[objprodlist.campaign.sites objectAtIndex:i];
+            
+            [objprodsite.site setCampaignId:objprodlist.campaign.campaignId];
+            
+            [daoprod addCampaignsite:objprodsite.site];
+        }
+    }
+    
+    [modloader DeleteDataFromDataBaseWhereDelFlagEnable:@"tbl_campaign"];
+}
+
 - (TblProduct *)getProductsDetail:(NSString *)pcampid{
     ProductDao *daoprod=[[ProductDao alloc]init];
     return [daoprod getProductsDetail:pcampid];

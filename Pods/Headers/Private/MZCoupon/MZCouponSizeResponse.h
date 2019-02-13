@@ -1,1 +1,0 @@
-../../../MZCoupon/MZCoupon/DataResponse/Coupon/MZCouponSizeResponse.h

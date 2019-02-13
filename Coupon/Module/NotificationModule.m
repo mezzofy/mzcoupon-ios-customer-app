@@ -13,7 +13,7 @@
 - (NSMutableArray *)getNotificationListFromServerOffset:(NSUInteger)poffset resultarray:(NSMutableArray *)retarray{
     MZNotificationResponse *objmezzofy=[[MZNotificationResponse alloc]init];
     MZNotification *objMZNotification=[[MZNotification alloc]init];
-    objmezzofy=[objMZNotification GetNotifications:[Common getCustomerId] Offset:poffset];
+    objmezzofy=[objMZNotification GetNotifications:poffset];
     [Common dataResponse:objmezzofy.size.size];
     if(poffset==1)
         retarray=[[NSMutableArray alloc]init];

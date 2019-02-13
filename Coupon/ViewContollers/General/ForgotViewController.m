@@ -63,8 +63,8 @@
     }
     else if ([emailForgotTest evaluateWithObject:txtEmail.text] == YES) {
         NSString *strreply=@"";
-        TblCustomerModel *objcustmod=[[TblCustomerModel alloc]init];
-        TblCustomerData *objcustdata=[[TblCustomerData alloc]init];
+        CustomerDataModel *objcustmod=[[CustomerDataModel alloc]init];
+        CustomerData *objcustdata=[[CustomerData alloc]init];
         [objcustdata setCustomerEmail:txtEmail.text];
         [objcustmod setCustomer:objcustdata];
         CustomerModule *objcust=[[CustomerModule alloc]init];

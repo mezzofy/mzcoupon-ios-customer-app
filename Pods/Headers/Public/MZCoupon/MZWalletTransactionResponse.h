@@ -1,1 +1,0 @@
-../../../MZCoupon/MZCoupon/DataResponse/Wallet/MZWalletTransactionResponse.h
